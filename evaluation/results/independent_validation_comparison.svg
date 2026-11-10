@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 370" width="540" height="370" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <text x="270" y="32" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">Independent Benchmark: Baseline vs Hybrid</text>
+  <text x="270" y="52" font-size="12" fill="#64748b" text-anchor="middle">Out-of-Sample Performance on 100 Unseen Examples</text>
+
+  <rect x="180" y="65" width="14" height="14" rx="2" fill="#94a3b8"/>
+  <text x="200" y="77" font-size="11" fill="#475569">Baseline ModernBERT</text>
+  <rect x="320" y="65" width="14" height="14" rx="2" fill="#2563eb"/>
+  <text x="340" y="77" font-size="11" font-weight="600" fill="#1e40af">NLI Hybrid (Ours)</text>
+
+  
+    <text x="110" y="110" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Accuracy</text>
+    <rect x="120" y="90" width="273" height="16" rx="3" fill="#94a3b8"/>
+    <text x="399" y="102" font-size="11" font-weight="600" fill="#64748b">91.0%</text>
+    <rect x="120" y="109" width="294" height="16" rx="3" fill="#2563eb"/>
+    <text x="420" y="121" font-size="11" font-weight="700" fill="#1e40af">98.0%</text>
+
+    <text x="110" y="158" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Precision</text>
+    <rect x="120" y="138" width="300" height="16" rx="3" fill="#94a3b8"/>
+    <text x="426" y="150" font-size="11" font-weight="600" fill="#64748b">100.0%</text>
+    <rect x="120" y="157" width="296" height="16" rx="3" fill="#2563eb"/>
+    <text x="422" y="169" font-size="11" font-weight="700" fill="#1e40af">98.7%</text>
+
+    <text x="110" y="206" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Recall</text>
+    <rect x="120" y="186" width="264" height="16" rx="3" fill="#94a3b8"/>
+    <text x="390" y="198" font-size="11" font-weight="600" fill="#64748b">88.0%</text>
+    <rect x="120" y="205" width="296" height="16" rx="3" fill="#2563eb"/>
+    <text x="422" y="217" font-size="11" font-weight="700" fill="#1e40af">98.7%</text>
+
+    <text x="110" y="254" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Specificity</text>
+    <rect x="120" y="234" width="300" height="16" rx="3" fill="#94a3b8"/>
+    <text x="426" y="246" font-size="11" font-weight="600" fill="#64748b">100.0%</text>
+    <rect x="120" y="253" width="288" height="16" rx="3" fill="#2563eb"/>
+    <text x="414" y="265" font-size="11" font-weight="700" fill="#1e40af">96.0%</text>
+
+    <text x="110" y="302" font-size="12" font-weight="600" fill="#334155" text-anchor="end">F1-Score</text>
+    <rect x="120" y="282" width="280" height="16" rx="3" fill="#94a3b8"/>
+    <text x="406" y="294" font-size="11" font-weight="600" fill="#64748b">93.6%</text>
+    <rect x="120" y="301" width="296" height="16" rx="3" fill="#2563eb"/>
+    <text x="422" y="313" font-size="11" font-weight="700" fill="#1e40af">98.7%</text>
+
+  <line x1="120" y1="330" x2="420" y2="330" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="120" y="346" font-size="10" fill="#94a3b8" text-anchor="middle">0%</text>
+  <text x="270" y="346" font-size="10" fill="#94a3b8" text-anchor="middle">50%</text>
+  <text x="420" y="346" font-size="10" fill="#94a3b8" text-anchor="middle">100%</text>
+</svg>

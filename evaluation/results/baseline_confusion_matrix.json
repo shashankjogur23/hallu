@@ -1,0 +1,18 @@
+{
+  "true_positives": 39,
+  "true_negatives": 15,
+  "false_positives": 0,
+  "false_negatives": 6,
+  "positive_class": "HALLUCINATED",
+  "negative_class": "CLEAN",
+  "total_samples": 60,
+  "false_positive_ids": [],
+  "false_negative_ids": [
+    "GEO-CON-001",
+    "GEO-CON-002",
+    "GEO-CON-005",
+    "GEO-CON-011",
+    "GEO-MIX-001",
+    "GEO-MIX-005"
+  ]
+}

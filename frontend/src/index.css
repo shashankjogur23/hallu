@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --brand-primary: #2563eb;
+    --brand-accent: #7c3aed;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom highlight styling for hallucinated spans */
+.span-hallucinated {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-bottom: 2px solid #ef4444;
+  padding: 0 3px;
+  border-radius: 3px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.span-hallucinated:hover {
+  background-color: #fecaca;
+}
+
+/* Custom highlight styling for contradicted spans (direct conflicts) */
+.span-contradicted {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-bottom: 2px solid #ef4444;
+  padding: 0 3px;
+  border-radius: 3px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.span-contradicted:hover {
+  background-color: #fecaca;
+}
+
+/* Custom highlight styling for unsupported spans (unsubstantiated claims) */
+.span-unsupported {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-bottom: 2px solid #f59e0b;
+  padding: 0 3px;
+  border-radius: 3px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.span-unsupported:hover {
+  background-color: #fde68a;
+}
+
+/* Custom highlight for supported answer */
+.span-supported {
+  background-color: #dcfce7;
+  color: #166534;
+  border-bottom: 2px solid #22c55e;
+  padding: 0 3px;
+  border-radius: 3px;
+}

@@ -1,0 +1,992 @@
+[
+  {
+    "test_id": "GEO-SUP-001",
+    "category": "supported",
+    "question": "What is the highest mountain in Africa and what is its elevation?",
+    "reference_context": "Mount Kilimanjaro is a dormant volcano in northern Tanzania. It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world, with its summit reaching 5,895 metres (19,341 feet) above sea level.",
+    "generated_answer": "Mount Kilimanjaro is the highest mountain in Africa, standing at an elevation of 5,895 metres above sea level.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "All asserted claims (highest peak in Africa, 5,895 m elevation) directly grounded in reference passage."
+  },
+  {
+    "test_id": "GEO-SUP-002",
+    "category": "supported",
+    "question": "Where is the Mariana Trench located and what is the name of its deepest point?",
+    "reference_context": "The Mariana Trench is located in the western Pacific Ocean, east of the Mariana Islands. Its deepest section is a small valley known as the Challenger Deep, which descends to an estimated depth of nearly 11,000 metres (36,000 feet).",
+    "generated_answer": "The Mariana Trench is located in the western Pacific Ocean, and its deepest point is known as the Challenger Deep.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NOAA National Ocean Service",
+    "source_url": "https://oceanservice.noaa.gov",
+    "annotation_notes": "Entity location (western Pacific Ocean) and deepest valley name (Challenger Deep) fully verified."
+  },
+  {
+    "test_id": "GEO-SUP-003",
+    "category": "supported",
+    "question": "What is Lake Superior's ranking among freshwater lakes by surface area?",
+    "reference_context": "Lake Superior is the largest of the Great Lakes of North America. By surface area, it is the world's largest freshwater lake, covering roughly 82,100 square kilometres (31,700 square miles).",
+    "generated_answer": "By surface area, Lake Superior is the world's largest freshwater lake, covering approximately 82,100 square kilometres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Rank (largest freshwater lake by surface area) and surface area metric (82,100 km2) fully grounded."
+  },
+  {
+    "test_id": "GEO-SUP-004",
+    "category": "supported",
+    "question": "Where is the Atacama Desert situated and why is it notable?",
+    "reference_context": "The Atacama Desert is a non-polar plateau in South America along the Pacific coast, west of the Andes Mountains. It is recognized as one of the driest places on Earth, with some weather stations never having recorded measurable rainfall.",
+    "generated_answer": "The Atacama Desert is a plateau located along the Pacific coast of South America, renowned as one of the driest places on Earth.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Both geographic location (Pacific coast of South America) and arid distinction (one of driest places) supported."
+  },
+  {
+    "test_id": "GEO-SUP-005",
+    "category": "supported",
+    "question": "What is the largest island in the world that is not a continent?",
+    "reference_context": "Greenland is the world's largest island that is not classified as a continent, with an area of about 2,166,000 square kilometres. Most of its surface is covered by a massive continental ice sheet.",
+    "generated_answer": "Greenland is the world's largest island that is not a continent, spanning an area of roughly 2,166,000 square kilometres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Non-continent island superlative and surface area metric directly supported by reference."
+  },
+  {
+    "test_id": "GEO-SUP-006",
+    "category": "supported",
+    "question": "What is the tallest uninterrupted waterfall in the world and where is it located?",
+    "reference_context": "Angel Falls, located within Canaima National Park in the Bolivar State of Venezuela, is the world's tallest uninterrupted waterfall, with a total height of 979 metres and a clear plunge of 807 metres.",
+    "generated_answer": "Angel Falls is the world's tallest uninterrupted waterfall, reaching a total height of 979 metres in Venezuela's Canaima National Park.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/701",
+    "annotation_notes": "Name (Angel Falls), location (Canaima National Park, Venezuela), height (979 m), and waterfall status verified."
+  },
+  {
+    "test_id": "GEO-SUP-007",
+    "category": "supported",
+    "question": "What is notable about the elevation of the Dead Sea's surface?",
+    "reference_context": "The Dead Sea is a hypersaline lake bordered by Jordan to the east and Israel and the West Bank to the west. Its surface and shores sit at roughly 430 metres below sea level, representing Earth's lowest land elevation.",
+    "generated_answer": "The Dead Sea's surface is located approximately 430 metres below sea level, marking Earth's lowest land elevation.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Elevation metric (430 m below sea level) and superlative (lowest land elevation) directly grounded."
+  },
+  {
+    "test_id": "GEO-SUP-008",
+    "category": "supported",
+    "question": "What is the Pacific Ring of Fire and what geological activity characterizes it?",
+    "reference_context": "The Ring of Fire is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. About 75 percent of the world's active and dormant volcanoes are situated along this horseshoe-shaped belt.",
+    "generated_answer": "The Pacific Ring of Fire is a horseshoe-shaped belt around the Pacific Ocean basin that contains approximately 75 percent of the world's active and dormant volcanoes.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Earthquake Hazards Program",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards",
+    "annotation_notes": "Belt shape (horseshoe-shaped), location (Pacific basin), and volcanic percentage (75 percent) fully supported."
+  },
+  {
+    "test_id": "GEO-SUP-009",
+    "category": "supported",
+    "question": "How old and deep is Lake Baikal?",
+    "reference_context": "Located in southeastern Siberia, Lake Baikal is the oldest freshwater lake on Earth at approximately 25 million years, and the deepest at 1,642 metres, holding roughly 20 percent of the world's unfrozen surface freshwater.",
+    "generated_answer": "Lake Baikal in Siberia is Earth's oldest freshwater lake at around 25 million years and its deepest at 1,642 metres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/754",
+    "annotation_notes": "Age superlative (25 million years) and maximum depth (1,642 metres) fully entailed by reference."
+  },
+  {
+    "test_id": "GEO-SUP-010",
+    "category": "supported",
+    "question": "Which water bodies does the Strait of Gibraltar connect?",
+    "reference_context": "The Strait of Gibraltar is a narrow strait connecting the Atlantic Ocean to the Mediterranean Sea and separating the Iberian Peninsula in Europe from Morocco in Africa.",
+    "generated_answer": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea, while separating Europe from Africa.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Water bodies (Atlantic Ocean and Mediterranean Sea) and continental separation (Europe and Africa) verified."
+  },
+  {
+    "test_id": "GEO-SUP-011",
+    "category": "supported",
+    "question": "Where is the Great Barrier Reef located and what structure does it represent?",
+    "reference_context": "The Great Barrier Reef is situated off the northeastern coast of Queensland, Australia. It is the world's largest coral reef ecosystem, encompassing over 2,500 individual reefs and hundreds of islands across an area of 348,000 square kilometres.",
+    "generated_answer": "Located off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef ecosystem, covering about 348,000 square kilometres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/154",
+    "annotation_notes": "Location (Queensland, Australia), superlative (largest coral reef ecosystem), and total area (348,000 km2) supported."
+  },
+  {
+    "test_id": "GEO-SUP-012",
+    "category": "supported",
+    "question": "What percentage of global river discharge comes from the Amazon River?",
+    "reference_context": "The Amazon River drains an area of about 7 million square kilometres in northern South America. It accounts for approximately one-fifth, or 20 percent, of the total global river flow into oceans.",
+    "generated_answer": "The Amazon River drains approximately 7 million square kilometres and contributes roughly 20 percent of the world's river discharge to oceans.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Drainage area (7 million km2) and percentage of global river discharge (20 percent) fully grounded."
+  },
+  {
+    "test_id": "GEO-SUP-013",
+    "category": "supported",
+    "question": "What type of volcano is Mount Fuji and what is its summit elevation?",
+    "reference_context": "Mount Fuji is an active stratovolcano situated on Honshu island in Japan. It is Japan's tallest mountain, with a summit elevation of 3,776 metres (12,389 feet), and last erupted between 1707 and 1708.",
+    "generated_answer": "Mount Fuji is an active stratovolcano located on Honshu in Japan, reaching a peak elevation of 3,776 metres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Smithsonian Global Volcanism Program",
+    "source_url": "https://volcano.si.edu",
+    "annotation_notes": "Volcano type (active stratovolcano), island (Honshu), and peak elevation (3,776 m) supported."
+  },
+  {
+    "test_id": "GEO-SUP-014",
+    "category": "supported",
+    "question": "Where is Madagascar located and what is its island size ranking?",
+    "reference_context": "Madagascar is an island country located in the Indian Ocean, roughly 400 kilometres off the coast of East Africa across the Mozambique Channel. It is the world's fourth-largest island.",
+    "generated_answer": "Madagascar is situated in the Indian Ocean off East Africa and ranks as the world's fourth-largest island.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Geographic location (Indian Ocean off East Africa) and island area ranking (fourth-largest) verified."
+  },
+  {
+    "test_id": "GEO-SUP-015",
+    "category": "supported",
+    "question": "What is the Caspian Sea and why is it classified as an endorheic basin?",
+    "reference_context": "The Caspian Sea is the world's largest inland body of water, often classified as the world's largest lake or a full-fledged sea. Because it has no natural outlets to the world ocean, it is classified as an endorheic basin.",
+    "generated_answer": "The Caspian Sea is the world's largest inland water body, classified as an endorheic basin because it lacks natural outlets to the ocean.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Inland water body superlative and endorheic basin definition (no natural ocean outlet) supported."
+  },
+  {
+    "test_id": "GEO-CON-001",
+    "category": "contradictory",
+    "question": "Which river is the longest in the world according to the reference?",
+    "reference_context": "The Nile River in northeastern Africa is traditionally considered the longest river in the world, with a measured length of approximately 6,650 kilometres (4,132 miles). The Amazon River in South America is the second longest at roughly 6,400 kilometres.",
+    "generated_answer": "According to the reference, the Amazon River is the longest river in the world at 6,650 kilometres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 28,
+        "end": 44,
+        "text": "the Amazon River"
+      }
+    ],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Direct contradiction: Reference explicitly identifies Nile as longest and Amazon as second longest."
+  },
+  {
+    "test_id": "GEO-CON-002",
+    "category": "contradictory",
+    "question": "What is the elevation ranking of K2?",
+    "reference_context": "K2, situated on the China-Pakistan border in the Karakoram range, is the second-highest mountain on Earth at 8,611 metres above sea level, surpassed only by Mount Everest at 8,848 metres.",
+    "generated_answer": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "third-highest"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Contradiction: Answer asserts 'third-highest', conflicting with 'second-highest' in reference."
+  },
+  {
+    "test_id": "GEO-CON-003",
+    "category": "contradictory",
+    "question": "What type of plate boundary is the San Andreas Fault?",
+    "reference_context": "The San Andreas Fault is a continental transform fault extending roughly 1,200 kilometres through California. It forms the tectonic boundary where the Pacific Plate and the North American Plate slide past one another horizontally.",
+    "generated_answer": "The San Andreas Fault is a convergent subduction zone where one tectonic plate is thrust beneath another.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 104,
+        "text": "a convergent subduction zone where one tectonic plate is thrust beneath another"
+      }
+    ],
+    "source_name": "USGS Earthquake Hazards Program",
+    "source_url": "https://www.usgs.gov/programs/earthquake-hazards",
+    "annotation_notes": "Contradiction: Subduction/convergent motion directly contradicts horizontal transform sliding."
+  },
+  {
+    "test_id": "GEO-CON-004",
+    "category": "contradictory",
+    "question": "On which river and border is Victoria Falls located?",
+    "reference_context": "Victoria Falls is located on the Zambezi River at the border between Zambia and Zimbabwe in southern Africa. It is known locally as Mosi-oa-Tunya.",
+    "generated_answer": "Victoria Falls is located on the Congo River along the border between Zambia and Zimbabwe.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 29,
+        "end": 44,
+        "text": "the Congo River"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/509",
+    "annotation_notes": "Contradiction: Context specifies Zambezi River; answer falsely claims Congo River."
+  },
+  {
+    "test_id": "GEO-CON-005",
+    "category": "contradictory",
+    "question": "How large is the Sahara Desert and what type of desert is it?",
+    "reference_context": "The Sahara is the largest hot desert in the world, covering an area of approximately 9.2 million square kilometres across North Africa. By total area, it ranks third behind the cold polar deserts of Antarctica and the Arctic.",
+    "generated_answer": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 105,
+        "text": "the world's largest desert overall, surpassing both Antarctica and the Arctic in total area"
+      }
+    ],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Contradiction: Reference explicitly states Sahara ranks third behind Antarctica and the Arctic."
+  },
+  {
+    "test_id": "GEO-CON-006",
+    "category": "contradictory",
+    "question": "Which tectonic plates meet in Iceland?",
+    "reference_context": "Iceland is situated on the Mid-Atlantic Ridge, where the Eurasian Plate and the North American Plate are actively diverging at a rate of about 2 centimetres per year.",
+    "generated_answer": "In Iceland, the Mid-Atlantic Ridge marks a convergent boundary where the Eurasian Plate and African Plate collide.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 41,
+        "end": 113,
+        "text": "a convergent boundary where the Eurasian Plate and African Plate collide"
+      }
+    ],
+    "source_name": "British Geological Survey",
+    "source_url": "https://www.bgs.ac.uk",
+    "annotation_notes": "Contradiction: Plate motion is diverging (not colliding), and the participating plate is North American (not African)."
+  },
+  {
+    "test_id": "GEO-CON-007",
+    "category": "contradictory",
+    "question": "Which river carved the Grand Canyon?",
+    "reference_context": "The Grand Canyon in Arizona was carved over millions of years by the Colorado River and its tributaries, exposing nearly two billion years of Earth's geological history.",
+    "generated_answer": "The Grand Canyon in Arizona was carved over millions of years by the Rio Grande and its tributaries.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 65,
+        "end": 79,
+        "text": "the Rio Grande"
+      }
+    ],
+    "source_name": "USGS Geology, Minerals, Energy, and Geophysics",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Contradiction: Entity swap; Rio Grande directly contradicts Colorado River."
+  },
+  {
+    "test_id": "GEO-CON-008",
+    "category": "contradictory",
+    "question": "Which oceans does the Panama Canal connect?",
+    "reference_context": "The Panama Canal is an artificial 82-kilometre waterway in Panama that connects the Atlantic Ocean with the Pacific Ocean, cutting across the Isthmus of Panama.",
+    "generated_answer": "The Panama Canal is an artificial 82-kilometre waterway that connects the Atlantic Ocean with the Indian Ocean.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 94,
+        "end": 110,
+        "text": "the Indian Ocean"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Contradiction: Answer replaces Pacific Ocean with Indian Ocean."
+  },
+  {
+    "test_id": "GEO-CON-009",
+    "category": "contradictory",
+    "question": "Which country administers the Galápagos Islands?",
+    "reference_context": "The Galápagos Islands are an archipelago of volcanic islands distributed on both sides of the equator in the Pacific Ocean, forming a special province of Ecuador roughly 1,000 kilometres west of the South American continent.",
+    "generated_answer": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean governed as an overseas territory of Peru.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 107,
+        "end": 111,
+        "text": "Peru"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/1",
+    "annotation_notes": "Contradiction: Sovereign jurisdiction is Ecuador; answer contradicts with Peru."
+  },
+  {
+    "test_id": "GEO-CON-010",
+    "category": "contradictory",
+    "question": "Is the Red Sea a freshwater or saltwater body?",
+    "reference_context": "The Red Sea is an inlet of the Indian Ocean between Africa and Asia. It is one of the saltiest bodies of water in the world, with salinity levels averaging between 36 and 41 parts per thousand due to high evaporation and lack of river inflow.",
+    "generated_answer": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 15,
+        "end": 117,
+        "text": "a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow"
+      }
+    ],
+    "source_name": "NOAA Ocean Exploration",
+    "source_url": "https://oceanexplorer.noaa.gov",
+    "annotation_notes": "Contradiction: Claims freshwater reservoir sustained by inflow, directly negating hypersalinity and lack of river inflow."
+  },
+  {
+    "test_id": "GEO-CON-011",
+    "category": "contradictory",
+    "question": "How does Mauna Kea compare to Mount Everest from base to peak?",
+    "reference_context": "Mount Everest is the highest mountain above sea level at 8,848 metres. However, Mauna Kea in Hawaii is taller when measured from its underwater base on the oceanic floor to its summit, totaling over 10,200 metres, though only 4,207 metres rise above sea level.",
+    "generated_answer": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 49,
+        "end": 87,
+        "text": "Mount Everest is taller than Mauna Kea"
+      }
+    ],
+    "source_name": "USGS Hawaiian Volcano Observatory",
+    "source_url": "https://www.usgs.gov/observatories/hvo",
+    "annotation_notes": "Contradiction: Context specifies Mauna Kea is taller base-to-peak; answer inverts the subject to Everest."
+  },
+  {
+    "test_id": "GEO-CON-012",
+    "category": "contradictory",
+    "question": "What is the federal capital of Canada?",
+    "reference_context": "Ottawa is the capital city of Canada, located in the province of Ontario on the southern bank of the Ottawa River. Toronto and Montreal are Canada's two largest metropolitan centers by population.",
+    "generated_answer": "The capital city of Canada is Toronto, situated on the southern bank of the Ottawa River.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 30,
+        "end": 37,
+        "text": "Toronto"
+      }
+    ],
+    "source_name": "Natural Resources Canada",
+    "source_url": "https://natural-resources.canada.ca",
+    "annotation_notes": "Contradiction: Reference identifies Ottawa as the capital; answer replaces it with Toronto."
+  },
+  {
+    "test_id": "GEO-CON-013",
+    "category": "contradictory",
+    "question": "What bodies of water and landmasses are separated by the Drake Passage?",
+    "reference_context": "The Drake Passage is the body of water between South America's Cape Horn and the South Shetland Islands of Antarctica, connecting the southwestern Atlantic Ocean with the southeastern Pacific Ocean.",
+    "generated_answer": "The Drake Passage is the body of water that separates southern Africa from Antarctica, linking the Indian and Southern oceans.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 44,
+        "end": 125,
+        "text": "separates southern Africa from Antarctica, linking the Indian and Southern oceans"
+      }
+    ],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Contradiction: Geographic boundaries contradict reference (South America vs Africa; Atlantic/Pacific vs Indian)."
+  },
+  {
+    "test_id": "GEO-CON-014",
+    "category": "contradictory",
+    "question": "What distinction does Lake Titicaca hold regarding its elevation?",
+    "reference_context": "Straddling the border between Peru and Bolivia in the Andes Mountains, Lake Titicaca sits at an elevation of 3,812 metres (12,507 feet) above sea level, making it the highest commercially navigable lake in the world.",
+    "generated_answer": "Situated on the Peru-Bolivia border, Lake Titicaca is the lowest freshwater lake in the Americas, lying 3,812 metres below sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 58,
+        "end": 132,
+        "text": "lowest freshwater lake in the Americas, lying 3,812 metres below sea level"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Contradiction: Reverses 'highest ... above sea level' to 'lowest ... below sea level'."
+  },
+  {
+    "test_id": "GEO-CON-015",
+    "category": "contradictory",
+    "question": "What tectonic process formed the East African Rift?",
+    "reference_context": "The East African Rift is an active continental rift zone where the African Plate is splitting into two smaller tectonic plates: the Nubian Plate and the Somali Plate.",
+    "generated_answer": "The East African Rift is a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 153,
+        "text": "a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust"
+      }
+    ],
+    "source_name": "Geological Society of London",
+    "source_url": "https://www.geolsoc.org.uk",
+    "annotation_notes": "Contradiction: Divergent rifting/splitting contradicts collision/compression."
+  },
+  {
+    "test_id": "GEO-UNS-001",
+    "category": "unsupported",
+    "question": "Where is Lake Baikal located and what is its maximum depth?",
+    "reference_context": "Lake Baikal is a rift lake situated in southern Siberia, Russia. It is recognized as the world's deepest lake, reaching a maximum depth of 1,642 metres (5,387 feet).",
+    "generated_answer": "Lake Baikal is located in southern Siberia, Russia, and was declared a UNESCO World Heritage Site in 1996.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 52,
+        "end": 105,
+        "text": "and was declared a UNESCO World Heritage Site in 1996"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/754",
+    "annotation_notes": "Extrinsic hallucination: The UNESCO inscription claim may be true in reality, but it is completely unmentioned in the reference."
+  },
+  {
+    "test_id": "GEO-UNS-002",
+    "category": "unsupported",
+    "question": "What is Mount Everest's location and height?",
+    "reference_context": "Mount Everest is located in the Mahalangur Himal sub-range of the Himalayas on the border between Nepal and China. Its summit stands at an elevation of 8,848.86 metres above sea level.",
+    "generated_answer": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 88,
+        "end": 155,
+        "text": "and was first summited by Edmund Hillary and Tenzing Norgay in 1953"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Extrinsic hallucination: First ascent claim is historically accurate externally, but not supported by the provided text."
+  },
+  {
+    "test_id": "GEO-UNS-003",
+    "category": "unsupported",
+    "question": "Where does the Danube River originate and empty?",
+    "reference_context": "The Danube River originates in the Black Forest of Germany and flows eastward for roughly 2,850 kilometres before emptying into the Black Sea via the Danube Delta.",
+    "generated_answer": "Originating in Germany's Black Forest, the Danube River flows into the Black Sea and passes through ten different European countries.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 81,
+        "end": 132,
+        "text": "and passes through ten different European countries"
+      }
+    ],
+    "source_name": "International Commission for the Protection of the Danube River",
+    "source_url": "https://www.icpdr.org",
+    "annotation_notes": "Extrinsic hallucination: The reference contains no mention of the number of riparian countries."
+  },
+  {
+    "test_id": "GEO-UNS-004",
+    "category": "unsupported",
+    "question": "What is the taiga and where does it occur?",
+    "reference_context": "The taiga, also known as the boreal forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches. It spans across North America and Eurasia south of the Arctic tundra.",
+    "generated_answer": "The taiga is a coniferous forest biome occurring south of the tundra, home to apex predators including Siberian tigers and brown bears.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 70,
+        "end": 134,
+        "text": "home to apex predators including Siberian tigers and brown bears"
+      }
+    ],
+    "source_name": "US Forest Service",
+    "source_url": "https://www.fs.usda.gov",
+    "annotation_notes": "Unsupported fauna claim: Tiger and bear presence is not mentioned in the context passage."
+  },
+  {
+    "test_id": "GEO-UNS-005",
+    "category": "unsupported",
+    "question": "Where is the Gobi Desert located and what is its climate?",
+    "reference_context": "The Gobi Desert is a large cold desert region in East Asia, spanning parts of northern and northeastern China and southern Mongolia. It experiences extreme temperature swings between summer and winter.",
+    "generated_answer": "The Gobi Desert spans northern China and southern Mongolia, where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 60,
+        "end": 140,
+        "text": "where paleontologists discovered the first recognized dinosaur eggs in the 1920s"
+      }
+    ],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Extrinsic claim: Dinosaur egg fossil discovery is historical fact, but completely ungrounded in reference."
+  },
+  {
+    "test_id": "GEO-UNS-006",
+    "category": "unsupported",
+    "question": "Where is the Suez Canal and what bodies of water does it connect?",
+    "reference_context": "The Suez Canal is an artificial sea-level waterway in Egypt, extending 193 kilometres between the Mediterranean Sea at Port Said and the Red Sea at the Gulf of Suez.",
+    "generated_answer": "The Suez Canal connects the Mediterranean and Red seas across 193 kilometres in Egypt, having been engineered by Ferdinand de Lesseps in 1869.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 87,
+        "end": 141,
+        "text": "having been engineered by Ferdinand de Lesseps in 1869"
+      }
+    ],
+    "source_name": "Suez Canal Authority",
+    "source_url": "https://www.suezcanal.gov.eg",
+    "annotation_notes": "Extrinsic historical attribution: Context does not identify engineer or opening year."
+  },
+  {
+    "test_id": "GEO-UNS-007",
+    "category": "unsupported",
+    "question": "What is the physical extent of Victoria Falls?",
+    "reference_context": "Victoria Falls forms one of the largest sheets of falling water in the world, measuring roughly 1,708 metres wide with a vertical drop of 108 metres on the Zambezi River.",
+    "generated_answer": "Victoria Falls is 1,708 metres wide and 108 metres high on the Zambezi River, where its local name translates directly to The Smoke That Thunders.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 78,
+        "end": 145,
+        "text": "where its local name translates directly to The Smoke That Thunders"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/509",
+    "annotation_notes": "Unsupported translation: Context mentions physical dimensions, not indigenous name translation."
+  },
+  {
+    "test_id": "GEO-UNS-008",
+    "category": "unsupported",
+    "question": "What is the Matterhorn's elevation and alpine location?",
+    "reference_context": "The Matterhorn is a pyramidal mountain peak in the Pennine Alps, situated on the border between Switzerland and Italy. Its summit reaches an altitude of 4,478 metres.",
+    "generated_answer": "The Matterhorn is a 4,478-metre peak on the Swiss-Italian border, which was first conquered by Edward Whymper's expedition in July 1865.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 66,
+        "end": 135,
+        "text": "which was first conquered by Edward Whymper's expedition in July 1865"
+      }
+    ],
+    "source_name": "Federal Office of Topography swisstopo",
+    "source_url": "https://www.swisstopo.admin.ch",
+    "annotation_notes": "Extrinsic mountaineering claim: Context gives geography, not mountaineering expeditions."
+  },
+  {
+    "test_id": "GEO-UNS-009",
+    "category": "unsupported",
+    "question": "How large is the Amazon Rainforest and what regions does it cover?",
+    "reference_context": "The Amazon Rainforest is a moist broadleaf tropical rainforest covering over 5.5 million square kilometres across the Amazon Basin, spanning nine South American nations including Brazil, Peru, and Colombia.",
+    "generated_answer": "Covering 5.5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 82,
+        "end": 160,
+        "text": "stores approximately 150 billion metric tons of carbon in its biomass and soil"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Unsupported biogeochemical claim: Carbon storage statistic is absent from reference context."
+  },
+  {
+    "test_id": "GEO-UNS-010",
+    "category": "unsupported",
+    "question": "Where is the Namib Desert located and what feature defines it?",
+    "reference_context": "The Namib is a coastal desert in southwestern Africa, extending along the Atlantic coast of Namibia and parts of Angola. It features prominent coastal sand dunes and frequent sea fog.",
+    "generated_answer": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes, and is widely regarded as the oldest desert in the world at over 55 million years.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 82,
+        "end": 163,
+        "text": "and is widely regarded as the oldest desert in the world at over 55 million years"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/1430",
+    "annotation_notes": "Unsupported age claim: Desert age is absent from the reference passage."
+  },
+  {
+    "test_id": "GEO-UNS-011",
+    "category": "unsupported",
+    "question": "What type of volcano is Mount St. Helens and where is it located?",
+    "reference_context": "Mount St. Helens is an active stratovolcano in Skamania County, Washington, in the Pacific Northwest region of the United States. It is part of the Cascade Volcanic Arc.",
+    "generated_answer": "Mount St. Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 67,
+        "end": 145,
+        "text": "whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest"
+      }
+    ],
+    "source_name": "USGS Cascades Volcano Observatory",
+    "source_url": "https://www.usgs.gov/observatories/cvo",
+    "annotation_notes": "Unsupported historical eruption impact: May 18, 1980 blast details are absent from context."
+  },
+  {
+    "test_id": "GEO-UNS-012",
+    "category": "unsupported",
+    "question": "What is the geographical border anomaly between Baarle-Nassau and Baarle-Hertog?",
+    "reference_context": "The border between the Dutch municipality of Baarle-Nassau and the Belgian municipality of Baarle-Hertog consists of numerous non-contiguous parcels, including 22 Belgian exclaves in the Netherlands and 8 Dutch exclaves within Belgian territory.",
+    "generated_answer": "The border between Baarle-Nassau and Baarle-Hertog contains 22 Belgian exclaves and 8 Dutch exclaves, where border lines run directly through cafés and residential living rooms.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 102,
+        "end": 176,
+        "text": "where border lines run directly through cafés and residential living rooms"
+      }
+    ],
+    "source_name": "Kadaster Netherlands",
+    "source_url": "https://www.kadaster.nl",
+    "annotation_notes": "Unsupported detail: Context specifies parcel and exclave counts, but not architectural intersections."
+  },
+  {
+    "test_id": "GEO-UNS-013",
+    "category": "unsupported",
+    "question": "What is the Nullarbor Plain and what defines its geology?",
+    "reference_context": "The Nullarbor Plain is a vast, flat, arid limestone area of southern Australia, covering about 200,000 square kilometres across Western Australia and South Australia along the Great Australian Bight.",
+    "generated_answer": "The Nullarbor Plain is a 200,000-square-kilometre limestone plateau in southern Australia whose Latin name literally translates to no trees.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 90,
+        "end": 139,
+        "text": "whose Latin name literally translates to no trees"
+      }
+    ],
+    "source_name": "Geoscience Australia",
+    "source_url": "https://www.ga.gov.au",
+    "annotation_notes": "Unsupported etymology: Latin translation is accurate in the real world but absent from context."
+  },
+  {
+    "test_id": "GEO-UNS-014",
+    "category": "unsupported",
+    "question": "Where is the Sundarbans mangrove forest situated?",
+    "reference_context": "The Sundarbans is the world's largest contiguous mangrove forest, located in the delta formed by the confluence of the Ganges, Brahmaputra, and Meghna rivers across Bangladesh and West Bengal, India.",
+    "generated_answer": "The Sundarbans is a vast mangrove delta spanning Bangladesh and India, which shelters the world's largest single population of wild Bengal tigers.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 71,
+        "end": 145,
+        "text": "which shelters the world's largest single population of wild Bengal tigers"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/798",
+    "annotation_notes": "Unsupported ecological claim: Tiger population claim is absent from reference text."
+  },
+  {
+    "test_id": "GEO-UNS-015",
+    "category": "unsupported",
+    "question": "Where is the Prime Meridian historically anchored?",
+    "reference_context": "The Prime Meridian is the line of zero degrees longitude, historically established at the Royal Observatory in Greenwich, London. It divides Earth into the Eastern and Western Hemispheres.",
+    "generated_answer": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 97,
+        "end": 195,
+        "text": "which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C."
+      }
+    ],
+    "source_name": "Royal Museums Greenwich",
+    "source_url": "https://www.rmg.co.uk",
+    "annotation_notes": "Unsupported historical treaty: 1884 conference detail is absent from reference passage."
+  },
+  {
+    "test_id": "GEO-MIX-001",
+    "category": "mixed",
+    "question": "What is the capital of Australia and what is its largest city?",
+    "reference_context": "Canberra is the federal capital of Australia, selected as a compromise between Sydney and Melbourne in 1908. Sydney is Australia's most populous city.",
+    "generated_answer": "Canberra is the capital of Australia, while Melbourne is the country's most populous city.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 44,
+        "end": 89,
+        "text": "Melbourne is the country's most populous city"
+      }
+    ],
+    "source_name": "Geoscience Australia",
+    "source_url": "https://www.ga.gov.au",
+    "annotation_notes": "Mixed: Capital claim (Canberra) is supported; most populous claim (Melbourne) contradicts Sydney."
+  },
+  {
+    "test_id": "GEO-MIX-002",
+    "category": "mixed",
+    "question": "Where does the Nile River flow and what is its estimated length?",
+    "reference_context": "The Nile River flows northward through northeastern Africa into the Mediterranean Sea. It has an estimated length of 6,650 kilometres and has two major tributaries, the White Nile and Blue Nile.",
+    "generated_answer": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres, and it discharges into the Indian Ocean through a secondary channel.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 104,
+        "end": 171,
+        "text": "and it discharges into the Indian Ocean through a secondary channel"
+      }
+    ],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Mixed: Direction and length supported; Indian Ocean discharge contradicts Mediterranean terminal outlet."
+  },
+  {
+    "test_id": "GEO-MIX-003",
+    "category": "mixed",
+    "question": "What is the Andes mountain range and where is it located?",
+    "reference_context": "The Andes is the longest continental mountain range in the world, extending roughly 7,000 kilometres along the western coast of South America through seven countries.",
+    "generated_answer": "The Andes is the longest continental mountain range in the world along South America's western coast, formed through the collision of the Eurasian and African plates.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 102,
+        "end": 165,
+        "text": "formed through the collision of the Eurasian and African plates"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed: Mountain status and location supported; Eurasian/African tectonic collision is completely erroneous and unsupported."
+  },
+  {
+    "test_id": "GEO-MIX-004",
+    "category": "mixed",
+    "question": "What is Lake Victoria and where is it situated?",
+    "reference_context": "Lake Victoria is Africa's largest lake by surface area at approximately 59,947 square kilometres, shared by Tanzania, Uganda, and Kenya. It has an average depth of only 40 metres.",
+    "generated_answer": "Lake Victoria is shared by Tanzania, Uganda, and Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 89,
+        "end": 132,
+        "text": "with a maximum depth exceeding 1,500 metres"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed: Basin nations and surface area ranking supported; 1,500 m depth claim conflicts with shallow nature of the lake."
+  },
+  {
+    "test_id": "GEO-MIX-005",
+    "category": "mixed",
+    "question": "Where is Vancouver located and is it the capital of British Columbia?",
+    "reference_context": "British Columbia is the westernmost province of Canada, bordered by the Pacific Ocean. Its provincial capital is Victoria, located on Vancouver Island, whereas Vancouver is its largest metropolitan area on the mainland.",
+    "generated_answer": "British Columbia is Canada's westernmost province bordering the Pacific, and its provincial capital is Vancouver.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 73,
+        "end": 112,
+        "text": "and its provincial capital is Vancouver"
+      }
+    ],
+    "source_name": "Natural Resources Canada",
+    "source_url": "https://natural-resources.canada.ca",
+    "annotation_notes": "Mixed: Geography and ocean border supported; Vancouver capital claim contradicts Victoria."
+  },
+  {
+    "test_id": "GEO-MIX-006",
+    "category": "mixed",
+    "question": "What is the Amazon River and what is its primary discharge outlet?",
+    "reference_context": "The Amazon River in South America is the largest river by discharge volume in the world, emptying into the Atlantic Ocean. Its basin includes thousands of tributaries originating in the Andes Mountains.",
+    "generated_answer": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge, but it freezes completely during the austral winter months.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 92,
+        "end": 150,
+        "text": "but it freezes completely during the austral winter months"
+      }
+    ],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Mixed: Discharge superlative and Atlantic outlet supported; tropical freezing claim is unsupported and absurd."
+  },
+  {
+    "test_id": "GEO-MIX-007",
+    "category": "mixed",
+    "question": "Where is the Grand Canyon and what is its approximate depth?",
+    "reference_context": "Located in northwestern Arizona, the Grand Canyon is a steep-sided gorge carved by the Colorado River, attaining depths of over 1,800 metres (6,000 feet).",
+    "generated_answer": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres, and was formed primarily by glacial erosion during the Pleistocene epoch.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 90,
+        "end": 162,
+        "text": "and was formed primarily by glacial erosion during the Pleistocene epoch"
+      }
+    ],
+    "source_name": "USGS Geology, Minerals, Energy, and Geophysics",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Mixed: Location and depth supported; glacial erosion contradiction conflicts with fluvial carving by Colorado River."
+  },
+  {
+    "test_id": "GEO-MIX-008",
+    "category": "mixed",
+    "question": "What bodies of water border the Arabian Peninsula?",
+    "reference_context": "The Arabian Peninsula is bounded by the Red Sea to the west, the Persian Gulf and Gulf of Oman to the northeast, and the Arabian Sea to the south.",
+    "generated_answer": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast, while sharing a direct land border with Greece.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 99,
+        "end": 145,
+        "text": "while sharing a direct land border with Greece"
+      }
+    ],
+    "source_name": "National Geographic Society",
+    "source_url": "https://www.nationalgeographic.org",
+    "annotation_notes": "Mixed: Red Sea and Persian Gulf boundaries supported; Greek land border is geographically invalid and unsupported."
+  },
+  {
+    "test_id": "GEO-MIX-009",
+    "category": "mixed",
+    "question": "What distinguishes the Antarctic continent?",
+    "reference_context": "Antarctica is Earth's southernmost continent, surrounded by the Southern Ocean. It holds roughly 90 percent of the world's ice and 70 percent of its freshwater.",
+    "generated_answer": "Antarctica is the southernmost continent holding 90 percent of the world's ice, and it maintains lush temperate pine forests along its coastal fringes.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 80,
+        "end": 150,
+        "text": "and it maintains lush temperate pine forests along its coastal fringes"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed: Polar location and ice volume supported; lush pine forest claim is completely fabricated and unsupported."
+  },
+  {
+    "test_id": "GEO-MIX-010",
+    "category": "mixed",
+    "question": "Where is the Dead Sea located and what is its salinity?",
+    "reference_context": "The Dead Sea is a hypersaline terminal lake situated in the Jordan Rift Valley, with salinity nearly ten times higher than typical ocean water, making macroscopic aquatic life impossible.",
+    "generated_answer": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water, and serves as the primary freshwater drinking source for Jordan.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 106,
+        "end": 169,
+        "text": "and serves as the primary freshwater drinking source for Jordan"
+      }
+    ],
+    "source_name": "USGS Water Science School",
+    "source_url": "https://www.usgs.gov/special-topics/water-science-school",
+    "annotation_notes": "Mixed: Location and high salinity supported; freshwater drinking source directly contradicts hypersalinity."
+  },
+  {
+    "test_id": "GEO-MIX-011",
+    "category": "mixed",
+    "question": "What is Mount Fuji and where is it situated?",
+    "reference_context": "Mount Fuji is a stratovolcano located on Honshu Island in Japan, with an elevation of 3,776 metres. It is an active volcano with low eruption risk, having last erupted in 1707.",
+    "generated_answer": "Mount Fuji is a 3,776-metre stratovolcano located on Honshu Island in Japan, which is permanently covered in tropical mangrove swamps.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 77,
+        "end": 133,
+        "text": "which is permanently covered in tropical mangrove swamps"
+      }
+    ],
+    "source_name": "Smithsonian Global Volcanism Program",
+    "source_url": "https://volcano.si.edu",
+    "annotation_notes": "Mixed: Elevation and Honshu location supported; tropical mangrove swamp claim on alpine volcano is fabricated."
+  },
+  {
+    "test_id": "GEO-MIX-012",
+    "category": "mixed",
+    "question": "Where is the Mariana Trench and how deep is the Challenger Deep?",
+    "reference_context": "The Mariana Trench is located in the western North Pacific Ocean. Its deepest point, the Challenger Deep, drops nearly 11,000 metres below the sea surface.",
+    "generated_answer": "The Mariana Trench is in the western North Pacific Ocean with the Challenger Deep reaching nearly 11,000 metres, which was mapped from orbit using Apollo spacecraft radar.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 113,
+        "end": 170,
+        "text": "which was mapped from orbit using Apollo spacecraft radar"
+      }
+    ],
+    "source_name": "NOAA National Ocean Service",
+    "source_url": "https://oceanservice.noaa.gov",
+    "annotation_notes": "Mixed: Geographic coordinates and bathymetric depth supported; Apollo spacecraft radar mapping claim is unsupported."
+  },
+  {
+    "test_id": "GEO-MIX-013",
+    "category": "mixed",
+    "question": "What covers Greenland's landmass and what is its political status?",
+    "reference_context": "Greenland is an autonomous territory within the Kingdom of Denmark. Approximately 80 percent of its land area is covered by the Greenland Ice Sheet.",
+    "generated_answer": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet, and its capital city is Copenhagen.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 120,
+        "end": 154,
+        "text": "and its capital city is Copenhagen"
+      }
+    ],
+    "source_name": "Geological Survey of Denmark and Greenland",
+    "source_url": "https://eng.geus.dk",
+    "annotation_notes": "Mixed: Autonomy and ice coverage supported; Copenhagen capital claim contradicts Nuuk (Copenhagen is capital of Denmark proper)."
+  },
+  {
+    "test_id": "GEO-MIX-014",
+    "category": "mixed",
+    "question": "Where is Madagascar and what separated it from Africa?",
+    "reference_context": "Madagascar split from the African continent around 160 million years ago, leading to long-term isolation in the Indian Ocean across the Mozambique Channel.",
+    "generated_answer": "Madagascar is an isolated island in the Indian Ocean separated from Africa across the Mozambique Channel, which is connected to mainland Europe via a 50-kilometre road bridge.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 106,
+        "end": 174,
+        "text": "which is connected to mainland Europe via a 50-kilometre road bridge"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed: Indian Ocean isolation and Mozambique Channel supported; European road bridge claim is geographically impossible."
+  },
+  {
+    "test_id": "GEO-MIX-015",
+    "category": "mixed",
+    "question": "What is the Strait of Gibraltar and what is its minimum width?",
+    "reference_context": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco, narrowing to a minimum width of approximately 13 kilometres (8 miles) at its narrowest point.",
+    "generated_answer": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres, and it operates under joint sovereignty administered by Switzerland.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 114,
+        "end": 181,
+        "text": "and it operates under joint sovereignty administered by Switzerland"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed: Bottleneck nations and 13 km width supported; Swiss administration claim is entirely fabricated and unsupported."
+  }
+]

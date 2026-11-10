@@ -1,0 +1,114 @@
+{
+  "experiment_name": "DeBERTa-v3 NLI Hybrid Evaluation (Phase 8 Step 2)",
+  "models": {
+    "span_detector": "KRLabsOrg/lettucedect-base-modernbert-en-v1",
+    "nli_verifier": "cross-encoder/nli-deberta-v3-small"
+  },
+  "device": "cpu",
+  "contradiction_threshold": 0.6,
+  "total_samples": 60,
+  "answer_level_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1_score": 1.0
+  },
+  "confusion_matrix": {
+    "tp": 45,
+    "tn": 15,
+    "fp": 0,
+    "fn": 0
+  },
+  "category_metrics": {
+    "supported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "contradictory": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "unsupported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "mixed": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    }
+  },
+  "span_level_metrics": {
+    "total_gold_spans": 45,
+    "total_predicted_spans": 46,
+    "exact_match": {
+      "matched_count": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "partial_overlap_iou_0_5": {
+      "matched_count": 34,
+      "precision": 0.7391,
+      "recall": 0.7556,
+      "f1_score": 0.7473
+    },
+    "character_overlap": {
+      "precision": 0.838,
+      "recall": 0.907,
+      "f1_score": 0.8711
+    }
+  },
+  "latency_metrics_ms": {
+    "lettucedetect": {
+      "mean": 423.54,
+      "median": 388.81,
+      "min": 302.68,
+      "max": 965.66,
+      "p95": 625.53
+    },
+    "nli_verifier": {
+      "mean": 274.31,
+      "median": 195.94,
+      "min": 141.58,
+      "max": 812.67,
+      "p95": 539.48
+    },
+    "hybrid_total": {
+      "mean": 697.85,
+      "median": 669.28,
+      "min": 475.51,
+      "max": 1566.16,
+      "p95": 918.04
+    }
+  },
+  "salvaged_fn_cases": [
+    "GEO-CON-001",
+    "GEO-CON-002",
+    "GEO-CON-005",
+    "GEO-CON-011",
+    "GEO-MIX-001",
+    "GEO-MIX-005"
+  ],
+  "false_positive_cases": [],
+  "remaining_false_negative_cases": [],
+  "baseline_comparison": {
+    "baseline_accuracy": 0.9,
+    "hybrid_accuracy": 1.0,
+    "accuracy_delta": 0.1,
+    "baseline_recall": 0.8667,
+    "hybrid_recall": 1.0,
+    "recall_delta": 0.1333,
+    "baseline_f1": 0.9286,
+    "hybrid_f1": 1.0,
+    "f1_delta": 0.0714,
+    "baseline_fn_count": 6,
+    "hybrid_fn_count": 0,
+    "baseline_fp_count": 0,
+    "hybrid_fp_count": 0
+  }
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <rect x="15" y="15" width="570" height="310" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="300" y="42" font-size="16" font-weight="700" fill="#0f172a" text-anchor="middle">INDEPENDENT AUDIT: Span Localization Metrics</text>
+  <text x="300" y="60" font-size="12" fill="#64748b" text-anchor="middle">Comparing Exact, Normalized, Partial, and Overlap Formulations</text>
+  
+    <text x="180" y="103" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Raw Exact Match</text>
+    <rect x="190" y="85" width="260" height="26" rx="5" fill="#f1f5f9"/>
+    <rect x="190" y="85" width="0" height="26" rx="5" fill="#ef4444"/>
+    <text x="198" y="103" font-size="12" font-weight="700" fill="#0f172a">0.0%</text>
+    <text x="190" y="121" font-size="10" fill="#64748b">0.0% (Subword token boundary mismatch)</text>
+
+    <text x="180" y="145" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Normalized Exact Match</text>
+    <rect x="190" y="127" width="260" height="26" rx="5" fill="#f1f5f9"/>
+    <rect x="190" y="127" width="134" height="26" rx="5" fill="#f59e0b"/>
+    <text x="332" y="145" font-size="12" font-weight="700" fill="#0f172a">51.8%</text>
+    <text x="190" y="163" font-size="10" fill="#64748b">51.8% (Whitespace & punct trimmed)</text>
+
+    <text x="180" y="187" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Partial Overlap (IoU>=0.5)</text>
+    <rect x="190" y="169" width="260" height="26" rx="5" fill="#f1f5f9"/>
+    <rect x="190" y="169" width="189" height="26" rx="5" fill="#3b82f6"/>
+    <text x="387" y="187" font-size="12" font-weight="700" fill="#0f172a">72.9%</text>
+    <text x="190" y="205" font-size="10" fill="#64748b">72.9% (Semantic span overlap)</text>
+
+    <text x="180" y="229" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Token Overlap F1</text>
+    <rect x="190" y="211" width="260" height="26" rx="5" fill="#f1f5f9"/>
+    <rect x="190" y="211" width="222" height="26" rx="5" fill="#8b5cf6"/>
+    <text x="420" y="229" font-size="12" font-weight="700" fill="#0f172a">85.6%</text>
+    <text x="190" y="247" font-size="10" fill="#64748b">85.6% (Word token level overlap)</text>
+
+    <text x="180" y="271" font-size="12" font-weight="600" fill="#334155" text-anchor="end">Character Overlap F1</text>
+    <rect x="190" y="253" width="260" height="26" rx="5" fill="#f1f5f9"/>
+    <rect x="190" y="253" width="223" height="26" rx="5" fill="#10b981"/>
+    <text x="421" y="271" font-size="12" font-weight="700" fill="#0f172a">85.9%</text>
+    <text x="190" y="289" font-size="10" fill="#64748b">85.9% (Character position coverage)</text>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <rect x="15" y="15" width="510" height="290" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="270" y="45" font-size="16" font-weight="700" fill="#0f172a" text-anchor="middle">False Negative Distribution by Category</text>
+  <text x="270" y="65" font-size="12" fill="#64748b" text-anchor="middle">Total FN = 6 (100% of errors occur in high lexical-overlap categories)</text>
+
+  <!-- Donut / Bar representation -->
+  <rect x="80" y="100" width="380" height="42" rx="8" fill="#f1f5f9"/>
+  <!-- Contradictory (4/6 = 66.7%) -->
+  <rect x="80" y="100" width="253" height="42" rx="8" fill="#dc2626"/>
+  <!-- Mixed (2/6 = 33.3%) -->
+  <rect x="333" y="100" width="127" height="42" rx="8" fill="#6366f1"/>
+
+  <text x="206" y="126" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Contradictory: 4 (66.7%)</text>
+  <text x="396" y="126" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Mixed: 2 (33.3%)</text>
+
+  <!-- Details Table -->
+  <text x="80" y="175" font-size="12" font-weight="700" fill="#334155">Contradictory Misses (4 cases):</text>
+  <text x="80" y="195" font-size="11" fill="#64748b">• GEO-CON-001 (Nile vs Amazon)</text>
+  <text x="80" y="210" font-size="11" fill="#64748b">• GEO-CON-002 (K2 3rd vs 2nd)</text>
+  <text x="80" y="225" font-size="11" fill="#64748b">• GEO-CON-005 (Sahara vs Polar)</text>
+  <text x="80" y="240" font-size="11" fill="#64748b">• GEO-CON-011 (Mauna Kea vs Everest)</text>
+
+  <text x="320" y="175" font-size="12" font-weight="700" fill="#334155">Mixed Misses (2 cases):</text>
+  <text x="320" y="195" font-size="11" fill="#64748b">• GEO-MIX-001 (Sydney vs Melbourne)</text>
+  <text x="320" y="210" font-size="11" fill="#64748b">• GEO-MIX-005 (Victoria vs Vancouver)</text>
+
+  <text x="270" y="280" font-size="11" font-weight="600" fill="#b91c1c" text-anchor="middle">Common Failure Pattern: All keywords exist in reference context (Entity Swaps)</text>
+</svg>

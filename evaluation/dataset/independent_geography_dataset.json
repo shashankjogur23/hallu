@@ -1,0 +1,1652 @@
+[
+  {
+    "test_id": "IND-SUP-001",
+    "category": "supported",
+    "question": "What is the highest mountain in South America and what is its elevation?",
+    "reference_context": "Mount Aconcagua is located in the Andes mountain range in Mendoza Province, Argentina. With a summit elevation of 6,961 metres (22,838 feet) above sea level, it is the highest mountain in both the Southern and Western Hemispheres.",
+    "generated_answer": "Mount Aconcagua is the highest mountain in the Southern and Western Hemispheres, reaching an elevation of 6,961 metres in Argentina.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Peakbagger / IGN Argentina",
+    "source_url": "https://www.ign.gob.ar",
+    "annotation_notes": "All claims (Aconcagua, highest in Southern and Western Hemispheres, 6,961 m elevation, located in Argentina) fully grounded in reference context."
+  },
+  {
+    "test_id": "IND-SUP-002",
+    "category": "supported",
+    "question": "What is the deepest river in the world and what distinguishes its course?",
+    "reference_context": "The Congo River in central Africa is recognized as the world's deepest river, with measured depths exceeding 220 metres (720 feet) in sections of the Lower Congo. It is also the only major river on Earth that crosses the equator twice.",
+    "generated_answer": "The Congo River is the deepest river in the world, with depths exceeding 220 metres, and it crosses the equator twice during its course.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Directly grounded: deepest river, depth exceeding 220 m, crosses equator twice."
+  },
+  {
+    "test_id": "IND-SUP-003",
+    "category": "supported",
+    "question": "Where is Mount Denali located and what is its official summit elevation?",
+    "reference_context": "Denali, formerly officially named Mount McKinley, is located in the Alaska Range in the interior of the U.S. state of Alaska. Its summit reaches 6,190 metres (20,310 feet) above sea level, making it the highest mountain peak in North America.",
+    "generated_answer": "Denali is the highest mountain peak in North America, situated in the Alaska Range with a summit elevation of 6,190 metres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS National Elevation Dataset",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "All details (Denali, Alaska Range, highest in North America, 6,190 m) fully grounded."
+  },
+  {
+    "test_id": "IND-SUP-004",
+    "category": "supported",
+    "question": "What is Lake Tanganyika's distinction among freshwater lakes?",
+    "reference_context": "Lake Tanganyika is an African Great Lake shared by Tanzania, the Democratic Republic of the Congo, Burundi, and Zambia. It is the second-oldest freshwater lake in the world, the second-largest by volume, and the second-deepest at 1,470 metres (4,820 feet), in all three categories surpassed only by Lake Baikal.",
+    "generated_answer": "Lake Tanganyika is the world's second-deepest freshwater lake at 1,470 metres, ranking second only to Lake Baikal.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Rankings (second-deepest, 1,470 m, behind Lake Baikal) completely verified."
+  },
+  {
+    "test_id": "IND-SUP-005",
+    "category": "supported",
+    "question": "What is the southernmost point of the African continent?",
+    "reference_context": "Cape Agulhas is a rocky headland in the Western Cape of South Africa. It is the geographic southernmost point of the African continent and the official dividing marker between the Atlantic and Indian Oceans, situated roughly 150 kilometres east of the Cape of Good Hope.",
+    "generated_answer": "Cape Agulhas is the official southernmost point of the African continent and marks the boundary between the Atlantic and Indian Oceans.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "International Hydrographic Organization",
+    "source_url": "https://iho.int",
+    "annotation_notes": "Fully supported: southernmost point of Africa, boundary between Atlantic and Indian Oceans."
+  },
+  {
+    "test_id": "IND-SUP-006",
+    "category": "supported",
+    "question": "What is the highest mountain in Europe and where is it situated?",
+    "reference_context": "Mount Elbrus is a dormant stratovolcano located in the Caucasus Mountains in southern Russia. Its west summit rises to 5,642 metres (18,510 feet) above sea level, establishing it as the highest peak in Europe and the highest volcano in Eurasia.",
+    "generated_answer": "Mount Elbrus is the highest peak in Europe, located in the Caucasus Mountains of southern Russia with an elevation of 5,642 metres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Peakbagger / Russian Geographical Society",
+    "source_url": "https://www.rgs.ru",
+    "annotation_notes": "All claims directly confirmed by reference."
+  },
+  {
+    "test_id": "IND-SUP-007",
+    "category": "supported",
+    "question": "What is the lowest natural land elevation in North America?",
+    "reference_context": "Badwater Basin is an endorheic basin situated in Death Valley National Park, California. At 86 metres (282 feet) below sea level, it represents the lowest point of elevation on the North American continent.",
+    "generated_answer": "Badwater Basin in California is the lowest point of land elevation in North America, sitting 86 metres below sea level.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "National Park Service",
+    "source_url": "https://www.nps.gov/deva",
+    "annotation_notes": "Fully grounded: Badwater Basin, California, lowest point in North America, 86 m below sea level."
+  },
+  {
+    "test_id": "IND-SUP-008",
+    "category": "supported",
+    "question": "Which body of water is unique for having no terrestrial land boundaries?",
+    "reference_context": "The Sargasso Sea is a vast region of the North Atlantic Ocean bounded entirely by four circulating ocean currents: the Gulf Stream, North Atlantic Current, Canary Current, and North Atlantic Equatorial Current. It is the only sea on Earth that possesses no terrestrial land coastline.",
+    "generated_answer": "The Sargasso Sea is located in the North Atlantic and is the only sea on Earth that is bounded entirely by ocean currents without any terrestrial land coastline.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "NOAA Ocean Exploration",
+    "source_url": "https://oceanexplorer.noaa.gov",
+    "annotation_notes": "Fully grounded: Sargasso Sea, North Atlantic, bounded by ocean currents, no land boundary."
+  },
+  {
+    "test_id": "IND-SUP-009",
+    "category": "supported",
+    "question": "What is the ranking and length of the Yangtze River in Asia?",
+    "reference_context": "The Yangtze River, flowing entirely within the borders of China, is the longest river in Asia and the third-longest river in the world. It measures approximately 6,300 kilometres (3,915 miles) from its source on the Tibetan Plateau to its mouth at the East China Sea near Shanghai.",
+    "generated_answer": "The Yangtze River is the longest river in Asia and the third-longest river in the world, with a length of roughly 6,300 kilometres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Directly supported: longest in Asia, third-longest globally, ~6,300 km."
+  },
+  {
+    "test_id": "IND-SUP-010",
+    "category": "supported",
+    "question": "What is the size ranking of the island of Borneo and how is it divided politically?",
+    "reference_context": "Borneo is the third-largest island in the world and the largest in Asia, covering an area of 748,168 square kilometres. The island is politically divided among three sovereign nations: Indonesia, Malaysia, and the sultanate of Brunei.",
+    "generated_answer": "Borneo is the third-largest island in the world, and its territory is politically shared among Indonesia, Malaysia, and Brunei.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Fully verified: third-largest island, shared by Indonesia, Malaysia, and Brunei."
+  },
+  {
+    "test_id": "IND-SUP-011",
+    "category": "supported",
+    "question": "Where is the Bosporus Strait and what water bodies does it connect?",
+    "reference_context": "The Bosporus is a narrow international waterway located in northwestern Turkey that bisects the city of Istanbul between Europe and Asia. It connects the Black Sea in the north to the Sea of Marmara in the south, forming part of the continental boundary.",
+    "generated_answer": "The Bosporus Strait is located in northwestern Turkey, connecting the Black Sea to the Sea of Marmara while dividing Istanbul between Europe and Asia.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Turkish Directorate of Maritime Affairs",
+    "source_url": "https://denizcilik.uab.gov.tr",
+    "annotation_notes": "Grounded in context: connects Black Sea to Marmara, divides Istanbul between Europe and Asia."
+  },
+  {
+    "test_id": "IND-SUP-012",
+    "category": "supported",
+    "question": "What is the highest mountain peak in Antarctica?",
+    "reference_context": "Vinson Massif is the highest mountain in Antarctica, situated in the Sentinel Range of the Ellsworth Mountains. Its summit, Mount Vinson, rises to an elevation of 4,892 metres (16,050 feet) above sea level.",
+    "generated_answer": "Vinson Massif is the highest mountain in Antarctica, located in the Sentinel Range at an elevation of 4,892 metres.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "USGS Antarctic Names Database",
+    "source_url": "https://geonames.usgs.gov",
+    "annotation_notes": "Grounded: Vinson Massif, highest peak in Antarctica, Sentinel Range, 4,892 m."
+  },
+  {
+    "test_id": "IND-SUP-013",
+    "category": "supported",
+    "question": "What is unique about the Danakil Depression?",
+    "reference_context": "The Danakil Depression is a geological depression resulting from the divergence of three tectonic plates in the Afar Triangle of northeastern Ethiopia. Reaching approximately 125 metres below sea level, it is characterized by active volcanoes such as Erta Ale and is widely considered one of the hottest places on Earth by mean annual temperature.",
+    "generated_answer": "The Danakil Depression is located in northeastern Ethiopia, lying roughly 125 metres below sea level and featuring the active volcano Erta Ale.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Geological Survey of Ethiopia",
+    "source_url": "https://www.gse.gov.et",
+    "annotation_notes": "Directly grounded: Ethiopia, 125 m below sea level, Erta Ale volcano."
+  },
+  {
+    "test_id": "IND-SUP-014",
+    "category": "supported",
+    "question": "Which waterfall system contains 275 individual drops across two nations?",
+    "reference_context": "Iguazu Falls consists of approximately 275 individual waterfalls and cascades straddling the border between Misiones Province in Argentina and Parana state in Brazil. The waterfall system spans roughly 2.7 kilometres along the Iguazu River.",
+    "generated_answer": "Iguazu Falls comprises around 275 individual waterfalls situated on the border between Argentina and Brazil.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org/en/list/303",
+    "annotation_notes": "Grounded: ~275 falls, border between Argentina and Brazil."
+  },
+  {
+    "test_id": "IND-SUP-015",
+    "category": "supported",
+    "question": "Why is the summit of Mount Chimborazo notable despite not being the highest elevation above sea level?",
+    "reference_context": "Mount Chimborazo is an inactive stratovolcano in Ecuador. Due to the Earth's equatorial bulge, its summit is the farthest point on the Earth's surface from the Earth's center, measuring approximately 6,384.4 kilometres, even though its peak stands at 6,263 metres above sea level.",
+    "generated_answer": "Due to Earth's equatorial bulge, the summit of Mount Chimborazo in Ecuador is the farthest terrestrial point from the center of the Earth.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "French National Institute of Geographic and Forest Information (IGN)",
+    "source_url": "https://www.ign.fr",
+    "annotation_notes": "Directly supported: Chimborazo, Ecuador, equatorial bulge, farthest point from center of Earth."
+  },
+  {
+    "test_id": "IND-SUP-016",
+    "category": "supported",
+    "question": "What is the longest river in Europe and what body of water does it drain into?",
+    "reference_context": "The Volga River flows entirely through European Russia and is the longest river in Europe, spanning 3,531 kilometres (2,194 miles). It originates in the Valdai Hills northwest of Moscow and discharges into the landlocked Caspian Sea.",
+    "generated_answer": "The Volga River is the longest river in Europe, measuring approximately 3,531 kilometres and draining into the Caspian Sea.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Grounded: Volga, longest in Europe, 3,531 km, discharges into Caspian Sea."
+  },
+  {
+    "test_id": "IND-SUP-017",
+    "category": "supported",
+    "question": "What is the second-largest island in the world?",
+    "reference_context": "New Guinea is the second-largest island in the world, covering an area of 785,753 square kilometres north of Australia. The island is split between the Indonesian provinces in the west and the sovereign nation of Papua New Guinea in the east.",
+    "generated_answer": "New Guinea is the second-largest island in the world, divided between Indonesia in the west and Papua New Guinea in the east.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Grounded: New Guinea, second-largest island, shared by Indonesia and Papua New Guinea."
+  },
+  {
+    "test_id": "IND-SUP-018",
+    "category": "supported",
+    "question": "Where is the Strait of Malacca and what is its strategic importance?",
+    "reference_context": "The Strait of Malacca is a narrow stretch of water, approximately 930 kilometres long, running between the Malay Peninsula and the Indonesian island of Sumatra. Connecting the Indian Ocean to the South China Sea, it is one of the most vital shipping shipping lanes in global trade.",
+    "generated_answer": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, connecting the Indian Ocean to the South China Sea.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "International Maritime Organization",
+    "source_url": "https://www.imo.org",
+    "annotation_notes": "Grounded: runs between Malay Peninsula and Sumatra, connects Indian Ocean to South China Sea."
+  },
+  {
+    "test_id": "IND-SUP-019",
+    "category": "supported",
+    "question": "What is the highest permanently inhabited settlement in the world?",
+    "reference_context": "La Rinconada is a gold-mining town located in the Peruvian Andes near the Bolivian border. Situated at an altitude of approximately 5,100 metres (16,700 feet) above sea level, it is widely recognized as the highest permanent human settlement on Earth.",
+    "generated_answer": "La Rinconada in the Peruvian Andes is considered the highest permanent human settlement in the world, located at roughly 5,100 metres above sea level.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "National Geographic",
+    "source_url": "https://www.nationalgeographic.com",
+    "annotation_notes": "Grounded: La Rinconada, Peruvian Andes, highest permanent settlement, ~5,100 m."
+  },
+  {
+    "test_id": "IND-SUP-020",
+    "category": "supported",
+    "question": "What is the capital of Turkey?",
+    "reference_context": "Ankara, situated in central Anatolia, was designated the official capital of the Republic of Turkey upon its establishment in 1923, replacing Istanbul, which remains the country's largest economic and cultural metropolis.",
+    "generated_answer": "Ankara is the capital of Turkey, having succeeded Istanbul as the capital in 1923.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Presidency of the Republic of Turkey",
+    "source_url": "https://www.tccb.gov.tr",
+    "annotation_notes": "Grounded: Ankara is capital of Turkey, succeeded Istanbul in 1923."
+  },
+  {
+    "test_id": "IND-SUP-021",
+    "category": "supported",
+    "question": "What is the largest glacier in the world by area?",
+    "reference_context": "The Lambert Glacier in East Antarctica is the world's largest glacier, draining roughly 8 percent of the Antarctic ice sheet. It measures over 400 kilometres in length and reaches widths of up to 100 kilometres before discharging into the Amery Ice Shelf.",
+    "generated_answer": "The Lambert Glacier in East Antarctica is recognized as the world's largest glacier, measuring over 400 kilometres in length.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Australian Antarctic Division",
+    "source_url": "https://www.antarctica.gov.au",
+    "annotation_notes": "Grounded: Lambert Glacier, East Antarctica, world's largest glacier, >400 km long."
+  },
+  {
+    "test_id": "IND-SUP-022",
+    "category": "supported",
+    "question": "What is the southernmost city in the world?",
+    "reference_context": "Ushuaia is the capital of Tierra del Fuego Province, Argentina. Situated along the Beagle Channel near the southern tip of South America, it is widely recognized as the southernmost city in the world.",
+    "generated_answer": "Ushuaia, located in Argentina along the Beagle Channel, is widely considered the southernmost city in the world.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Instituto Fueguino de Turismo",
+    "source_url": "https://findelmundo.tur.ar",
+    "annotation_notes": "Grounded: Ushuaia, Argentina, Beagle Channel, southernmost city."
+  },
+  {
+    "test_id": "IND-SUP-023",
+    "category": "supported",
+    "question": "What type of volcano is Mount Etna and what is its distinction in Europe?",
+    "reference_context": "Mount Etna is an active stratovolcano situated on the east coast of the island of Sicily, Italy. Standing at roughly 3,357 metres (11,014 feet), it is the tallest active volcano in Europe and one of the most active in the world.",
+    "generated_answer": "Mount Etna is an active stratovolcano located on Sicily, and it is the tallest active volcano in Europe.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "INGV Catania",
+    "source_url": "https://www.ct.ingv.it",
+    "annotation_notes": "Grounded: Mount Etna, Sicily, active stratovolcano, tallest active in Europe."
+  },
+  {
+    "test_id": "IND-SUP-024",
+    "category": "supported",
+    "question": "Where is the Great Blue Hole located and what geological structure does it represent?",
+    "reference_context": "The Great Blue Hole is a giant marine sinkhole situated near the center of Lighthouse Reef, a small atoll roughly 70 kilometres off the coast of Belize. The circular hole measures over 300 metres across and descends to a depth of roughly 124 metres.",
+    "generated_answer": "The Great Blue Hole is a marine sinkhole located off the coast of Belize within Lighthouse Reef, measuring over 300 metres across.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Belize Barrier Reef Reserve System / UNESCO",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Grounded: marine sinkhole, off coast of Belize, Lighthouse Reef, >300 m across."
+  },
+  {
+    "test_id": "IND-SUP-025",
+    "category": "supported",
+    "question": "What is the de facto federal capital of Switzerland?",
+    "reference_context": "Under Swiss federal law, Switzerland does not designate a formal constitutional capital. Instead, the medieval city of Bern serves as the de facto federal city (Bundesstadt), hosting the Swiss Federal Assembly and the Federal Council, while Zurich remains the largest financial and commercial hub.",
+    "generated_answer": "The city of Bern serves as the de facto federal capital of Switzerland and the seat of government, rather than Zurich.",
+    "expected_verdict": "CLEAN",
+    "expected_unsupported_spans": [],
+    "source_name": "Federal Chancellery of Switzerland",
+    "source_url": "https://www.bk.admin.ch",
+    "annotation_notes": "Grounded: Bern is de facto federal city / seat of government, Zurich is not."
+  },
+  {
+    "test_id": "IND-CON-001",
+    "category": "contradictory",
+    "question": "In which country is Mount Aconcagua located?",
+    "reference_context": "Mount Aconcagua is located in the Andes mountain range in Mendoza Province, Argentina. It is the highest mountain in both the Southern and Western Hemispheres at 6,961 metres.",
+    "generated_answer": "Mount Aconcagua is located in the Andes mountain range of Chile.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 58,
+        "end": 63,
+        "text": "Chile"
+      }
+    ],
+    "source_name": "IGN Argentina",
+    "source_url": "https://www.ign.gob.ar",
+    "annotation_notes": "Entity swap: context states Argentina; answer asserts Chile."
+  },
+  {
+    "test_id": "IND-CON-002",
+    "category": "contradictory",
+    "question": "What is the maximum measured depth of the Congo River?",
+    "reference_context": "The Congo River in central Africa is recognized as the world's deepest river, with measured depths exceeding 220 metres (720 feet) in the Lower Congo.",
+    "generated_answer": "The Congo River is the deepest river in the world, with depths reaching roughly 85 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 72,
+        "end": 89,
+        "text": "roughly 85 metres"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Numerical contradiction: context specifies depths exceeding 220 metres, answer claims roughly 85 metres."
+  },
+  {
+    "test_id": "IND-CON-003",
+    "category": "contradictory",
+    "question": "What is the ranking of Denali among North American mountain peaks?",
+    "reference_context": "Denali is located in the Alaska Range. Its summit reaches 6,190 metres above sea level, making it the highest mountain peak in North America, followed by Mount Logan in Canada.",
+    "generated_answer": "Denali is the second-highest mountain peak in North America, ranking just below Mount Logan.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 91,
+        "text": "second-highest mountain peak in North America, ranking just below Mount Logan"
+      }
+    ],
+    "source_name": "USGS",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Ordinal substitution and comparative reversal: Denali is highest, not second-highest below Logan."
+  },
+  {
+    "test_id": "IND-CON-004",
+    "category": "contradictory",
+    "question": "What is the surface depth ranking of Lake Tanganyika?",
+    "reference_context": "Lake Tanganyika is an African Great Lake. It is the second-deepest lake in the world at 1,470 metres, surpassed only by Lake Baikal in Russia.",
+    "generated_answer": "Lake Tanganyika is the world's deepest lake at 1,470 metres, surpassing Lake Baikal.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 19,
+        "end": 83,
+        "text": "the world's deepest lake at 1,470 metres, surpassing Lake Baikal"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Comparative reversal: context says surpassed only by Baikal (second deepest), answer claims it surpasses Baikal (deepest)."
+  },
+  {
+    "test_id": "IND-CON-005",
+    "category": "contradictory",
+    "question": "Is the Cape of Good Hope the southernmost point of the African continent?",
+    "reference_context": "Cape Agulhas is the geographic southernmost point of the African continent. The Cape of Good Hope lies roughly 150 kilometres to the northwest and is not the southernmost point, despite popular misconception.",
+    "generated_answer": "The Cape of Good Hope is the geographic southernmost point of the African continent.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 84,
+        "text": "The Cape of Good Hope is the geographic southernmost point of the African continent."
+      }
+    ],
+    "source_name": "International Hydrographic Organization",
+    "source_url": "https://iho.int",
+    "annotation_notes": "Contradictory entity substitution: Cape Agulhas is southernmost, not Cape of Good Hope."
+  },
+  {
+    "test_id": "IND-CON-006",
+    "category": "contradictory",
+    "question": "In which mountain range is Mount Elbrus situated?",
+    "reference_context": "Mount Elbrus is a dormant stratovolcano located in the Caucasus Mountains in southern Russia, reaching an elevation of 5,642 metres as the highest peak in Europe.",
+    "generated_answer": "Mount Elbrus is the highest peak in Europe, situated in the Ural Mountains of Russia.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 56,
+        "end": 74,
+        "text": "the Ural Mountains"
+      }
+    ],
+    "source_name": "Russian Geographical Society",
+    "source_url": "https://www.rgs.ru",
+    "annotation_notes": "Entity swap: context specifies Caucasus Mountains; answer asserts Ural Mountains."
+  },
+  {
+    "test_id": "IND-CON-007",
+    "category": "contradictory",
+    "question": "What is the elevation of Badwater Basin relative to sea level?",
+    "reference_context": "Badwater Basin in California is situated at 86 metres (282 feet) below sea level, representing the lowest point of land elevation in North America.",
+    "generated_answer": "Badwater Basin in California represents the lowest point in North America, sitting at 86 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 96,
+        "end": 111,
+        "text": "above sea level"
+      }
+    ],
+    "source_name": "National Park Service",
+    "source_url": "https://www.nps.gov/deva",
+    "annotation_notes": "Contradictory directional reversal: context states below sea level; answer claims above sea level."
+  },
+  {
+    "test_id": "IND-CON-008",
+    "category": "contradictory",
+    "question": "Is the Sargasso Sea bounded by landmasses?",
+    "reference_context": "The Sargasso Sea is located in the North Atlantic Ocean and is bounded entirely by ocean currents. It is the only sea on Earth that possesses no terrestrial land coastline.",
+    "generated_answer": "The Sargasso Sea is bounded by the coastlines of North America and the Caribbean Islands.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 20,
+        "end": 88,
+        "text": "bounded by the coastlines of North America and the Caribbean Islands"
+      }
+    ],
+    "source_name": "NOAA Ocean Exploration",
+    "source_url": "https://oceanexplorer.noaa.gov",
+    "annotation_notes": "Negation contradiction: context explicitly states no land coastline; answer claims bounded by coastlines."
+  },
+  {
+    "test_id": "IND-CON-009",
+    "category": "contradictory",
+    "question": "What is the global length ranking of the Yangtze River?",
+    "reference_context": "The Yangtze River in China is the longest river in Asia and the third-longest river in the world, measuring roughly 6,300 kilometres.",
+    "generated_answer": "The Yangtze River is the second-longest river in the world, surpassed only by the Nile.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 86,
+        "text": "second-longest river in the world, surpassed only by the Nile"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Ordinal contradiction: context specifies third-longest; answer claims second-longest."
+  },
+  {
+    "test_id": "IND-CON-010",
+    "category": "contradictory",
+    "question": "Which country controls the majority of the island of Borneo?",
+    "reference_context": "Borneo is politically divided among three nations: Indonesia holds approximately 73 percent of the island (Kalimantan), Malaysia holds roughly 26 percent (Sabah and Sarawak), and Brunei occupies about 1 percent.",
+    "generated_answer": "Malaysia controls the vast majority of Borneo, holding approximately 73 percent of the island.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 79,
+        "text": "Malaysia controls the vast majority of Borneo, holding approximately 73 percent"
+      }
+    ],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Entity attribute swap: Indonesia holds 73%, answer falsely attributes 73% to Malaysia."
+  },
+  {
+    "test_id": "IND-CON-011",
+    "category": "contradictory",
+    "question": "Which body of water does the Bosporus Strait connect to in the north?",
+    "reference_context": "The Bosporus Strait in Turkey connects the Black Sea in the north to the Sea of Marmara in the south.",
+    "generated_answer": "The Bosporus Strait connects the Aegean Sea in the north to the Sea of Marmara.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 29,
+        "end": 43,
+        "text": "the Aegean Sea"
+      }
+    ],
+    "source_name": "Turkish Directorate of Maritime Affairs",
+    "source_url": "https://denizcilik.uab.gov.tr",
+    "annotation_notes": "Entity swap: Black Sea is the northern body; answer asserts Aegean Sea."
+  },
+  {
+    "test_id": "IND-CON-012",
+    "category": "contradictory",
+    "question": "What is the summit elevation of Vinson Massif in Antarctica?",
+    "reference_context": "Vinson Massif is the highest mountain peak in Antarctica, with its summit rising to an elevation of 4,892 metres above sea level.",
+    "generated_answer": "Vinson Massif is the highest mountain in Antarctica, reaching an elevation of 5,892 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 78,
+        "end": 90,
+        "text": "5,892 metres"
+      }
+    ],
+    "source_name": "USGS Antarctic Names Database",
+    "source_url": "https://geonames.usgs.gov",
+    "annotation_notes": "Numerical contradiction: context specifies 4,892 m; answer asserts 5,892 m."
+  },
+  {
+    "test_id": "IND-CON-013",
+    "category": "contradictory",
+    "question": "What is the elevation of the Danakil Depression relative to sea level?",
+    "reference_context": "The Danakil Depression in northeastern Ethiopia lies approximately 125 metres below sea level in the Afar Triangle.",
+    "generated_answer": "The Danakil Depression in Ethiopia is an elevated volcanic plateau rising 125 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 38,
+        "end": 100,
+        "text": "an elevated volcanic plateau rising 125 metres above sea level"
+      }
+    ],
+    "source_name": "Geological Survey of Ethiopia",
+    "source_url": "https://www.gse.gov.et",
+    "annotation_notes": "Geomorphological and directional contradiction: depression below sea level vs elevated plateau above sea level."
+  },
+  {
+    "test_id": "IND-CON-014",
+    "category": "contradictory",
+    "question": "How many individual waterfalls comprise Iguazu Falls?",
+    "reference_context": "Iguazu Falls consists of approximately 275 individual waterfalls and cascades straddling the border between Argentina and Brazil.",
+    "generated_answer": "Iguazu Falls consists of a single massive uninterrupted cascade rather than multiple falls.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 90,
+        "text": "a single massive uninterrupted cascade rather than multiple falls"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Direct factual contradiction: 275 individual cascades vs single uninterrupted cascade."
+  },
+  {
+    "test_id": "IND-CON-015",
+    "category": "contradictory",
+    "question": "Why is Mount Chimborazo's summit farther from Earth's center than Mount Everest?",
+    "reference_context": "Because the Earth bulges at the equator, Mount Chimborazo in Ecuador is the farthest point on the Earth's surface from the Earth's center, even though Everest is higher above sea level.",
+    "generated_answer": "Mount Chimborazo is farther from the Earth's center than Everest because it has a higher elevation above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 65,
+        "end": 114,
+        "text": "because it has a higher elevation above sea level"
+      }
+    ],
+    "source_name": "IGN France",
+    "source_url": "https://www.ign.fr",
+    "annotation_notes": "Causal and factual contradiction: context states Chimborazo is lower above sea level but farther due to equatorial bulge."
+  },
+  {
+    "test_id": "IND-CON-016",
+    "category": "contradictory",
+    "question": "Into which body of water does the Volga River discharge?",
+    "reference_context": "The Volga River in Russia is the longest river in Europe and discharges into the landlocked Caspian Sea.",
+    "generated_answer": "The Volga River flows southward and discharges directly into the Black Sea.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 61,
+        "end": 74,
+        "text": "the Black Sea"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Entity swap: Caspian Sea vs Black Sea."
+  },
+  {
+    "test_id": "IND-CON-017",
+    "category": "contradictory",
+    "question": "What is the size ranking of New Guinea among global islands?",
+    "reference_context": "New Guinea is the second-largest island in the world, covering 785,753 square kilometres, surpassed only by Greenland.",
+    "generated_answer": "New Guinea is the third-largest island in the world, ranking behind Greenland and Borneo.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 18,
+        "end": 88,
+        "text": "third-largest island in the world, ranking behind Greenland and Borneo"
+      }
+    ],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Ordinal contradiction: context specifies second-largest (ahead of Borneo); answer asserts third-largest."
+  },
+  {
+    "test_id": "IND-CON-018",
+    "category": "contradictory",
+    "question": "Which islands or landmasses does the Strait of Malacca separate?",
+    "reference_context": "The Strait of Malacca runs between the Malay Peninsula and the Indonesian island of Sumatra, connecting the Indian Ocean to the South China Sea.",
+    "generated_answer": "The Strait of Malacca separates the islands of Java and Sumatra.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 22,
+        "end": 63,
+        "text": "separates the islands of Java and Sumatra"
+      }
+    ],
+    "source_name": "International Maritime Organization",
+    "source_url": "https://www.imo.org",
+    "annotation_notes": "Geographical entity swap: Malay Peninsula and Sumatra vs Java and Sumatra (which is the Sunda Strait)."
+  },
+  {
+    "test_id": "IND-CON-019",
+    "category": "contradictory",
+    "question": "At what elevation is the settlement of La Rinconada located?",
+    "reference_context": "La Rinconada is a settlement in the Peruvian Andes located at an altitude of approximately 5,100 metres above sea level.",
+    "generated_answer": "La Rinconada is located in the Peruvian Andes at an altitude of roughly 3,100 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 64,
+        "end": 84,
+        "text": "roughly 3,100 metres"
+      }
+    ],
+    "source_name": "National Geographic",
+    "source_url": "https://www.nationalgeographic.com",
+    "annotation_notes": "Numerical contradiction: 5,100 m vs 3,100 m."
+  },
+  {
+    "test_id": "IND-CON-020",
+    "category": "contradictory",
+    "question": "What is the capital city of Turkey?",
+    "reference_context": "Ankara was established as the official capital of the Republic of Turkey in 1923, whereas Istanbul remains the country's most populous city.",
+    "generated_answer": "Istanbul is the official capital city of Turkey, while Ankara serves as its provincial commercial center.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 47,
+        "text": "Istanbul is the official capital city of Turkey"
+      }
+    ],
+    "source_name": "Presidency of Turkey",
+    "source_url": "https://www.tccb.gov.tr",
+    "annotation_notes": "Entity-role swap: Ankara is capital, not Istanbul."
+  },
+  {
+    "test_id": "IND-CON-021",
+    "category": "contradictory",
+    "question": "Where is the Lambert Glacier located?",
+    "reference_context": "The Lambert Glacier is the world's largest glacier, draining about 8 percent of the ice sheet in East Antarctica.",
+    "generated_answer": "The Lambert Glacier is the world's largest glacier, located in northern Greenland.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 52,
+        "end": 81,
+        "text": "located in northern Greenland"
+      }
+    ],
+    "source_name": "Australian Antarctic Division",
+    "source_url": "https://www.antarctica.gov.au",
+    "annotation_notes": "Entity location swap: East Antarctica vs Greenland."
+  },
+  {
+    "test_id": "IND-CON-022",
+    "category": "contradictory",
+    "question": "Along which body of water is the city of Ushuaia situated?",
+    "reference_context": "Ushuaia, the capital of Tierra del Fuego in Argentina, is situated along the Beagle Channel near the southern tip of South America.",
+    "generated_answer": "Ushuaia is situated directly along the Strait of Magellan in Argentina.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 35,
+        "end": 57,
+        "text": "the Strait of Magellan"
+      }
+    ],
+    "source_name": "Instituto Fueguino de Turismo",
+    "source_url": "https://findelmundo.tur.ar",
+    "annotation_notes": "Entity swap: Beagle Channel vs Strait of Magellan."
+  },
+  {
+    "test_id": "IND-CON-023",
+    "category": "contradictory",
+    "question": "What is the volcanic status of Mount Etna in Sicily?",
+    "reference_context": "Mount Etna on the island of Sicily is an active stratovolcano and the tallest active volcano in Europe at approximately 3,357 metres.",
+    "generated_answer": "Mount Etna is a completely extinct volcanic caldera that has not erupted in recorded human history.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 98,
+        "text": "a completely extinct volcanic caldera that has not erupted in recorded human history"
+      }
+    ],
+    "source_name": "INGV Catania",
+    "source_url": "https://www.ct.ingv.it",
+    "annotation_notes": "Status contradiction: active stratovolcano vs extinct caldera."
+  },
+  {
+    "test_id": "IND-CON-024",
+    "category": "contradictory",
+    "question": "What is the approximate depth of the Great Blue Hole in Belize?",
+    "reference_context": "The Great Blue Hole off the coast of Belize is a marine sinkhole that descends to a depth of roughly 124 metres (407 feet).",
+    "generated_answer": "The Great Blue Hole descends to an extreme abyssal depth of roughly 1,240 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 60,
+        "end": 80,
+        "text": "roughly 1,240 metres"
+      }
+    ],
+    "source_name": "Belize Barrier Reef Reserve / UNESCO",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Order of magnitude numerical error: 124 m vs 1,240 m."
+  },
+  {
+    "test_id": "IND-CON-025",
+    "category": "contradictory",
+    "question": "Which Swiss city serves as the federal capital and seat of government?",
+    "reference_context": "Under Swiss federal law, the city of Bern serves as the de facto federal city and seat of government, while Zurich is the largest financial center.",
+    "generated_answer": "Zurich serves as the official constitutional capital and seat of the Swiss federal government.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 94,
+        "text": "Zurich serves as the official constitutional capital and seat of the Swiss federal government."
+      }
+    ],
+    "source_name": "Federal Chancellery of Switzerland",
+    "source_url": "https://www.bk.admin.ch",
+    "annotation_notes": "Entity swap: Bern is seat of government, not Zurich."
+  },
+  {
+    "test_id": "IND-UNS-001",
+    "category": "unsupported",
+    "question": "When was Mount Aconcagua first summited?",
+    "reference_context": "Mount Aconcagua is located in Mendoza Province, Argentina. With a summit elevation of 6,961 metres above sea level, it is the highest peak in the Western Hemisphere.",
+    "generated_answer": "Mount Aconcagua was first successfully summited in 1897 by a British expedition led by Edward FitzGerald.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 16,
+        "end": 104,
+        "text": "was first successfully summited in 1897 by a British expedition led by Edward FitzGerald"
+      }
+    ],
+    "source_name": "Alpine Journal",
+    "source_url": "https://www.alpinejournal.org.uk",
+    "annotation_notes": "Unsupported claim: context discusses location and elevation; expedition date and climber are completely absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-002",
+    "category": "unsupported",
+    "question": "What is the average annual water discharge volume of the Congo River?",
+    "reference_context": "The Congo River is the deepest river in the world, with depths exceeding 220 metres, and it crosses the equator twice.",
+    "generated_answer": "The Congo River discharges an average of roughly 41,000 cubic metres of water per second into the Atlantic Ocean.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 16,
+        "end": 112,
+        "text": "discharges an average of roughly 41,000 cubic metres of water per second into the Atlantic Ocean"
+      }
+    ],
+    "source_name": "USGS / River Discharge Database",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Unsupported claim: discharge volume metric absent from reference context."
+  },
+  {
+    "test_id": "IND-UNS-003",
+    "category": "unsupported",
+    "question": "When was Mount McKinley officially renamed Denali by the federal government?",
+    "reference_context": "Denali is situated in the Alaska Range with a summit elevation of 6,190 metres, making it the highest peak in North America.",
+    "generated_answer": "The mountain was officially restored to its indigenous name Denali by the federal government in 2015 under President Barack Obama.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 28,
+        "end": 129,
+        "text": "restored to its indigenous name Denali by the federal government in 2015 under President Barack Obama"
+      }
+    ],
+    "source_name": "US Department of the Interior",
+    "source_url": "https://www.doi.gov",
+    "annotation_notes": "Unsupported historical claim: 2015 renaming under Obama absent from reference text."
+  },
+  {
+    "test_id": "IND-UNS-004",
+    "category": "unsupported",
+    "question": "What unique cichlid fish biodiversity exists in Lake Tanganyika?",
+    "reference_context": "Lake Tanganyika is the world's second-deepest freshwater lake at 1,470 metres and the second-largest by volume.",
+    "generated_answer": "Lake Tanganyika harbors over 250 species of endemic cichlid fish that evolved through adaptive radiation.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 16,
+        "end": 104,
+        "text": "harbors over 250 species of endemic cichlid fish that evolved through adaptive radiation"
+      }
+    ],
+    "source_name": "WWF Freshwater Reports",
+    "source_url": "https://www.worldwildlife.org",
+    "annotation_notes": "Unsupported biological claim: fish biodiversity completely absent from context."
+  },
+  {
+    "test_id": "IND-UNS-005",
+    "category": "unsupported",
+    "question": "When was the historic lighthouse constructed at Cape Agulhas?",
+    "reference_context": "Cape Agulhas is the southernmost point of the African continent and the dividing line between the Atlantic and Indian Oceans.",
+    "generated_answer": "A historic red-and-white striped lighthouse was constructed at Cape Agulhas in 1848 to guide ships through treacherous waters.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 83,
+        "text": "A historic red-and-white striped lighthouse was constructed at Cape Agulhas in 1848"
+      }
+    ],
+    "source_name": "Transnet National Ports Authority",
+    "source_url": "https://www.transnetnationalportsauthority.net",
+    "annotation_notes": "Unsupported claim: 1848 lighthouse construction date absent from reference text."
+  },
+  {
+    "test_id": "IND-UNS-006",
+    "category": "unsupported",
+    "question": "When did Mount Elbrus last erupt?",
+    "reference_context": "Mount Elbrus is a dormant stratovolcano in the Caucasus Mountains of southern Russia, with an elevation of 5,642 metres.",
+    "generated_answer": "Mount Elbrus last produced a volcanic eruption around 50 CE during the early Roman Imperial era.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 13,
+        "end": 95,
+        "text": "last produced a volcanic eruption around 50 CE during the early Roman Imperial era"
+      }
+    ],
+    "source_name": "Smithsonian Global Volcanism Program",
+    "source_url": "https://volcano.si.edu",
+    "annotation_notes": "Unsupported geological claim: 50 CE eruption date absent from reference context."
+  },
+  {
+    "test_id": "IND-UNS-007",
+    "category": "unsupported",
+    "question": "What caused the formation of Badwater Basin in Death Valley?",
+    "reference_context": "Badwater Basin in California is the lowest point in North America, sitting at an elevation of 86 metres below sea level.",
+    "generated_answer": "Badwater Basin was formed by the evaporation of ancient Lake Manly during the Holocene epoch thousands of years ago.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 19,
+        "end": 115,
+        "text": "formed by the evaporation of ancient Lake Manly during the Holocene epoch thousands of years ago"
+      }
+    ],
+    "source_name": "USGS Geology",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Unsupported geological claim: Lake Manly evaporation absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-008",
+    "category": "unsupported",
+    "question": "What distinctive species of pelagic seaweed characterizes the Sargasso Sea?",
+    "reference_context": "The Sargasso Sea in the North Atlantic is the only sea bounded entirely by circulating ocean currents without any land boundary.",
+    "generated_answer": "The sea is defined by massive floating mats of Sargassum seaweed that provide crucial nursery habitat for juvenile sea turtles.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 39,
+        "end": 126,
+        "text": "mats of Sargassum seaweed that provide crucial nursery habitat for juvenile sea turtles"
+      }
+    ],
+    "source_name": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov",
+    "annotation_notes": "Unsupported ecological claim: seaweed species and sea turtle nursery absent from context."
+  },
+  {
+    "test_id": "IND-UNS-009",
+    "category": "unsupported",
+    "question": "What is the name of the massive hydroelectric dam constructed on the Yangtze River?",
+    "reference_context": "The Yangtze River is the longest river in Asia and measures approximately 6,300 kilometres from Tibet to the East China Sea.",
+    "generated_answer": "The Yangtze River is impounded by the Three Gorges Dam, the world's largest hydroelectric power station by installed capacity.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 21,
+        "end": 125,
+        "text": "impounded by the Three Gorges Dam, the world's largest hydroelectric power station by installed capacity"
+      }
+    ],
+    "source_name": "China Three Gorges Corporation",
+    "source_url": "https://www.ctg.com.cn",
+    "annotation_notes": "Unsupported infrastructure claim: Three Gorges Dam details absent from context."
+  },
+  {
+    "test_id": "IND-UNS-010",
+    "category": "unsupported",
+    "question": "What endangered hominid species is endemic to the tropical rainforests of Borneo?",
+    "reference_context": "Borneo is the third-largest island in the world, with its territory divided among Indonesia, Malaysia, and Brunei.",
+    "generated_answer": "Borneo is the native habitat of the critically endangered Bornean orangutan, which nests high in the forest canopy.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 114,
+        "text": "native habitat of the critically endangered Bornean orangutan, which nests high in the forest canopy"
+      }
+    ],
+    "source_name": "IUCN Red List",
+    "source_url": "https://www.iucnredlist.org",
+    "annotation_notes": "Unsupported zoological claim: orangutan habitat absent from reference context."
+  },
+  {
+    "test_id": "IND-UNS-011",
+    "category": "unsupported",
+    "question": "When was the first suspension bridge built across the Bosporus Strait?",
+    "reference_context": "The Bosporus Strait in Turkey connects the Black Sea to the Sea of Marmara and separates European and Asian Istanbul.",
+    "generated_answer": "The first permanent suspension bridge spanning the Bosporus was completed in 1973 on the fiftieth anniversary of the Turkish Republic.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 4,
+        "end": 133,
+        "text": "first permanent suspension bridge spanning the Bosporus was completed in 1973 on the fiftieth anniversary of the Turkish Republic"
+      }
+    ],
+    "source_name": "General Directorate of Highways Turkey",
+    "source_url": "https://www.kgm.gov.tr",
+    "annotation_notes": "Unsupported civil engineering claim: 1973 suspension bridge details absent from text."
+  },
+  {
+    "test_id": "IND-UNS-012",
+    "category": "unsupported",
+    "question": "Who was Vinson Massif named after?",
+    "reference_context": "Vinson Massif is the highest mountain peak in Antarctica, situated in the Sentinel Range at an elevation of 4,892 metres.",
+    "generated_answer": "The massif was named in 1961 after Carl Vinson, a longtime U.S. Congressman from Georgia who championed Antarctic research funding.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 15,
+        "end": 130,
+        "text": "named in 1961 after Carl Vinson, a longtime U.S. Congressman from Georgia who championed Antarctic research funding"
+      }
+    ],
+    "source_name": "USGS Antarctic Names",
+    "source_url": "https://geonames.usgs.gov",
+    "annotation_notes": "Unsupported historical claim: Carl Vinson naming background absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-013",
+    "category": "unsupported",
+    "question": "What unique hydrothermal feature is found at Dallol in the Danakil Depression?",
+    "reference_context": "The Danakil Depression in Ethiopia lies 125 metres below sea level in the Afar Triangle and contains the active volcano Erta Ale.",
+    "generated_answer": "The depression contains the hydrothermal field of Dallol, famous for its neon green acidic brine pools and sulfur terraces.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 15,
+        "end": 122,
+        "text": "contains the hydrothermal field of Dallol, famous for its neon green acidic brine pools and sulfur terraces"
+      }
+    ],
+    "source_name": "Nature Communications",
+    "source_url": "https://www.nature.com",
+    "annotation_notes": "Unsupported claim: Dallol acidic brine pools absent from reference text."
+  },
+  {
+    "test_id": "IND-UNS-014",
+    "category": "unsupported",
+    "question": "What legend explains the indigenous Guaraní origin of Iguazu Falls?",
+    "reference_context": "Iguazu Falls comprises approximately 275 cascades on the border between Argentina and Brazil along the Iguazu River.",
+    "generated_answer": "According to indigenous Guaraní mythology, the falls were created when an enraged serpent deity sliced the riverbed in fury.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 124,
+        "text": "According to indigenous Guaraní mythology, the falls were created when an enraged serpent deity sliced the riverbed in fury."
+      }
+    ],
+    "source_name": "Guaraní Folklore Archives",
+    "source_url": "https://www.cultura.gob.ar",
+    "annotation_notes": "Unsupported folklore claim: Guaraní mythology serpent legend completely absent from context."
+  },
+  {
+    "test_id": "IND-UNS-015",
+    "category": "unsupported",
+    "question": "Who was the famous German naturalist who attempted to climb Mount Chimborazo in 1802?",
+    "reference_context": "Mount Chimborazo in Ecuador is the farthest terrestrial point from Earth's center due to the equatorial bulge, with a peak of 6,263 metres.",
+    "generated_answer": "The German polymath Alexander von Humboldt attempted to ascend Chimborazo in 1802, setting a world mountaineering altitude record at the time.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 20,
+        "end": 141,
+        "text": "Alexander von Humboldt attempted to ascend Chimborazo in 1802, setting a world mountaineering altitude record at the time"
+      }
+    ],
+    "source_name": "Humboldt Foundation",
+    "source_url": "https://www.humboldt-foundation.de",
+    "annotation_notes": "Unsupported historical claim: Humboldt 1802 ascent absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-016",
+    "category": "unsupported",
+    "question": "What canal connects the Volga River to the Don River?",
+    "reference_context": "The Volga River is the longest river in Europe, spanning 3,531 kilometres across European Russia before draining into the Caspian Sea.",
+    "generated_answer": "The Volga is linked to the Don River by the 101-kilometre Volga-Don Shipping Canal, completed in 1952 under Soviet engineering.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 13,
+        "end": 126,
+        "text": "linked to the Don River by the 101-kilometre Volga-Don Shipping Canal, completed in 1952 under Soviet engineering"
+      }
+    ],
+    "source_name": "Federal Marine and River Transport Agency",
+    "source_url": "https://morflot.gov.ru",
+    "annotation_notes": "Unsupported infrastructure claim: Volga-Don Canal details absent from context."
+  },
+  {
+    "test_id": "IND-UNS-017",
+    "category": "unsupported",
+    "question": "What is the highest mountain peak on the island of New Guinea?",
+    "reference_context": "New Guinea is the second-largest island in the world, covering 785,753 square kilometres and divided between Indonesia and Papua New Guinea.",
+    "generated_answer": "The highest peak on New Guinea is Puncak Jaya, also called Carstensz Pyramid, which reaches 4,884 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 4,
+        "end": 120,
+        "text": "highest peak on New Guinea is Puncak Jaya, also called Carstensz Pyramid, which reaches 4,884 metres above sea level"
+      }
+    ],
+    "source_name": "Peakbagger",
+    "source_url": "https://www.peakbagger.com",
+    "annotation_notes": "Unsupported geographical claim: Puncak Jaya details absent from reference text."
+  },
+  {
+    "test_id": "IND-UNS-018",
+    "category": "unsupported",
+    "question": "What major port city is located at the southern tip of the Strait of Malacca?",
+    "reference_context": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, connecting the Indian Ocean to the South China Sea.",
+    "generated_answer": "The island city-state of Singapore is situated at the southern terminus of the strait, operating one of the world's busiest container transshipment ports.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 154,
+        "text": "The island city-state of Singapore is situated at the southern terminus of the strait, operating one of the world's busiest container transshipment ports."
+      }
+    ],
+    "source_name": "Maritime and Port Authority of Singapore",
+    "source_url": "https://www.mpa.gov.sg",
+    "annotation_notes": "Unsupported claim: Singapore port details absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-019",
+    "category": "unsupported",
+    "question": "What environmental hazards plague the mining community of La Rinconada?",
+    "reference_context": "La Rinconada is a gold-mining settlement in the Peruvian Andes, situated at an altitude of approximately 5,100 metres above sea level.",
+    "generated_answer": "The community suffers from severe mercury contamination and lack of municipal waste infrastructure due to unregulated artisanal gold processing.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 143,
+        "text": "suffers from severe mercury contamination and lack of municipal waste infrastructure due to unregulated artisanal gold processing"
+      }
+    ],
+    "source_name": "Science Magazine",
+    "source_url": "https://www.science.org",
+    "annotation_notes": "Unsupported environmental claim: mercury contamination absent from reference context."
+  },
+  {
+    "test_id": "IND-UNS-020",
+    "category": "unsupported",
+    "question": "Who was the founding president of modern Turkey who moved the capital to Ankara?",
+    "reference_context": "Ankara became the capital of the Republic of Turkey in 1923, succeeding Istanbul as the nation's political center.",
+    "generated_answer": "The move was ordered by Mustafa Kemal Atatürk, the founder and first president of the modern secular Turkish state.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 13,
+        "end": 114,
+        "text": "ordered by Mustafa Kemal Atatürk, the founder and first president of the modern secular Turkish state"
+      }
+    ],
+    "source_name": "Atatürk Research Center",
+    "source_url": "https://www.atam.gov.tr",
+    "annotation_notes": "Unsupported biographical claim: Atatürk details absent from reference text."
+  },
+  {
+    "test_id": "IND-UNS-021",
+    "category": "unsupported",
+    "question": "What scientific radar technology was used to map the bedrock beneath Lambert Glacier?",
+    "reference_context": "The Lambert Glacier in East Antarctica is the world's largest glacier, stretching over 400 kilometres in length and draining 8 percent of the ice sheet.",
+    "generated_answer": "The subterranean bedrock profile beneath the glacier was mapped using airborne radio-echo sounding radar deployed during International Geophysical Year surveys.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 57,
+        "end": 159,
+        "text": "mapped using airborne radio-echo sounding radar deployed during International Geophysical Year surveys"
+      }
+    ],
+    "source_name": "Journal of Glaciology",
+    "source_url": "https://www.cambridge.org/core/journals/journal-of-glaciology",
+    "annotation_notes": "Unsupported technical claim: radio-echo sounding radar mapping absent from context."
+  },
+  {
+    "test_id": "IND-UNS-022",
+    "category": "unsupported",
+    "question": "What famous historical prison operated in Ushuaia during the early twentieth century?",
+    "reference_context": "Ushuaia is the capital of Tierra del Fuego in Argentina, located along the Beagle Channel near South America's southern tip.",
+    "generated_answer": "Ushuaia was originally developed as an Argentine penal colony housing dangerous felons and political prisoners between 1896 and 1947.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 23,
+        "end": 132,
+        "text": "developed as an Argentine penal colony housing dangerous felons and political prisoners between 1896 and 1947"
+      }
+    ],
+    "source_name": "Museo Marítimo de Ushuaia",
+    "source_url": "https://www.museomaritimo.com",
+    "annotation_notes": "Unsupported historical claim: penal colony dates and prison operation absent from context."
+  },
+  {
+    "test_id": "IND-UNS-023",
+    "category": "unsupported",
+    "question": "In Greek mythology, what monster was believed to be trapped beneath Mount Etna?",
+    "reference_context": "Mount Etna is an active stratovolcano on Sicily, standing roughly 3,357 metres high as the tallest active volcano in Europe.",
+    "generated_answer": "In classical Greek mythology, the monstrous serpentine giant Typhon was believed to be trapped beneath the volcano by Zeus.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 0,
+        "end": 123,
+        "text": "In classical Greek mythology, the monstrous serpentine giant Typhon was believed to be trapped beneath the volcano by Zeus."
+      }
+    ],
+    "source_name": "Theoi Greek Mythology",
+    "source_url": "https://www.theoi.com",
+    "annotation_notes": "Unsupported mythological claim: Typhon myth absent from reference."
+  },
+  {
+    "test_id": "IND-UNS-024",
+    "category": "unsupported",
+    "question": "Who popularized the Great Blue Hole through television documentary filming in 1971?",
+    "reference_context": "The Great Blue Hole off the coast of Belize is a circular marine sinkhole measuring over 300 metres across and 124 metres deep.",
+    "generated_answer": "The sinkhole was made world-famous in 1971 by French underwater explorer Jacques Cousteau, who declared it one of the world's top scuba diving sites.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 17,
+        "end": 148,
+        "text": "made world-famous in 1971 by French underwater explorer Jacques Cousteau, who declared it one of the world's top scuba diving sites"
+      }
+    ],
+    "source_name": "Cousteau Society",
+    "source_url": "https://www.cousteau.org",
+    "annotation_notes": "Unsupported historical claim: Jacques Cousteau 1971 expedition absent from text."
+  },
+  {
+    "test_id": "IND-UNS-025",
+    "category": "unsupported",
+    "question": "What famous clock tower is a landmark in the Swiss capital of Bern?",
+    "reference_context": "The city of Bern serves as the de facto federal city and seat of government of Switzerland, housing the Federal Assembly.",
+    "generated_answer": "Bern is celebrated for the Zytglogge, a landmark medieval astronomical clock tower built in the early thirteenth century.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 8,
+        "end": 120,
+        "text": "celebrated for the Zytglogge, a landmark medieval astronomical clock tower built in the early thirteenth century"
+      }
+    ],
+    "source_name": "Bern Tourism",
+    "source_url": "https://www.bern.com",
+    "annotation_notes": "Unsupported architectural claim: Zytglogge clock tower absent from context."
+  },
+  {
+    "test_id": "IND-MIX-001",
+    "category": "mixed",
+    "question": "What is Mount Aconcagua and where is it located?",
+    "reference_context": "Mount Aconcagua is located in the Andes mountain range in Mendoza Province, Argentina. With a summit elevation of 6,961 metres above sea level, it is the highest mountain in both the Southern and Western Hemispheres.",
+    "generated_answer": "Mount Aconcagua is the highest mountain in South America at 6,961 metres, but it is located in central Chile.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 74,
+        "end": 108,
+        "text": "but it is located in central Chile"
+      }
+    ],
+    "source_name": "IGN Argentina",
+    "source_url": "https://www.ign.gob.ar",
+    "annotation_notes": "Mixed claims: Clause 1 (highest mountain, 6,961 m) is supported; Clause 2 (located in central Chile) contradicts context (Argentina)."
+  },
+  {
+    "test_id": "IND-MIX-002",
+    "category": "mixed",
+    "question": "What is the Congo River and what are its notable characteristics?",
+    "reference_context": "The Congo River in central Africa is recognized as the world's deepest river, with measured depths exceeding 220 metres (720 feet) in sections of the Lower Congo. It is also the only major river on Earth that crosses the equator twice.",
+    "generated_answer": "The Congo River is the deepest river in the world, while its maximum depth is limited to 110 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 51,
+        "end": 99,
+        "text": "while its maximum depth is limited to 110 metres"
+      }
+    ],
+    "source_name": "NASA Earth Observatory",
+    "source_url": "https://earthobservatory.nasa.gov",
+    "annotation_notes": "Mixed claims: Clause 1 (deepest river) is supported; Clause 2 (maximum depth limited to 110 m) contradicts context (>220 m)."
+  },
+  {
+    "test_id": "IND-MIX-003",
+    "category": "mixed",
+    "question": "Where is Mount Denali situated and what is its summit elevation?",
+    "reference_context": "Denali is located in the Alaska Range in the interior of the U.S. state of Alaska. Its summit reaches 6,190 metres (20,310 feet) above sea level, making it the highest mountain peak in North America.",
+    "generated_answer": "Denali is the highest mountain peak in North America, but its summit elevation is 7,190 metres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 54,
+        "end": 94,
+        "text": "but its summit elevation is 7,190 metres"
+      }
+    ],
+    "source_name": "USGS",
+    "source_url": "https://www.usgs.gov",
+    "annotation_notes": "Mixed claims: Clause 1 (highest peak in North America) is supported; Clause 2 (7,190 m) contradicts context (6,190 m)."
+  },
+  {
+    "test_id": "IND-MIX-004",
+    "category": "mixed",
+    "question": "What is Lake Tanganyika and how does it rank globally?",
+    "reference_context": "Lake Tanganyika is an African Great Lake. It is the second-oldest freshwater lake in the world, the second-largest by volume, and the second-deepest at 1,470 metres, in all three categories surpassed only by Lake Baikal.",
+    "generated_answer": "Lake Tanganyika is the second-deepest lake in the world, whereas it holds the record as the world's largest lake by surface area.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 57,
+        "end": 128,
+        "text": "whereas it holds the record as the world's largest lake by surface area"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Mixed claims: Clause 1 (second-deepest lake) is supported; Clause 2 (largest lake by surface area) contradicts context."
+  },
+  {
+    "test_id": "IND-MIX-005",
+    "category": "mixed",
+    "question": "What is Cape Agulhas and what waters does it separate?",
+    "reference_context": "Cape Agulhas is the geographic southernmost point of the African continent and the official dividing marker between the Atlantic and Indian Oceans, situated roughly 150 kilometres east of the Cape of Good Hope.",
+    "generated_answer": "Cape Agulhas is the southernmost point of the African continent, and it marks the boundary between the Pacific and Atlantic Oceans.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 65,
+        "end": 130,
+        "text": "and it marks the boundary between the Pacific and Atlantic Oceans"
+      }
+    ],
+    "source_name": "International Hydrographic Organization",
+    "source_url": "https://iho.int",
+    "annotation_notes": "Mixed claims: Clause 1 (southernmost point) is supported; Clause 2 (Pacific and Atlantic boundary) contradicts context (Atlantic and Indian)."
+  },
+  {
+    "test_id": "IND-MIX-006",
+    "category": "mixed",
+    "question": "What is Mount Elbrus and where is it located?",
+    "reference_context": "Mount Elbrus is a dormant stratovolcano located in the Caucasus Mountains in southern Russia. Its west summit rises to 5,642 metres above sea level, establishing it as the highest peak in Europe.",
+    "generated_answer": "Mount Elbrus is the highest peak in Europe at 5,642 metres, although it is situated in the Alps of northern Italy.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 60,
+        "end": 113,
+        "text": "although it is situated in the Alps of northern Italy"
+      }
+    ],
+    "source_name": "Russian Geographical Society",
+    "source_url": "https://www.rgs.ru",
+    "annotation_notes": "Mixed claims: Clause 1 (highest peak in Europe, 5,642 m) is supported; Clause 2 (Alps of northern Italy) contradicts context (Caucasus, Russia)."
+  },
+  {
+    "test_id": "IND-MIX-007",
+    "category": "mixed",
+    "question": "Where is Badwater Basin and what is its elevation?",
+    "reference_context": "Badwater Basin is an endorheic basin situated in Death Valley National Park, California. At 86 metres below sea level, it represents the lowest point of elevation on the North American continent.",
+    "generated_answer": "Badwater Basin is the lowest point of elevation in North America, and it is located in the state of Nevada.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 66,
+        "end": 106,
+        "text": "and it is located in the state of Nevada"
+      }
+    ],
+    "source_name": "National Park Service",
+    "source_url": "https://www.nps.gov/deva",
+    "annotation_notes": "Mixed claims: Clause 1 (lowest point in North America) is supported; Clause 2 (located in Nevada) contradicts context (California)."
+  },
+  {
+    "test_id": "IND-MIX-008",
+    "category": "mixed",
+    "question": "What defines the Sargasso Sea and where is it located?",
+    "reference_context": "The Sargasso Sea is a vast region of the North Atlantic Ocean bounded entirely by circulating ocean currents. It is the only sea on Earth that possesses no terrestrial land coastline.",
+    "generated_answer": "The Sargasso Sea is located in the North Atlantic, while it is completely enclosed by the Scandinavian landmass.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 51,
+        "end": 111,
+        "text": "while it is completely enclosed by the Scandinavian landmass"
+      }
+    ],
+    "source_name": "NOAA Ocean Exploration",
+    "source_url": "https://oceanexplorer.noaa.gov",
+    "annotation_notes": "Mixed claims: Clause 1 (North Atlantic location) is supported; Clause 2 (enclosed by Scandinavian landmass) contradicts context."
+  },
+  {
+    "test_id": "IND-MIX-009",
+    "category": "mixed",
+    "question": "What is the Yangtze River and what is its length?",
+    "reference_context": "The Yangtze River, flowing entirely within China, is the longest river in Asia and the third-longest river in the world, measuring approximately 6,300 kilometres.",
+    "generated_answer": "The Yangtze River is the longest river in Asia, but its measured length is only 3,300 kilometres.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 48,
+        "end": 96,
+        "text": "but its measured length is only 3,300 kilometres"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Mixed claims: Clause 1 (longest in Asia) is supported; Clause 2 (3,300 km) contradicts context (~6,300 km)."
+  },
+  {
+    "test_id": "IND-MIX-010",
+    "category": "mixed",
+    "question": "What is the island of Borneo and how is it governed?",
+    "reference_context": "Borneo is the third-largest island in the world, covering an area of 748,168 square kilometres. The island is politically divided among three sovereign nations: Indonesia, Malaysia, and Brunei.",
+    "generated_answer": "Borneo is the third-largest island in the world, and its entire landmass is governed exclusively by the nation of Indonesia.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 49,
+        "end": 123,
+        "text": "and its entire landmass is governed exclusively by the nation of Indonesia"
+      }
+    ],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Mixed claims: Clause 1 (third-largest island) is supported; Clause 2 (exclusively governed by Indonesia) contradicts context (divided among three)."
+  },
+  {
+    "test_id": "IND-MIX-011",
+    "category": "mixed",
+    "question": "What is the Bosporus Strait and what city does it divide?",
+    "reference_context": "The Bosporus is an international waterway in northwestern Turkey that bisects Istanbul between Europe and Asia, connecting the Black Sea to the Sea of Marmara.",
+    "generated_answer": "The Bosporus Strait connects the Black Sea to the Sea of Marmara, and it divides the city of Athens between two continents.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 66,
+        "end": 122,
+        "text": "and it divides the city of Athens between two continents"
+      }
+    ],
+    "source_name": "Turkish Directorate of Maritime Affairs",
+    "source_url": "https://denizcilik.uab.gov.tr",
+    "annotation_notes": "Mixed claims: Clause 1 (connects Black Sea to Marmara) is supported; Clause 2 (divides Athens) contradicts context (divides Istanbul)."
+  },
+  {
+    "test_id": "IND-MIX-012",
+    "category": "mixed",
+    "question": "What is Vinson Massif and what is its elevation?",
+    "reference_context": "Vinson Massif is the highest mountain in Antarctica, situated in the Sentinel Range. Its summit, Mount Vinson, rises to an elevation of 4,892 metres above sea level.",
+    "generated_answer": "Vinson Massif is located in the Sentinel Range of Antarctica, but it is surpassed in height by Mount Erebus.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 62,
+        "end": 107,
+        "text": "but it is surpassed in height by Mount Erebus"
+      }
+    ],
+    "source_name": "USGS Antarctic Names",
+    "source_url": "https://geonames.usgs.gov",
+    "annotation_notes": "Mixed claims: Clause 1 (Sentinel Range, Antarctica) is supported; Clause 2 (surpassed by Mount Erebus) contradicts context (highest mountain)."
+  },
+  {
+    "test_id": "IND-MIX-013",
+    "category": "mixed",
+    "question": "Where is the Danakil Depression and what are its features?",
+    "reference_context": "The Danakil Depression is a geological depression in the Afar Triangle of northeastern Ethiopia, reaching 125 metres below sea level and containing active volcanoes such as Erta Ale.",
+    "generated_answer": "The Danakil Depression contains the active volcano Erta Ale, but it is situated in the high mountains of Kenya.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 61,
+        "end": 110,
+        "text": "but it is situated in the high mountains of Kenya"
+      }
+    ],
+    "source_name": "Geological Survey of Ethiopia",
+    "source_url": "https://www.gse.gov.et",
+    "annotation_notes": "Mixed claims: Clause 1 (Erta Ale volcano) is supported; Clause 2 (high mountains of Kenya) contradicts context (Ethiopia depression)."
+  },
+  {
+    "test_id": "IND-MIX-014",
+    "category": "mixed",
+    "question": "Where is Iguazu Falls and how is it structured?",
+    "reference_context": "Iguazu Falls consists of approximately 275 individual waterfalls straddling the border between Argentina and Brazil along the Iguazu River.",
+    "generated_answer": "Iguazu Falls consists of around 275 individual cascades, and it is located on the border between Chile and Peru.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 57,
+        "end": 111,
+        "text": "and it is located on the border between Chile and Peru"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Mixed claims: Clause 1 (275 cascades) is supported; Clause 2 (border between Chile and Peru) contradicts context (Argentina and Brazil)."
+  },
+  {
+    "test_id": "IND-MIX-015",
+    "category": "mixed",
+    "question": "What is Mount Chimborazo and why is it notable?",
+    "reference_context": "Mount Chimborazo is an inactive stratovolcano in Ecuador. Due to the equatorial bulge, its summit is the farthest point on Earth's surface from Earth's center, reaching 6,263 metres above sea level.",
+    "generated_answer": "Mount Chimborazo is the farthest terrestrial point from the center of the Earth, although it is an active volcano in Peru.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 81,
+        "end": 121,
+        "text": "although it is an active volcano in Peru"
+      }
+    ],
+    "source_name": "IGN France",
+    "source_url": "https://www.ign.fr",
+    "annotation_notes": "Mixed claims: Clause 1 (farthest point from Earth's center) is supported; Clause 2 (active volcano in Peru) contradicts context (inactive in Ecuador)."
+  },
+  {
+    "test_id": "IND-MIX-016",
+    "category": "mixed",
+    "question": "What is the Volga River and where does it flow?",
+    "reference_context": "The Volga River flows through European Russia and is the longest river in Europe at 3,531 kilometres, discharging into the Caspian Sea.",
+    "generated_answer": "The Volga River is the longest river in Europe, and it flows into the Mediterranean Sea.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 48,
+        "end": 87,
+        "text": "and it flows into the Mediterranean Sea"
+      }
+    ],
+    "source_name": "Encyclopaedia Britannica",
+    "source_url": "https://www.britannica.com",
+    "annotation_notes": "Mixed claims: Clause 1 (longest river in Europe) is supported; Clause 2 (flows into Mediterranean) contradicts context (Caspian Sea)."
+  },
+  {
+    "test_id": "IND-MIX-017",
+    "category": "mixed",
+    "question": "What is the island of New Guinea and how is it divided?",
+    "reference_context": "New Guinea is the second-largest island in the world, covering 785,753 square kilometres, and is divided between Indonesia and Papua New Guinea.",
+    "generated_answer": "New Guinea is the second-largest island in the world, but it is divided between Australia and the Philippines.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 54,
+        "end": 109,
+        "text": "but it is divided between Australia and the Philippines"
+      }
+    ],
+    "source_name": "UNEP Island Directory",
+    "source_url": "https://islands.unep.ch",
+    "annotation_notes": "Mixed claims: Clause 1 (second-largest island) is supported; Clause 2 (divided between Australia and Philippines) contradicts context."
+  },
+  {
+    "test_id": "IND-MIX-018",
+    "category": "mixed",
+    "question": "What does the Strait of Malacca connect?",
+    "reference_context": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, connecting the Indian Ocean to the South China Sea.",
+    "generated_answer": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, while it connects the Atlantic Ocean to the Arctic Ocean.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 68,
+        "end": 124,
+        "text": "while it connects the Atlantic Ocean to the Arctic Ocean"
+      }
+    ],
+    "source_name": "International Maritime Organization",
+    "source_url": "https://www.imo.org",
+    "annotation_notes": "Mixed claims: Clause 1 (runs between Malay Peninsula and Sumatra) is supported; Clause 2 (connects Atlantic to Arctic) contradicts context."
+  },
+  {
+    "test_id": "IND-MIX-019",
+    "category": "mixed",
+    "question": "What is La Rinconada and what is its altitude?",
+    "reference_context": "La Rinconada is a gold-mining settlement in the Peruvian Andes at an altitude of approximately 5,100 metres above sea level, recognized as the highest permanent settlement on Earth.",
+    "generated_answer": "La Rinconada is recognized as the highest permanent settlement on Earth, and it is located on the coastal plains of Colombia.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 73,
+        "end": 124,
+        "text": "and it is located on the coastal plains of Colombia"
+      }
+    ],
+    "source_name": "National Geographic",
+    "source_url": "https://www.nationalgeographic.com",
+    "annotation_notes": "Mixed claims: Clause 1 (highest permanent settlement) is supported; Clause 2 (coastal plains of Colombia) contradicts context (Peruvian Andes)."
+  },
+  {
+    "test_id": "IND-MIX-020",
+    "category": "mixed",
+    "question": "What is Ankara and what role does it play in Turkey?",
+    "reference_context": "Ankara became the official capital of the Republic of Turkey in 1923, succeeding Istanbul as the political center.",
+    "generated_answer": "Ankara is the capital of Turkey, but it was designated as the capital in the year 1823.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 33,
+        "end": 86,
+        "text": "but it was designated as the capital in the year 1823"
+      }
+    ],
+    "source_name": "Presidency of Turkey",
+    "source_url": "https://www.tccb.gov.tr",
+    "annotation_notes": "Mixed claims: Clause 1 (capital of Turkey) is supported; Clause 2 (year 1823) contradicts context (1923)."
+  },
+  {
+    "test_id": "IND-MIX-021",
+    "category": "mixed",
+    "question": "What is the Lambert Glacier and what are its dimensions?",
+    "reference_context": "The Lambert Glacier in East Antarctica is the world's largest glacier, measuring over 400 kilometres in length and draining roughly 8 percent of the Antarctic ice sheet.",
+    "generated_answer": "The Lambert Glacier is the largest glacier in the world, although it is located in the Southern Alps of New Zealand.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 57,
+        "end": 115,
+        "text": "although it is located in the Southern Alps of New Zealand"
+      }
+    ],
+    "source_name": "Australian Antarctic Division",
+    "source_url": "https://www.antarctica.gov.au",
+    "annotation_notes": "Mixed claims: Clause 1 (largest glacier in the world) is supported; Clause 2 (located in Southern Alps of New Zealand) contradicts context (East Antarctica)."
+  },
+  {
+    "test_id": "IND-MIX-022",
+    "category": "mixed",
+    "question": "Where is Ushuaia situated and what is its status?",
+    "reference_context": "Ushuaia is the capital of Tierra del Fuego Province, Argentina, situated along the Beagle Channel as the southernmost city in the world.",
+    "generated_answer": "Ushuaia is the southernmost city in the world, while it is situated in the interior highlands of Bolivia.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 47,
+        "end": 104,
+        "text": "while it is situated in the interior highlands of Bolivia"
+      }
+    ],
+    "source_name": "Instituto Fueguino de Turismo",
+    "source_url": "https://findelmundo.tur.ar",
+    "annotation_notes": "Mixed claims: Clause 1 (southernmost city in the world) is supported; Clause 2 (highlands of Bolivia) contradicts context (Argentina, Beagle Channel)."
+  },
+  {
+    "test_id": "IND-MIX-023",
+    "category": "mixed",
+    "question": "What is Mount Etna and what is its height?",
+    "reference_context": "Mount Etna is an active stratovolcano on Sicily, Italy, rising to roughly 3,357 metres as the tallest active volcano in Europe.",
+    "generated_answer": "Mount Etna is an active stratovolcano on Sicily, but its elevation is less than 500 metres above sea level.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 49,
+        "end": 106,
+        "text": "but its elevation is less than 500 metres above sea level"
+      }
+    ],
+    "source_name": "INGV Catania",
+    "source_url": "https://www.ct.ingv.it",
+    "annotation_notes": "Mixed claims: Clause 1 (active stratovolcano on Sicily) is supported; Clause 2 (<500 m) contradicts context (~3,357 m)."
+  },
+  {
+    "test_id": "IND-MIX-024",
+    "category": "mixed",
+    "question": "Where is the Great Blue Hole and what are its dimensions?",
+    "reference_context": "The Great Blue Hole is a marine sinkhole off the coast of Belize in Lighthouse Reef, measuring over 300 metres across and 124 metres deep.",
+    "generated_answer": "The Great Blue Hole is a marine sinkhole off the coast of Belize, but it is less than 20 metres across.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 66,
+        "end": 102,
+        "text": "but it is less than 20 metres across"
+      }
+    ],
+    "source_name": "UNESCO World Heritage Centre",
+    "source_url": "https://whc.unesco.org",
+    "annotation_notes": "Mixed claims: Clause 1 (marine sinkhole off Belize) is supported; Clause 2 (<20 m across) contradicts context (>300 m across)."
+  },
+  {
+    "test_id": "IND-MIX-025",
+    "category": "mixed",
+    "question": "What is the role of Bern in Switzerland?",
+    "reference_context": "Under Swiss federal law, the city of Bern serves as the de facto federal city and seat of government, while Zurich is the largest financial hub.",
+    "generated_answer": "Bern serves as the seat of government of Switzerland, whereas it was officially founded in the year 2010.",
+    "expected_verdict": "HALLUCINATED",
+    "expected_unsupported_spans": [
+      {
+        "start": 54,
+        "end": 104,
+        "text": "whereas it was officially founded in the year 2010"
+      }
+    ],
+    "source_name": "Federal Chancellery of Switzerland",
+    "source_url": "https://www.bk.admin.ch",
+    "annotation_notes": "Mixed claims: Clause 1 (seat of government) is supported; Clause 2 (founded in 2010) contradicts context (medieval city)."
+  }
+]

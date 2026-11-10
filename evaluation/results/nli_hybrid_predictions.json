@@ -1,0 +1,3929 @@
+[
+  {
+    "test_id": "GEO-SUP-001",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is the highest mountain in Africa and what is its elevation?",
+    "reference_context": "Mount Kilimanjaro is a dormant volcano in northern Tanzania. It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world, with its summit reaching 5,895 metres (19,341 feet) above sea level.",
+    "generated_answer": "Mount Kilimanjaro is the highest mountain in Africa, standing at an elevation of 5,895 metres above sea level.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 110,
+        "text": "Mount Kilimanjaro is the highest mountain in Africa, standing at an elevation of 5,895 metres above sea level.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Mount Kilimanjaro is the highest mountain in Africa, standing at an elevation of 5,895 metres above sea level.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9967,
+        "prob_neutral": 0.0032,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 965.66,
+      "nli_ms": 600.5,
+      "total_ms": 1566.16
+    }
+  },
+  {
+    "test_id": "GEO-SUP-002",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "Where is the Mariana Trench located and what is the name of its deepest point?",
+    "reference_context": "The Mariana Trench is located in the western Pacific Ocean, east of the Mariana Islands. Its deepest section is a small valley known as the Challenger Deep, which descends to an estimated depth of nearly 11,000 metres (36,000 feet).",
+    "generated_answer": "The Mariana Trench is located in the western Pacific Ocean, and its deepest point is known as the Challenger Deep.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0121,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 114,
+        "text": "The Mariana Trench is located in the western Pacific Ocean, and its deepest point is known as the Challenger Deep.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Mariana Trench is located in the western Pacific Ocean, and its deepest point is known as the Challenger Deep.",
+        "label": "entailment",
+        "prob_contradiction": 0.0015,
+        "prob_entailment": 0.9949,
+        "prob_neutral": 0.0036,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 58,
+        "text": "The Mariana Trench is located in the western Pacific Ocean",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Mariana Trench is located in the western Pacific Ocean",
+        "label": "entailment",
+        "prob_contradiction": 0.0121,
+        "prob_entailment": 0.8337,
+        "prob_neutral": 0.1542,
+        "is_contradiction": false
+      },
+      {
+        "start": 64,
+        "end": 114,
+        "text": "its deepest point is known as the Challenger Deep.",
+        "segment_type": "clause",
+        "clean_hypothesis": "its deepest point is known as the Challenger Deep.",
+        "label": "entailment",
+        "prob_contradiction": 0.0021,
+        "prob_entailment": 0.9943,
+        "prob_neutral": 0.0036,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 535.35,
+      "nli_ms": 586.08,
+      "total_ms": 1121.43
+    }
+  },
+  {
+    "test_id": "GEO-SUP-003",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is Lake Superior's ranking among freshwater lakes by surface area?",
+    "reference_context": "Lake Superior is the largest of the Great Lakes of North America. By surface area, it is the world's largest freshwater lake, covering roughly 82,100 square kilometres (31,700 square miles).",
+    "generated_answer": "By surface area, Lake Superior is the world's largest freshwater lake, covering approximately 82,100 square kilometres.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0003,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 119,
+        "text": "By surface area, Lake Superior is the world's largest freshwater lake, covering approximately 82,100 square kilometres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "By surface area, Lake Superior is the world's largest freshwater lake, covering approximately 82,100 square kilometres.",
+        "label": "entailment",
+        "prob_contradiction": 0.0003,
+        "prob_entailment": 0.9971,
+        "prob_neutral": 0.0026,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 430.68,
+      "nli_ms": 169.71,
+      "total_ms": 600.39
+    }
+  },
+  {
+    "test_id": "GEO-SUP-004",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "Where is the Atacama Desert situated and why is it notable?",
+    "reference_context": "The Atacama Desert is a non-polar plateau in South America along the Pacific coast, west of the Andes Mountains. It is recognized as one of the driest places on Earth, with some weather stations never having recorded measurable rainfall.",
+    "generated_answer": "The Atacama Desert is a plateau located along the Pacific coast of South America, renowned as one of the driest places on Earth.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 128,
+        "text": "The Atacama Desert is a plateau located along the Pacific coast of South America, renowned as one of the driest places on Earth.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Atacama Desert is a plateau located along the Pacific coast of South America, renowned as one of the driest places on Earth.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9985,
+        "prob_neutral": 0.0014,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 417.22,
+      "nli_ms": 200.73,
+      "total_ms": 617.95
+    }
+  },
+  {
+    "test_id": "GEO-SUP-005",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is the largest island in the world that is not a continent?",
+    "reference_context": "Greenland is the world's largest island that is not classified as a continent, with an area of about 2,166,000 square kilometres. Most of its surface is covered by a massive continental ice sheet.",
+    "generated_answer": "Greenland is the world's largest island that is not a continent, spanning an area of roughly 2,166,000 square kilometres.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0002,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 121,
+        "text": "Greenland is the world's largest island that is not a continent, spanning an area of roughly 2,166,000 square kilometres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Greenland is the world's largest island that is not a continent, spanning an area of roughly 2,166,000 square kilometres.",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9986,
+        "prob_neutral": 0.0012,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 465.5,
+      "nli_ms": 197.3,
+      "total_ms": 662.8
+    }
+  },
+  {
+    "test_id": "GEO-SUP-006",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is the tallest uninterrupted waterfall in the world and where is it located?",
+    "reference_context": "Angel Falls, located within Canaima National Park in the Bolivar State of Venezuela, is the world's tallest uninterrupted waterfall, with a total height of 979 metres and a clear plunge of 807 metres.",
+    "generated_answer": "Angel Falls is the world's tallest uninterrupted waterfall, reaching a total height of 979 metres in Venezuela's Canaima National Park.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0002,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 135,
+        "text": "Angel Falls is the world's tallest uninterrupted waterfall, reaching a total height of 979 metres in Venezuela's Canaima National Park.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Angel Falls is the world's tallest uninterrupted waterfall, reaching a total height of 979 metres in Venezuela's Canaima National Park.",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9975,
+        "prob_neutral": 0.0023,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 507.6,
+      "nli_ms": 168.96,
+      "total_ms": 676.56
+    }
+  },
+  {
+    "test_id": "GEO-SUP-007",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is notable about the elevation of the Dead Sea's surface?",
+    "reference_context": "The Dead Sea is a hypersaline lake bordered by Jordan to the east and Israel and the West Bank to the west. Its surface and shores sit at roughly 430 metres below sea level, representing Earth's lowest land elevation.",
+    "generated_answer": "The Dead Sea's surface is located approximately 430 metres below sea level, marking Earth's lowest land elevation.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0002,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 114,
+        "text": "The Dead Sea's surface is located approximately 430 metres below sea level, marking Earth's lowest land elevation.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Dead Sea's surface is located approximately 430 metres below sea level, marking Earth's lowest land elevation.",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9984,
+        "prob_neutral": 0.0014,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 395.34,
+      "nli_ms": 189.95,
+      "total_ms": 585.29
+    }
+  },
+  {
+    "test_id": "GEO-SUP-008",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is the Pacific Ring of Fire and what geological activity characterizes it?",
+    "reference_context": "The Ring of Fire is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. About 75 percent of the world's active and dormant volcanoes are situated along this horseshoe-shaped belt.",
+    "generated_answer": "The Pacific Ring of Fire is a horseshoe-shaped belt around the Pacific Ocean basin that contains approximately 75 percent of the world's active and dormant volcanoes.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0002,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 166,
+        "text": "The Pacific Ring of Fire is a horseshoe-shaped belt around the Pacific Ocean basin that contains approximately 75 percent of the world's active and dormant volcanoes.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Pacific Ring of Fire is a horseshoe-shaped belt around the Pacific Ocean basin that contains approximately 75 percent of the world's active and dormant volcanoes.",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9986,
+        "prob_neutral": 0.0013,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 482.55,
+      "nli_ms": 186.73,
+      "total_ms": 669.28
+    }
+  },
+  {
+    "test_id": "GEO-SUP-009",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "How old and deep is Lake Baikal?",
+    "reference_context": "Located in southeastern Siberia, Lake Baikal is the oldest freshwater lake on Earth at approximately 25 million years, and the deepest at 1,642 metres, holding roughly 20 percent of the world's unfrozen surface freshwater.",
+    "generated_answer": "Lake Baikal in Siberia is Earth's oldest freshwater lake at around 25 million years and its deepest at 1,642 metres.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 116,
+        "text": "Lake Baikal in Siberia is Earth's oldest freshwater lake at around 25 million years and its deepest at 1,642 metres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Lake Baikal in Siberia is Earth's oldest freshwater lake at around 25 million years and its deepest at 1,642 metres.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9977,
+        "prob_neutral": 0.0022,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 433.91,
+      "nli_ms": 165.86,
+      "total_ms": 599.77
+    }
+  },
+  {
+    "test_id": "GEO-SUP-010",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "Which water bodies does the Strait of Gibraltar connect?",
+    "reference_context": "The Strait of Gibraltar is a narrow strait connecting the Atlantic Ocean to the Mediterranean Sea and separating the Iberian Peninsula in Europe from Morocco in Africa.",
+    "generated_answer": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea, while separating Europe from Africa.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0109,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 116,
+        "text": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea, while separating Europe from Africa.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea, while separating Europe from Africa.",
+        "label": "entailment",
+        "prob_contradiction": 0.001,
+        "prob_entailment": 0.9963,
+        "prob_neutral": 0.0027,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 78,
+        "text": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Strait of Gibraltar connects the Atlantic Ocean with the Mediterranean Sea",
+        "label": "entailment",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.9952,
+        "prob_neutral": 0.0044,
+        "is_contradiction": false
+      },
+      {
+        "start": 86,
+        "end": 116,
+        "text": "separating Europe from Africa.",
+        "segment_type": "clause",
+        "clean_hypothesis": "separating Europe from Africa.",
+        "label": "entailment",
+        "prob_contradiction": 0.0109,
+        "prob_entailment": 0.5169,
+        "prob_neutral": 0.4722,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 362.71,
+      "nli_ms": 494.06,
+      "total_ms": 856.77
+    }
+  },
+  {
+    "test_id": "GEO-SUP-011",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "Where is the Great Barrier Reef located and what structure does it represent?",
+    "reference_context": "The Great Barrier Reef is situated off the northeastern coast of Queensland, Australia. It is the world's largest coral reef ecosystem, encompassing over 2,500 individual reefs and hundreds of islands across an area of 348,000 square kilometres.",
+    "generated_answer": "Located off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef ecosystem, covering about 348,000 square kilometres.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 157,
+        "text": "Located off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef ecosystem, covering about 348,000 square kilometres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Located off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef ecosystem, covering about 348,000 square kilometres.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9979,
+        "prob_neutral": 0.002,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 570.58,
+      "nli_ms": 218.35,
+      "total_ms": 788.93
+    }
+  },
+  {
+    "test_id": "GEO-SUP-012",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What percentage of global river discharge comes from the Amazon River?",
+    "reference_context": "The Amazon River drains an area of about 7 million square kilometres in northern South America. It accounts for approximately one-fifth, or 20 percent, of the total global river flow into oceans.",
+    "generated_answer": "The Amazon River drains approximately 7 million square kilometres and contributes roughly 20 percent of the world's river discharge to oceans.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 142,
+        "text": "The Amazon River drains approximately 7 million square kilometres and contributes roughly 20 percent of the world's river discharge to oceans.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Amazon River drains approximately 7 million square kilometres and contributes roughly 20 percent of the world's river discharge to oceans.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9984,
+        "prob_neutral": 0.0015,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 388.81,
+      "nli_ms": 190.34,
+      "total_ms": 579.15
+    }
+  },
+  {
+    "test_id": "GEO-SUP-013",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What type of volcano is Mount Fuji and what is its summit elevation?",
+    "reference_context": "Mount Fuji is an active stratovolcano situated on Honshu island in Japan. It is Japan's tallest mountain, with a summit elevation of 3,776 metres (12,389 feet), and last erupted between 1707 and 1708.",
+    "generated_answer": "Mount Fuji is an active stratovolcano located on Honshu in Japan, reaching a peak elevation of 3,776 metres.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0003,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 108,
+        "text": "Mount Fuji is an active stratovolcano located on Honshu in Japan, reaching a peak elevation of 3,776 metres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Mount Fuji is an active stratovolcano located on Honshu in Japan, reaching a peak elevation of 3,776 metres.",
+        "label": "entailment",
+        "prob_contradiction": 0.0003,
+        "prob_entailment": 0.998,
+        "prob_neutral": 0.0018,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 632.37,
+      "nli_ms": 191.96,
+      "total_ms": 824.33
+    }
+  },
+  {
+    "test_id": "GEO-SUP-014",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "Where is Madagascar located and what is its island size ranking?",
+    "reference_context": "Madagascar is an island country located in the Indian Ocean, roughly 400 kilometres off the coast of East Africa across the Mozambique Channel. It is the world's fourth-largest island.",
+    "generated_answer": "Madagascar is situated in the Indian Ocean off East Africa and ranks as the world's fourth-largest island.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 106,
+        "text": "Madagascar is situated in the Indian Ocean off East Africa and ranks as the world's fourth-largest island.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Madagascar is situated in the Indian Ocean off East Africa and ranks as the world's fourth-largest island.",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9982,
+        "prob_neutral": 0.0017,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 364.33,
+      "nli_ms": 170.76,
+      "total_ms": 535.09
+    }
+  },
+  {
+    "test_id": "GEO-SUP-015",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "CLEAN",
+    "is_correct": true,
+    "fusion_source": "unanimous_clean",
+    "question": "What is the Caspian Sea and why is it classified as an endorheic basin?",
+    "reference_context": "The Caspian Sea is the world's largest inland body of water, often classified as the world's largest lake or a full-fledged sea. Because it has no natural outlets to the world ocean, it is classified as an endorheic basin.",
+    "generated_answer": "The Caspian Sea is the world's largest inland water body, classified as an endorheic basin because it lacks natural outlets to the ocean.",
+    "expected_unsupported_spans": [],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [],
+    "span_count": 0,
+    "nli_max_contradiction": 0.0003,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 137,
+        "text": "The Caspian Sea is the world's largest inland water body, classified as an endorheic basin because it lacks natural outlets to the ocean.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Caspian Sea is the world's largest inland water body, classified as an endorheic basin because it lacks natural outlets to the ocean.",
+        "label": "entailment",
+        "prob_contradiction": 0.0003,
+        "prob_entailment": 0.9975,
+        "prob_neutral": 0.0022,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 463.55,
+      "nli_ms": 174.22,
+      "total_ms": 637.77
+    }
+  },
+  {
+    "test_id": "GEO-CON-001",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "Which river is the longest in the world according to the reference?",
+    "reference_context": "The Nile River in northeastern Africa is traditionally considered the longest river in the world, with a measured length of approximately 6,650 kilometres (4,132 miles). The Amazon River in South America is the second longest at roughly 6,400 kilometres.",
+    "generated_answer": "According to the reference, the Amazon River is the longest river in the world at 6,650 kilometres.",
+    "expected_unsupported_spans": [
+      {
+        "start": 28,
+        "end": 44,
+        "text": "the Amazon River"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 99,
+        "text": "According to the reference, the Amazon River is the longest river in the world at 6,650 kilometres.",
+        "confidence": 0.9293,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 99,
+        "text": "According to the reference, the Amazon River is the longest river in the world at 6,650 kilometres.",
+        "confidence": 0.9293,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9293,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 99,
+        "text": "According to the reference, the Amazon River is the longest river in the world at 6,650 kilometres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "the Amazon River is the longest river in the world at 6,650 kilometres.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9293,
+        "prob_entailment": 0.0081,
+        "prob_neutral": 0.0626,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 416.25,
+      "nli_ms": 176.47,
+      "total_ms": 592.72
+    }
+  },
+  {
+    "test_id": "GEO-CON-002",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "What is the elevation ranking of K2?",
+    "reference_context": "K2, situated on the China-Pakistan border in the Karakoram range, is the second-highest mountain on Earth at 8,611 metres above sea level, surpassed only by Mount Everest at 8,848 metres.",
+    "generated_answer": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+    "expected_unsupported_spans": [
+      {
+        "start": 10,
+        "end": 23,
+        "text": "third-highest"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 74,
+        "text": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+        "confidence": 0.9971,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 74,
+        "text": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+        "confidence": 0.9971,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9971,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 74,
+        "text": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "K2 is the third-highest mountain on Earth at 8,611 metres above sea level.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9971,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.0026,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 412.81,
+      "nli_ms": 195.94,
+      "total_ms": 608.75
+    }
+  },
+  {
+    "test_id": "GEO-CON-003",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What type of plate boundary is the San Andreas Fault?",
+    "reference_context": "The San Andreas Fault is a continental transform fault extending roughly 1,200 kilometres through California. It forms the tectonic boundary where the Pacific Plate and the North American Plate slide past one another horizontally.",
+    "generated_answer": "The San Andreas Fault is a convergent subduction zone where one tectonic plate is thrust beneath another.",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 104,
+        "text": "a convergent subduction zone where one tectonic plate is thrust beneath another"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 26,
+        "end": 53,
+        "text": " convergent subduction zone",
+        "confidence": 0.585710346698761,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 105,
+        "text": "The San Andreas Fault is a convergent subduction zone where one tectonic plate is thrust beneath another.",
+        "confidence": 0.9984,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 26,
+        "end": 53,
+        "text": " convergent subduction zone",
+        "confidence": 0.585710346698761,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9984,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 105,
+        "text": "The San Andreas Fault is a convergent subduction zone where one tectonic plate is thrust beneath another.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The San Andreas Fault is a convergent subduction zone where one tectonic plate is thrust beneath another.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9984,
+        "prob_entailment": 0.001,
+        "prob_neutral": 0.0007,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 625.53,
+      "nli_ms": 203.06,
+      "total_ms": 828.59
+    }
+  },
+  {
+    "test_id": "GEO-CON-004",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "On which river and border is Victoria Falls located?",
+    "reference_context": "Victoria Falls is located on the Zambezi River at the border between Zambia and Zimbabwe in southern Africa. It is known locally as Mosi-oa-Tunya.",
+    "generated_answer": "Victoria Falls is located on the Congo River along the border between Zambia and Zimbabwe.",
+    "expected_unsupported_spans": [
+      {
+        "start": 29,
+        "end": 44,
+        "text": "the Congo River"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 28,
+        "end": 44,
+        "text": " the Congo River",
+        "confidence": 0.6307151913642883,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 90,
+        "text": "Victoria Falls is located on the Congo River along the border between Zambia and Zimbabwe.",
+        "confidence": 0.9993,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 28,
+        "end": 44,
+        "text": " the Congo River",
+        "confidence": 0.6307151913642883,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9993,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 90,
+        "text": "Victoria Falls is located on the Congo River along the border between Zambia and Zimbabwe.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Victoria Falls is located on the Congo River along the border between Zambia and Zimbabwe.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9993,
+        "prob_entailment": 0.0002,
+        "prob_neutral": 0.0006,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 711.23,
+      "nli_ms": 206.81,
+      "total_ms": 918.04
+    }
+  },
+  {
+    "test_id": "GEO-CON-005",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "How large is the Sahara Desert and what type of desert is it?",
+    "reference_context": "The Sahara is the largest hot desert in the world, covering an area of approximately 9.2 million square kilometres across North Africa. By total area, it ranks third behind the cold polar deserts of Antarctica and the Arctic.",
+    "generated_answer": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+    "expected_unsupported_spans": [
+      {
+        "start": 14,
+        "end": 105,
+        "text": "the world's largest desert overall, surpassing both Antarctica and the Arctic in total area"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 106,
+        "text": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+        "confidence": 0.9902,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 106,
+        "text": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+        "confidence": 0.9902,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9902,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 106,
+        "text": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Sahara is the world's largest desert overall, surpassing both Antarctica and the Arctic in total area.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9902,
+        "prob_entailment": 0.0031,
+        "prob_neutral": 0.0067,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 581.26,
+      "nli_ms": 191.48,
+      "total_ms": 772.74
+    }
+  },
+  {
+    "test_id": "GEO-CON-006",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Which tectonic plates meet in Iceland?",
+    "reference_context": "Iceland is situated on the Mid-Atlantic Ridge, where the Eurasian Plate and the North American Plate are actively diverging at a rate of about 2 centimetres per year.",
+    "generated_answer": "In Iceland, the Mid-Atlantic Ridge marks a convergent boundary where the Eurasian Plate and African Plate collide.",
+    "expected_unsupported_spans": [
+      {
+        "start": 41,
+        "end": 113,
+        "text": "a convergent boundary where the Eurasian Plate and African Plate collide"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 72,
+        "end": 114,
+        "text": " Eurasian Plate and African Plate collide.",
+        "confidence": 0.9009982347488403,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 114,
+        "text": "In Iceland, the Mid-Atlantic Ridge marks a convergent boundary where the Eurasian Plate and African Plate collide.",
+        "confidence": 0.9987,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 72,
+        "end": 114,
+        "text": " Eurasian Plate and African Plate collide.",
+        "confidence": 0.9009982347488403,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9987,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 114,
+        "text": "In Iceland, the Mid-Atlantic Ridge marks a convergent boundary where the Eurasian Plate and African Plate collide.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "In Iceland, the Mid-Atlantic Ridge marks a convergent boundary where the Eurasian Plate and African Plate collide.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9987,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.001,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 414.71,
+      "nli_ms": 222.5,
+      "total_ms": 637.21
+    }
+  },
+  {
+    "test_id": "GEO-CON-007",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Which river carved the Grand Canyon?",
+    "reference_context": "The Grand Canyon in Arizona was carved over millions of years by the Colorado River and its tributaries, exposing nearly two billion years of Earth's geological history.",
+    "generated_answer": "The Grand Canyon in Arizona was carved over millions of years by the Rio Grande and its tributaries.",
+    "expected_unsupported_spans": [
+      {
+        "start": 65,
+        "end": 79,
+        "text": "the Rio Grande"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 61,
+        "end": 100,
+        "text": " by the Rio Grande and its tributaries.",
+        "confidence": 0.9736035466194153,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 100,
+        "text": "The Grand Canyon in Arizona was carved over millions of years by the Rio Grande and its tributaries.",
+        "confidence": 0.9477,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 61,
+        "end": 100,
+        "text": " by the Rio Grande and its tributaries.",
+        "confidence": 0.9736035466194153,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9477,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 100,
+        "text": "The Grand Canyon in Arizona was carved over millions of years by the Rio Grande and its tributaries.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Grand Canyon in Arizona was carved over millions of years by the Rio Grande and its tributaries.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9477,
+        "prob_entailment": 0.0409,
+        "prob_neutral": 0.0115,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 587.08,
+      "nli_ms": 211.57,
+      "total_ms": 798.65
+    }
+  },
+  {
+    "test_id": "GEO-CON-008",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Which oceans does the Panama Canal connect?",
+    "reference_context": "The Panama Canal is an artificial 82-kilometre waterway in Panama that connects the Atlantic Ocean with the Pacific Ocean, cutting across the Isthmus of Panama.",
+    "generated_answer": "The Panama Canal is an artificial 82-kilometre waterway that connects the Atlantic Ocean with the Indian Ocean.",
+    "expected_unsupported_spans": [
+      {
+        "start": 94,
+        "end": 110,
+        "text": "the Indian Ocean"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 104,
+        "end": 110,
+        "text": " Ocean",
+        "confidence": 0.6179898977279663,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 111,
+        "text": "The Panama Canal is an artificial 82-kilometre waterway that connects the Atlantic Ocean with the Indian Ocean.",
+        "confidence": 0.9991,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 104,
+        "end": 110,
+        "text": " Ocean",
+        "confidence": 0.6179898977279663,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9991,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 111,
+        "text": "The Panama Canal is an artificial 82-kilometre waterway that connects the Atlantic Ocean with the Indian Ocean.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Panama Canal is an artificial 82-kilometre waterway that connects the Atlantic Ocean with the Indian Ocean.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9991,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.0008,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 333.93,
+      "nli_ms": 141.58,
+      "total_ms": 475.51
+    }
+  },
+  {
+    "test_id": "GEO-CON-009",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Which country administers the Galápagos Islands?",
+    "reference_context": "The Galápagos Islands are an archipelago of volcanic islands distributed on both sides of the equator in the Pacific Ocean, forming a special province of Ecuador roughly 1,000 kilometres west of the South American continent.",
+    "generated_answer": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean governed as an overseas territory of Peru.",
+    "expected_unsupported_spans": [
+      {
+        "start": 107,
+        "end": 111,
+        "text": "Peru"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 69,
+        "end": 112,
+        "text": " governed as an overseas territory of Peru.",
+        "confidence": 0.9959639310836792,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 112,
+        "text": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean governed as an overseas territory of Peru.",
+        "confidence": 0.999,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 69,
+        "end": 112,
+        "text": " governed as an overseas territory of Peru.",
+        "confidence": 0.9959639310836792,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.999,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 112,
+        "text": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean governed as an overseas territory of Peru.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Galápagos Islands are a volcanic archipelago in the Pacific Ocean governed as an overseas territory of Peru.",
+        "label": "contradiction",
+        "prob_contradiction": 0.999,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.001,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 394.96,
+      "nli_ms": 159.7,
+      "total_ms": 554.66
+    }
+  },
+  {
+    "test_id": "GEO-CON-010",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Is the Red Sea a freshwater or saltwater body?",
+    "reference_context": "The Red Sea is an inlet of the Indian Ocean between Africa and Asia. It is one of the saltiest bodies of water in the world, with salinity levels averaging between 36 and 41 parts per thousand due to high evaporation and lack of river inflow.",
+    "generated_answer": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+    "expected_unsupported_spans": [
+      {
+        "start": 15,
+        "end": 117,
+        "text": "a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 0,
+        "end": 118,
+        "text": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+        "confidence": 0.9974536299705505,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 118,
+        "text": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+        "confidence": 0.9996,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 118,
+        "text": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+        "confidence": 0.9974536299705505,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9996,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 118,
+        "text": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Red Sea is a major freshwater reservoir between Africa and Asia, sustained by substantial freshwater river inflow.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9996,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.0003,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 460.98,
+      "nli_ms": 214.21,
+      "total_ms": 675.19
+    }
+  },
+  {
+    "test_id": "GEO-CON-011",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "How does Mauna Kea compare to Mount Everest from base to peak?",
+    "reference_context": "Mount Everest is the highest mountain above sea level at 8,848 metres. However, Mauna Kea in Hawaii is taller when measured from its underwater base on the oceanic floor to its summit, totaling over 10,200 metres, though only 4,207 metres rise above sea level.",
+    "generated_answer": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+    "expected_unsupported_spans": [
+      {
+        "start": 49,
+        "end": 87,
+        "text": "Mount Everest is taller than Mauna Kea"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 117,
+        "text": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+        "confidence": 0.9849,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 117,
+        "text": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+        "confidence": 0.9849,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9849,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 117,
+        "text": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Measured from its underwater base to its summit, Mount Everest is taller than Mauna Kea, reaching over 10,200 metres.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9849,
+        "prob_entailment": 0.0137,
+        "prob_neutral": 0.0015,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 487.48,
+      "nli_ms": 246.95,
+      "total_ms": 734.43
+    }
+  },
+  {
+    "test_id": "GEO-CON-012",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What is the federal capital of Canada?",
+    "reference_context": "Ottawa is the capital city of Canada, located in the province of Ontario on the southern bank of the Ottawa River. Toronto and Montreal are Canada's two largest metropolitan centers by population.",
+    "generated_answer": "The capital city of Canada is Toronto, situated on the southern bank of the Ottawa River.",
+    "expected_unsupported_spans": [
+      {
+        "start": 30,
+        "end": 37,
+        "text": "Toronto"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 3,
+        "end": 37,
+        "text": " capital city of Canada is Toronto",
+        "confidence": 0.688683032989502,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 89,
+        "text": "The capital city of Canada is Toronto, situated on the southern bank of the Ottawa River.",
+        "confidence": 0.9987,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 3,
+        "end": 37,
+        "text": " capital city of Canada is Toronto",
+        "confidence": 0.688683032989502,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9987,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 89,
+        "text": "The capital city of Canada is Toronto, situated on the southern bank of the Ottawa River.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The capital city of Canada is Toronto, situated on the southern bank of the Ottawa River.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9987,
+        "prob_entailment": 0.0005,
+        "prob_neutral": 0.0008,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 411.7,
+      "nli_ms": 168.45,
+      "total_ms": 580.15
+    }
+  },
+  {
+    "test_id": "GEO-CON-013",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What bodies of water and landmasses are separated by the Drake Passage?",
+    "reference_context": "The Drake Passage is the body of water between South America's Cape Horn and the South Shetland Islands of Antarctica, connecting the southwestern Atlantic Ocean with the southeastern Pacific Ocean.",
+    "generated_answer": "The Drake Passage is the body of water that separates southern Africa from Antarctica, linking the Indian and Southern oceans.",
+    "expected_unsupported_spans": [
+      {
+        "start": 44,
+        "end": 125,
+        "text": "separates southern Africa from Antarctica, linking the Indian and Southern oceans"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 38,
+        "end": 85,
+        "text": " that separates southern Africa from Antarctica",
+        "confidence": 0.912402868270874,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 126,
+        "text": "The Drake Passage is the body of water that separates southern Africa from Antarctica, linking the Indian and Southern oceans.",
+        "confidence": 0.9977,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 38,
+        "end": 85,
+        "text": " that separates southern Africa from Antarctica",
+        "confidence": 0.912402868270874,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9977,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 126,
+        "text": "The Drake Passage is the body of water that separates southern Africa from Antarctica, linking the Indian and Southern oceans.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Drake Passage is the body of water that separates southern Africa from Antarctica, linking the Indian and Southern oceans.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9977,
+        "prob_entailment": 0.0004,
+        "prob_neutral": 0.0018,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 398.97,
+      "nli_ms": 167.84,
+      "total_ms": 566.81
+    }
+  },
+  {
+    "test_id": "GEO-CON-014",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What distinction does Lake Titicaca hold regarding its elevation?",
+    "reference_context": "Straddling the border between Peru and Bolivia in the Andes Mountains, Lake Titicaca sits at an elevation of 3,812 metres (12,507 feet) above sea level, making it the highest commercially navigable lake in the world.",
+    "generated_answer": "Situated on the Peru-Bolivia border, Lake Titicaca is the lowest freshwater lake in the Americas, lying 3,812 metres below sea level.",
+    "expected_unsupported_spans": [
+      {
+        "start": 58,
+        "end": 132,
+        "text": "lowest freshwater lake in the Americas, lying 3,812 metres below sea level"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 47,
+        "end": 96,
+        "text": "aca is the lowest freshwater lake in the Americas",
+        "confidence": 0.8572654128074646,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 133,
+        "text": "Situated on the Peru-Bolivia border, Lake Titicaca is the lowest freshwater lake in the Americas, lying 3,812 metres below sea level.",
+        "confidence": 0.9988,
+        "category": "contradiction",
+        "segment_type": "full_answer"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 47,
+        "end": 96,
+        "text": "aca is the lowest freshwater lake in the Americas",
+        "confidence": 0.8572654128074646,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9988,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 133,
+        "text": "Situated on the Peru-Bolivia border, Lake Titicaca is the lowest freshwater lake in the Americas, lying 3,812 metres below sea level.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Situated on the Peru-Bolivia border, Lake Titicaca is the lowest freshwater lake in the Americas, lying 3,812 metres below sea level.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9988,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.0011,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 439.36,
+      "nli_ms": 155.56,
+      "total_ms": 594.92
+    }
+  },
+  {
+    "test_id": "GEO-CON-015",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What tectonic process formed the East African Rift?",
+    "reference_context": "The East African Rift is an active continental rift zone where the African Plate is splitting into two smaller tectonic plates: the Nubian Plate and the Somali Plate.",
+    "generated_answer": "The East African Rift is a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust.",
+    "expected_unsupported_spans": [
+      {
+        "start": 25,
+        "end": 153,
+        "text": "a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 0,
+        "end": 65,
+        "text": "The East African Rift is a major mountain-building collision zone",
+        "confidence": 0.9851710200309753,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 119,
+        "end": 153,
+        "text": " to compress the continental crust",
+        "confidence": 0.8457720279693604,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 0,
+        "end": 65,
+        "text": "The East African Rift is a major mountain-building collision zone",
+        "confidence": 0.9851710200309753,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 119,
+        "end": 153,
+        "text": " to compress the continental crust",
+        "confidence": 0.8457720279693604,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "nli_max_contradiction": 0.05,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 154,
+        "text": "The East African Rift is a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The East African Rift is a major mountain-building collision zone where the Nubian Plate and Somali Plate are colliding to compress the continental crust.",
+        "label": "neutral",
+        "prob_contradiction": 0.05,
+        "prob_entailment": 0.0033,
+        "prob_neutral": 0.9467,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 366.24,
+      "nli_ms": 148.35,
+      "total_ms": 514.59
+    }
+  },
+  {
+    "test_id": "GEO-UNS-001",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is Lake Baikal located and what is its maximum depth?",
+    "reference_context": "Lake Baikal is a rift lake situated in southern Siberia, Russia. It is recognized as the world's deepest lake, reaching a maximum depth of 1,642 metres (5,387 feet).",
+    "generated_answer": "Lake Baikal is located in southern Siberia, Russia, and was declared a UNESCO World Heritage Site in 1996.",
+    "expected_unsupported_spans": [
+      {
+        "start": 52,
+        "end": 105,
+        "text": "and was declared a UNESCO World Heritage Site in 1996"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 51,
+        "end": 106,
+        "text": " and was declared a UNESCO World Heritage Site in 1996.",
+        "confidence": 0.9952033758163452,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 51,
+        "end": 106,
+        "text": " and was declared a UNESCO World Heritage Site in 1996.",
+        "confidence": 0.9952033758163452,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0005,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 106,
+        "text": "Lake Baikal is located in southern Siberia, Russia, and was declared a UNESCO World Heritage Site in 1996.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Lake Baikal is located in southern Siberia, Russia, and was declared a UNESCO World Heritage Site in 1996.",
+        "label": "neutral",
+        "prob_contradiction": 0.0003,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9996,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 50,
+        "text": "Lake Baikal is located in southern Siberia, Russia",
+        "segment_type": "clause",
+        "clean_hypothesis": "Lake Baikal is located in southern Siberia, Russia",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9961,
+        "prob_neutral": 0.0037,
+        "is_contradiction": false
+      },
+      {
+        "start": 56,
+        "end": 106,
+        "text": "was declared a UNESCO World Heritage Site in 1996.",
+        "segment_type": "clause",
+        "clean_hypothesis": "was declared a UNESCO World Heritage Site in 1996.",
+        "label": "neutral",
+        "prob_contradiction": 0.0005,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9994,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 378.77,
+      "nli_ms": 457.88,
+      "total_ms": 836.65
+    }
+  },
+  {
+    "test_id": "GEO-UNS-002",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What is Mount Everest's location and height?",
+    "reference_context": "Mount Everest is located in the Mahalangur Himal sub-range of the Himalayas on the border between Nepal and China. Its summit stands at an elevation of 8,848.86 metres above sea level.",
+    "generated_answer": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+    "expected_unsupported_spans": [
+      {
+        "start": 88,
+        "end": 155,
+        "text": "and was first summited by Edmund Hillary and Tenzing Norgay in 1953"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 91,
+        "end": 156,
+        "text": " was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "confidence": 0.9995666146278381,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 77,
+        "end": 86,
+        "text": "86 metres",
+        "confidence": 0.7064,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 91,
+        "end": 156,
+        "text": " was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "confidence": 0.9995666146278381,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.8332,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 156,
+        "text": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "label": "neutral",
+        "prob_contradiction": 0.0006,
+        "prob_entailment": 0.0002,
+        "prob_neutral": 0.9992,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 77,
+        "text": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "Mount Everest is located in the Himalayas on the Nepal-China border at 8,848.",
+        "label": "entailment",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.9963,
+        "prob_neutral": 0.0033,
+        "is_contradiction": false
+      },
+      {
+        "start": 77,
+        "end": 156,
+        "text": "86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "86 metres, and was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "label": "contradiction",
+        "prob_contradiction": 0.8332,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.1667,
+        "is_contradiction": true
+      },
+      {
+        "start": 77,
+        "end": 86,
+        "text": "86 metres",
+        "segment_type": "clause",
+        "clean_hypothesis": "86 metres",
+        "label": "contradiction",
+        "prob_contradiction": 0.7064,
+        "prob_entailment": 0.0393,
+        "prob_neutral": 0.2542,
+        "is_contradiction": true
+      },
+      {
+        "start": 92,
+        "end": 156,
+        "text": "was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "segment_type": "clause",
+        "clean_hypothesis": "was first summited by Edmund Hillary and Tenzing Norgay in 1953.",
+        "label": "neutral",
+        "prob_contradiction": 0.0013,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9986,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 413.26,
+      "nli_ms": 812.67,
+      "total_ms": 1225.93
+    }
+  },
+  {
+    "test_id": "GEO-UNS-003",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where does the Danube River originate and empty?",
+    "reference_context": "The Danube River originates in the Black Forest of Germany and flows eastward for roughly 2,850 kilometres before emptying into the Black Sea via the Danube Delta.",
+    "generated_answer": "Originating in Germany's Black Forest, the Danube River flows into the Black Sea and passes through ten different European countries.",
+    "expected_unsupported_spans": [
+      {
+        "start": 81,
+        "end": 132,
+        "text": "and passes through ten different European countries"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 80,
+        "end": 133,
+        "text": " and passes through ten different European countries.",
+        "confidence": 0.9964928030967712,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 80,
+        "end": 133,
+        "text": " and passes through ten different European countries.",
+        "confidence": 0.9964928030967712,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0009,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 133,
+        "text": "Originating in Germany's Black Forest, the Danube River flows into the Black Sea and passes through ten different European countries.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Originating in Germany's Black Forest, the Danube River flows into the Black Sea and passes through ten different European countries.",
+        "label": "neutral",
+        "prob_contradiction": 0.0009,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.999,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 382.96,
+      "nli_ms": 158.01,
+      "total_ms": 540.97
+    }
+  },
+  {
+    "test_id": "GEO-UNS-004",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the taiga and where does it occur?",
+    "reference_context": "The taiga, also known as the boreal forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches. It spans across North America and Eurasia south of the Arctic tundra.",
+    "generated_answer": "The taiga is a coniferous forest biome occurring south of the tundra, home to apex predators including Siberian tigers and brown bears.",
+    "expected_unsupported_spans": [
+      {
+        "start": 70,
+        "end": 134,
+        "text": "home to apex predators including Siberian tigers and brown bears"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 69,
+        "end": 135,
+        "text": " home to apex predators including Siberian tigers and brown bears.",
+        "confidence": 0.9962522387504578,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 69,
+        "end": 135,
+        "text": " home to apex predators including Siberian tigers and brown bears.",
+        "confidence": 0.9962522387504578,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 135,
+        "text": "The taiga is a coniferous forest biome occurring south of the tundra, home to apex predators including Siberian tigers and brown bears.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The taiga is a coniferous forest biome occurring south of the tundra, home to apex predators including Siberian tigers and brown bears.",
+        "label": "neutral",
+        "prob_contradiction": 0.001,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9989,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 399.89,
+      "nli_ms": 156.28,
+      "total_ms": 556.17
+    }
+  },
+  {
+    "test_id": "GEO-UNS-005",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Gobi Desert located and what is its climate?",
+    "reference_context": "The Gobi Desert is a large cold desert region in East Asia, spanning parts of northern and northeastern China and southern Mongolia. It experiences extreme temperature swings between summer and winter.",
+    "generated_answer": "The Gobi Desert spans northern China and southern Mongolia, where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+    "expected_unsupported_spans": [
+      {
+        "start": 60,
+        "end": 140,
+        "text": "where paleontologists discovered the first recognized dinosaur eggs in the 1920s"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 59,
+        "end": 141,
+        "text": " where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+        "confidence": 0.9997121691703796,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 59,
+        "end": 141,
+        "text": " where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+        "confidence": 0.9997121691703796,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0009,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 141,
+        "text": "The Gobi Desert spans northern China and southern Mongolia, where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Gobi Desert spans northern China and southern Mongolia, where paleontologists discovered the first recognized dinosaur eggs in the 1920s.",
+        "label": "neutral",
+        "prob_contradiction": 0.0009,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9989,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 354.47,
+      "nli_ms": 153.14,
+      "total_ms": 507.61
+    }
+  },
+  {
+    "test_id": "GEO-UNS-006",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Suez Canal and what bodies of water does it connect?",
+    "reference_context": "The Suez Canal is an artificial sea-level waterway in Egypt, extending 193 kilometres between the Mediterranean Sea at Port Said and the Red Sea at the Gulf of Suez.",
+    "generated_answer": "The Suez Canal connects the Mediterranean and Red seas across 193 kilometres in Egypt, having been engineered by Ferdinand de Lesseps in 1869.",
+    "expected_unsupported_spans": [
+      {
+        "start": 87,
+        "end": 141,
+        "text": "having been engineered by Ferdinand de Lesseps in 1869"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 86,
+        "end": 142,
+        "text": " having been engineered by Ferdinand de Lesseps in 1869.",
+        "confidence": 0.9988247752189636,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 86,
+        "end": 142,
+        "text": " having been engineered by Ferdinand de Lesseps in 1869.",
+        "confidence": 0.9988247752189636,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0001,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 142,
+        "text": "The Suez Canal connects the Mediterranean and Red seas across 193 kilometres in Egypt, having been engineered by Ferdinand de Lesseps in 1869.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Suez Canal connects the Mediterranean and Red seas across 193 kilometres in Egypt, having been engineered by Ferdinand de Lesseps in 1869.",
+        "label": "neutral",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9995,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 372.7,
+      "nli_ms": 158.22,
+      "total_ms": 530.92
+    }
+  },
+  {
+    "test_id": "GEO-UNS-007",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the physical extent of Victoria Falls?",
+    "reference_context": "Victoria Falls forms one of the largest sheets of falling water in the world, measuring roughly 1,708 metres wide with a vertical drop of 108 metres on the Zambezi River.",
+    "generated_answer": "Victoria Falls is 1,708 metres wide and 108 metres high on the Zambezi River, where its local name translates directly to The Smoke That Thunders.",
+    "expected_unsupported_spans": [
+      {
+        "start": 78,
+        "end": 145,
+        "text": "where its local name translates directly to The Smoke That Thunders"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 77,
+        "end": 146,
+        "text": " where its local name translates directly to The Smoke That Thunders.",
+        "confidence": 0.9998499155044556,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 77,
+        "end": 146,
+        "text": " where its local name translates directly to The Smoke That Thunders.",
+        "confidence": 0.9998499155044556,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0125,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 146,
+        "text": "Victoria Falls is 1,708 metres wide and 108 metres high on the Zambezi River, where its local name translates directly to The Smoke That Thunders.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Victoria Falls is 1,708 metres wide and 108 metres high on the Zambezi River, where its local name translates directly to The Smoke That Thunders.",
+        "label": "entailment",
+        "prob_contradiction": 0.0125,
+        "prob_entailment": 0.5428,
+        "prob_neutral": 0.4447,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 362.88,
+      "nli_ms": 161.55,
+      "total_ms": 524.43
+    }
+  },
+  {
+    "test_id": "GEO-UNS-008",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the Matterhorn's elevation and alpine location?",
+    "reference_context": "The Matterhorn is a pyramidal mountain peak in the Pennine Alps, situated on the border between Switzerland and Italy. Its summit reaches an altitude of 4,478 metres.",
+    "generated_answer": "The Matterhorn is a 4,478-metre peak on the Swiss-Italian border, which was first conquered by Edward Whymper's expedition in July 1865.",
+    "expected_unsupported_spans": [
+      {
+        "start": 66,
+        "end": 135,
+        "text": "which was first conquered by Edward Whymper's expedition in July 1865"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 65,
+        "end": 136,
+        "text": " which was first conquered by Edward Whymper's expedition in July 1865.",
+        "confidence": 0.9976866245269775,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 65,
+        "end": 136,
+        "text": " which was first conquered by Edward Whymper's expedition in July 1865.",
+        "confidence": 0.9976866245269775,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0004,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 136,
+        "text": "The Matterhorn is a 4,478-metre peak on the Swiss-Italian border, which was first conquered by Edward Whymper's expedition in July 1865.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Matterhorn is a 4,478-metre peak on the Swiss-Italian border, which was first conquered by Edward Whymper's expedition in July 1865.",
+        "label": "neutral",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9994,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 342.04,
+      "nli_ms": 150.47,
+      "total_ms": 492.51
+    }
+  },
+  {
+    "test_id": "GEO-UNS-009",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "How large is the Amazon Rainforest and what regions does it cover?",
+    "reference_context": "The Amazon Rainforest is a moist broadleaf tropical rainforest covering over 5.5 million square kilometres across the Amazon Basin, spanning nine South American nations including Brazil, Peru, and Colombia.",
+    "generated_answer": "Covering 5.5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+    "expected_unsupported_spans": [
+      {
+        "start": 82,
+        "end": 160,
+        "text": "stores approximately 150 billion metric tons of carbon in its biomass and soil"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 59,
+        "end": 161,
+        "text": " the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "confidence": 0.9968967437744141,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 59,
+        "end": 161,
+        "text": " the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "confidence": 0.9968967437744141,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.3739,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 161,
+        "text": "Covering 5.5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Covering 5.5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "label": "neutral",
+        "prob_contradiction": 0.0005,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9994,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 11,
+        "text": "Covering 5.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "Covering 5.",
+        "label": "contradiction",
+        "prob_contradiction": 0.3739,
+        "prob_entailment": 0.3659,
+        "prob_neutral": 0.2602,
+        "is_contradiction": false
+      },
+      {
+        "start": 11,
+        "end": 161,
+        "text": "5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "5 million square kilometres across nine nations, the Amazon Rainforest stores approximately 150 billion metric tons of carbon in its biomass and soil.",
+        "label": "neutral",
+        "prob_contradiction": 0.0009,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.999,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 371.33,
+      "nli_ms": 444.05,
+      "total_ms": 815.38
+    }
+  },
+  {
+    "test_id": "GEO-UNS-010",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Namib Desert located and what feature defines it?",
+    "reference_context": "The Namib is a coastal desert in southwestern Africa, extending along the Atlantic coast of Namibia and parts of Angola. It features prominent coastal sand dunes and frequent sea fog.",
+    "generated_answer": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes, and is widely regarded as the oldest desert in the world at over 55 million years.",
+    "expected_unsupported_spans": [
+      {
+        "start": 82,
+        "end": 163,
+        "text": "and is widely regarded as the oldest desert in the world at over 55 million years"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 81,
+        "end": 164,
+        "text": " and is widely regarded as the oldest desert in the world at over 55 million years.",
+        "confidence": 0.9997649788856506,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 81,
+        "end": 164,
+        "text": " and is widely regarded as the oldest desert in the world at over 55 million years.",
+        "confidence": 0.9997649788856506,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0004,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 164,
+        "text": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes, and is widely regarded as the oldest desert in the world at over 55 million years.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes, and is widely regarded as the oldest desert in the world at over 55 million years.",
+        "label": "neutral",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9995,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 80,
+        "text": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Namib Desert is a coastal desert in southwestern Africa known for sand dunes",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9496,
+        "prob_neutral": 0.0502,
+        "is_contradiction": false
+      },
+      {
+        "start": 86,
+        "end": 164,
+        "text": "is widely regarded as the oldest desert in the world at over 55 million years.",
+        "segment_type": "clause",
+        "clean_hypothesis": "is widely regarded as the oldest desert in the world at over 55 million years.",
+        "label": "neutral",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9995,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 392.98,
+      "nli_ms": 433.89,
+      "total_ms": 826.87
+    }
+  },
+  {
+    "test_id": "GEO-UNS-011",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What type of volcano is Mount St. Helens and where is it located?",
+    "reference_context": "Mount St. Helens is an active stratovolcano in Skamania County, Washington, in the Pacific Northwest region of the United States. It is part of the Cascade Volcanic Arc.",
+    "generated_answer": "Mount St. Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+    "expected_unsupported_spans": [
+      {
+        "start": 67,
+        "end": 145,
+        "text": "whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 66,
+        "end": 146,
+        "text": " whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "confidence": 0.9996697902679443,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 66,
+        "end": 146,
+        "text": " whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "confidence": 0.9996697902679443,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.003,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 146,
+        "text": "Mount St. Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Mount St. Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "label": "neutral",
+        "prob_contradiction": 0.0005,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9994,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Mount St.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "Mount St.",
+        "label": "neutral",
+        "prob_contradiction": 0.003,
+        "prob_entailment": 0.0048,
+        "prob_neutral": 0.9922,
+        "is_contradiction": false
+      },
+      {
+        "start": 10,
+        "end": 146,
+        "text": "Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "Helens is an active Cascade stratovolcano in Washington, whose major lateral blast on May 18, 1980 destroyed 230 square miles of forest.",
+        "label": "neutral",
+        "prob_contradiction": 0.0006,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9993,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 355.58,
+      "nli_ms": 457.47,
+      "total_ms": 813.05
+    }
+  },
+  {
+    "test_id": "GEO-UNS-012",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the geographical border anomaly between Baarle-Nassau and Baarle-Hertog?",
+    "reference_context": "The border between the Dutch municipality of Baarle-Nassau and the Belgian municipality of Baarle-Hertog consists of numerous non-contiguous parcels, including 22 Belgian exclaves in the Netherlands and 8 Dutch exclaves within Belgian territory.",
+    "generated_answer": "The border between Baarle-Nassau and Baarle-Hertog contains 22 Belgian exclaves and 8 Dutch exclaves, where border lines run directly through cafés and residential living rooms.",
+    "expected_unsupported_spans": [
+      {
+        "start": 102,
+        "end": 176,
+        "text": "where border lines run directly through cafés and residential living rooms"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 101,
+        "end": 177,
+        "text": " where border lines run directly through cafés and residential living rooms.",
+        "confidence": 0.9977627992630005,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 101,
+        "end": 177,
+        "text": " where border lines run directly through cafés and residential living rooms.",
+        "confidence": 0.9977627992630005,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0049,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 177,
+        "text": "The border between Baarle-Nassau and Baarle-Hertog contains 22 Belgian exclaves and 8 Dutch exclaves, where border lines run directly through cafés and residential living rooms.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The border between Baarle-Nassau and Baarle-Hertog contains 22 Belgian exclaves and 8 Dutch exclaves, where border lines run directly through cafés and residential living rooms.",
+        "label": "neutral",
+        "prob_contradiction": 0.0049,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9949,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 475.71,
+      "nli_ms": 179.07,
+      "total_ms": 654.78
+    }
+  },
+  {
+    "test_id": "GEO-UNS-013",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the Nullarbor Plain and what defines its geology?",
+    "reference_context": "The Nullarbor Plain is a vast, flat, arid limestone area of southern Australia, covering about 200,000 square kilometres across Western Australia and South Australia along the Great Australian Bight.",
+    "generated_answer": "The Nullarbor Plain is a 200,000-square-kilometre limestone plateau in southern Australia whose Latin name literally translates to no trees.",
+    "expected_unsupported_spans": [
+      {
+        "start": 90,
+        "end": 139,
+        "text": "whose Latin name literally translates to no trees"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 89,
+        "end": 140,
+        "text": " whose Latin name literally translates to no trees.",
+        "confidence": 0.9992163181304932,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 89,
+        "end": 140,
+        "text": " whose Latin name literally translates to no trees.",
+        "confidence": 0.9992163181304932,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0026,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 140,
+        "text": "The Nullarbor Plain is a 200,000-square-kilometre limestone plateau in southern Australia whose Latin name literally translates to no trees.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Nullarbor Plain is a 200,000-square-kilometre limestone plateau in southern Australia whose Latin name literally translates to no trees.",
+        "label": "neutral",
+        "prob_contradiction": 0.0026,
+        "prob_entailment": 0.0006,
+        "prob_neutral": 0.9967,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 334.05,
+      "nli_ms": 147.27,
+      "total_ms": 481.32
+    }
+  },
+  {
+    "test_id": "GEO-UNS-014",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Sundarbans mangrove forest situated?",
+    "reference_context": "The Sundarbans is the world's largest contiguous mangrove forest, located in the delta formed by the confluence of the Ganges, Brahmaputra, and Meghna rivers across Bangladesh and West Bengal, India.",
+    "generated_answer": "The Sundarbans is a vast mangrove delta spanning Bangladesh and India, which shelters the world's largest single population of wild Bengal tigers.",
+    "expected_unsupported_spans": [
+      {
+        "start": 71,
+        "end": 145,
+        "text": "which shelters the world's largest single population of wild Bengal tigers"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 70,
+        "end": 146,
+        "text": " which shelters the world's largest single population of wild Bengal tigers.",
+        "confidence": 0.9993540644645691,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 70,
+        "end": 146,
+        "text": " which shelters the world's largest single population of wild Bengal tigers.",
+        "confidence": 0.9993540644645691,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0005,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 146,
+        "text": "The Sundarbans is a vast mangrove delta spanning Bangladesh and India, which shelters the world's largest single population of wild Bengal tigers.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Sundarbans is a vast mangrove delta spanning Bangladesh and India, which shelters the world's largest single population of wild Bengal tigers.",
+        "label": "neutral",
+        "prob_contradiction": 0.0005,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9992,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 368.72,
+      "nli_ms": 166.32,
+      "total_ms": 535.04
+    }
+  },
+  {
+    "test_id": "GEO-UNS-015",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Prime Meridian historically anchored?",
+    "reference_context": "The Prime Meridian is the line of zero degrees longitude, historically established at the Royal Observatory in Greenwich, London. It divides Earth into the Eastern and Western Hemispheres.",
+    "generated_answer": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+    "expected_unsupported_spans": [
+      {
+        "start": 97,
+        "end": 195,
+        "text": "which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C."
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 96,
+        "end": 195,
+        "text": " which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+        "confidence": 0.9957051873207092,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 96,
+        "end": 195,
+        "text": " which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+        "confidence": 0.9957051873207092,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0029,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 195,
+        "text": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.C.",
+        "label": "neutral",
+        "prob_contradiction": 0.0029,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.997,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 193,
+        "text": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.",
+        "segment_type": "sentence",
+        "clean_hypothesis": "The Prime Meridian is the line of zero longitude anchored at the Royal Observatory in Greenwich, which was chosen internationally at the 1884 International Meridian Conference in Washington, D.",
+        "label": "neutral",
+        "prob_contradiction": 0.0027,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9972,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 375.15,
+      "nli_ms": 316.17,
+      "total_ms": 691.32
+    }
+  },
+  {
+    "test_id": "GEO-MIX-001",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "What is the capital of Australia and what is its largest city?",
+    "reference_context": "Canberra is the federal capital of Australia, selected as a compromise between Sydney and Melbourne in 1908. Sydney is Australia's most populous city.",
+    "generated_answer": "Canberra is the capital of Australia, while Melbourne is the country's most populous city.",
+    "expected_unsupported_spans": [
+      {
+        "start": 44,
+        "end": 89,
+        "text": "Melbourne is the country's most populous city"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 44,
+        "end": 90,
+        "text": "Melbourne is the country's most populous city.",
+        "confidence": 0.9977,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 44,
+        "end": 90,
+        "text": "Melbourne is the country's most populous city.",
+        "confidence": 0.9977,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9977,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 90,
+        "text": "Canberra is the capital of Australia, while Melbourne is the country's most populous city.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Canberra is the capital of Australia, while Melbourne is the country's most populous city.",
+        "label": "entailment",
+        "prob_contradiction": 0.0083,
+        "prob_entailment": 0.9883,
+        "prob_neutral": 0.0034,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 36,
+        "text": "Canberra is the capital of Australia",
+        "segment_type": "clause",
+        "clean_hypothesis": "Canberra is the capital of Australia",
+        "label": "entailment",
+        "prob_contradiction": 0.0051,
+        "prob_entailment": 0.9315,
+        "prob_neutral": 0.0634,
+        "is_contradiction": false
+      },
+      {
+        "start": 44,
+        "end": 90,
+        "text": "Melbourne is the country's most populous city.",
+        "segment_type": "clause",
+        "clean_hypothesis": "Melbourne is the country's most populous city.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9977,
+        "prob_entailment": 0.0011,
+        "prob_neutral": 0.0012,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 328.72,
+      "nli_ms": 389.72,
+      "total_ms": 718.44
+    }
+  },
+  {
+    "test_id": "GEO-MIX-002",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where does the Nile River flow and what is its estimated length?",
+    "reference_context": "The Nile River flows northward through northeastern Africa into the Mediterranean Sea. It has an estimated length of 6,650 kilometres and has two major tributaries, the White Nile and Blue Nile.",
+    "generated_answer": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres, and it discharges into the Indian Ocean through a secondary channel.",
+    "expected_unsupported_spans": [
+      {
+        "start": 104,
+        "end": 171,
+        "text": "and it discharges into the Indian Ocean through a secondary channel"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 107,
+        "end": 172,
+        "text": " it discharges into the Indian Ocean through a secondary channel.",
+        "confidence": 0.9871671795845032,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 107,
+        "end": 172,
+        "text": " it discharges into the Indian Ocean through a secondary channel.",
+        "confidence": 0.9871671795845032,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0075,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 172,
+        "text": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres, and it discharges into the Indian Ocean through a secondary channel.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres, and it discharges into the Indian Ocean through a secondary channel.",
+        "label": "neutral",
+        "prob_contradiction": 0.0011,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9988,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 102,
+        "text": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Nile River flows northward into the Mediterranean Sea with an estimated length of 6,650 kilometres",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.996,
+        "prob_neutral": 0.0039,
+        "is_contradiction": false
+      },
+      {
+        "start": 108,
+        "end": 172,
+        "text": "it discharges into the Indian Ocean through a secondary channel.",
+        "segment_type": "clause",
+        "clean_hypothesis": "it discharges into the Indian Ocean through a secondary channel.",
+        "label": "neutral",
+        "prob_contradiction": 0.0075,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9922,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 377.15,
+      "nli_ms": 539.48,
+      "total_ms": 916.63
+    }
+  },
+  {
+    "test_id": "GEO-MIX-003",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the Andes mountain range and where is it located?",
+    "reference_context": "The Andes is the longest continental mountain range in the world, extending roughly 7,000 kilometres along the western coast of South America through seven countries.",
+    "generated_answer": "The Andes is the longest continental mountain range in the world along South America's western coast, formed through the collision of the Eurasian and African plates.",
+    "expected_unsupported_spans": [
+      {
+        "start": 102,
+        "end": 165,
+        "text": "formed through the collision of the Eurasian and African plates"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 101,
+        "end": 166,
+        "text": " formed through the collision of the Eurasian and African plates.",
+        "confidence": 0.9947710633277893,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 101,
+        "end": 166,
+        "text": " formed through the collision of the Eurasian and African plates.",
+        "confidence": 0.9947710633277893,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0045,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 166,
+        "text": "The Andes is the longest continental mountain range in the world along South America's western coast, formed through the collision of the Eurasian and African plates.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Andes is the longest continental mountain range in the world along South America's western coast, formed through the collision of the Eurasian and African plates.",
+        "label": "neutral",
+        "prob_contradiction": 0.0045,
+        "prob_entailment": 0.0004,
+        "prob_neutral": 0.9951,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 369.78,
+      "nli_ms": 141.78,
+      "total_ms": 511.56
+    }
+  },
+  {
+    "test_id": "GEO-MIX-004",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is Lake Victoria and where is it situated?",
+    "reference_context": "Lake Victoria is Africa's largest lake by surface area at approximately 59,947 square kilometres, shared by Tanzania, Uganda, and Kenya. It has an average depth of only 40 metres.",
+    "generated_answer": "Lake Victoria is shared by Tanzania, Uganda, and Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+    "expected_unsupported_spans": [
+      {
+        "start": 89,
+        "end": 132,
+        "text": "with a maximum depth exceeding 1,500 metres"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 88,
+        "end": 133,
+        "text": " with a maximum depth exceeding 1,500 metres.",
+        "confidence": 0.9983006119728088,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 88,
+        "end": 133,
+        "text": " with a maximum depth exceeding 1,500 metres.",
+        "confidence": 0.9983006119728088,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.2455,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 133,
+        "text": "Lake Victoria is shared by Tanzania, Uganda, and Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Lake Victoria is shared by Tanzania, Uganda, and Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+        "label": "neutral",
+        "prob_contradiction": 0.0077,
+        "prob_entailment": 0.0012,
+        "prob_neutral": 0.9912,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 43,
+        "text": "Lake Victoria is shared by Tanzania, Uganda",
+        "segment_type": "clause",
+        "clean_hypothesis": "Lake Victoria is shared by Tanzania, Uganda",
+        "label": "neutral",
+        "prob_contradiction": 0.0029,
+        "prob_entailment": 0.0007,
+        "prob_neutral": 0.9964,
+        "is_contradiction": false
+      },
+      {
+        "start": 49,
+        "end": 133,
+        "text": "Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+        "segment_type": "clause",
+        "clean_hypothesis": "Kenya as Africa's largest lake by area, with a maximum depth exceeding 1,500 metres.",
+        "label": "neutral",
+        "prob_contradiction": 0.2455,
+        "prob_entailment": 0.0024,
+        "prob_neutral": 0.7521,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 314.97,
+      "nli_ms": 433.57,
+      "total_ms": 748.54
+    }
+  },
+  {
+    "test_id": "GEO-MIX-005",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "CLEAN",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "nli_salvaged",
+    "question": "Where is Vancouver located and is it the capital of British Columbia?",
+    "reference_context": "British Columbia is the westernmost province of Canada, bordered by the Pacific Ocean. Its provincial capital is Victoria, located on Vancouver Island, whereas Vancouver is its largest metropolitan area on the mainland.",
+    "generated_answer": "British Columbia is Canada's westernmost province bordering the Pacific, and its provincial capital is Vancouver.",
+    "expected_unsupported_spans": [
+      {
+        "start": 73,
+        "end": 112,
+        "text": "and its provincial capital is Vancouver"
+      }
+    ],
+    "lettuce_spans": [],
+    "nli_contradictory_spans": [
+      {
+        "start": 77,
+        "end": 113,
+        "text": "its provincial capital is Vancouver.",
+        "confidence": 0.999,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 77,
+        "end": 113,
+        "text": "its provincial capital is Vancouver.",
+        "confidence": 0.999,
+        "category": "contradiction",
+        "source": "nli_salvaged"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.999,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 113,
+        "text": "British Columbia is Canada's westernmost province bordering the Pacific, and its provincial capital is Vancouver.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "British Columbia is Canada's westernmost province bordering the Pacific, and its provincial capital is Vancouver.",
+        "label": "contradiction",
+        "prob_contradiction": 0.5008,
+        "prob_entailment": 0.4664,
+        "prob_neutral": 0.0327,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 71,
+        "text": "British Columbia is Canada's westernmost province bordering the Pacific",
+        "segment_type": "clause",
+        "clean_hypothesis": "British Columbia is Canada's westernmost province bordering the Pacific",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.988,
+        "prob_neutral": 0.0119,
+        "is_contradiction": false
+      },
+      {
+        "start": 77,
+        "end": 113,
+        "text": "its provincial capital is Vancouver.",
+        "segment_type": "clause",
+        "clean_hypothesis": "its provincial capital is Vancouver.",
+        "label": "contradiction",
+        "prob_contradiction": 0.999,
+        "prob_entailment": 0.0004,
+        "prob_neutral": 0.0006,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 355.96,
+      "nli_ms": 435.98,
+      "total_ms": 791.94
+    }
+  },
+  {
+    "test_id": "GEO-MIX-006",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is the Amazon River and what is its primary discharge outlet?",
+    "reference_context": "The Amazon River in South America is the largest river by discharge volume in the world, emptying into the Atlantic Ocean. Its basin includes thousands of tributaries originating in the Andes Mountains.",
+    "generated_answer": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge, but it freezes completely during the austral winter months.",
+    "expected_unsupported_spans": [
+      {
+        "start": 92,
+        "end": 150,
+        "text": "but it freezes completely during the austral winter months"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 91,
+        "end": 151,
+        "text": " but it freezes completely during the austral winter months.",
+        "confidence": 0.997994065284729,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 91,
+        "end": 151,
+        "text": " but it freezes completely during the austral winter months.",
+        "confidence": 0.997994065284729,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0016,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 151,
+        "text": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge, but it freezes completely during the austral winter months.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge, but it freezes completely during the austral winter months.",
+        "label": "neutral",
+        "prob_contradiction": 0.0003,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9996,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 90,
+        "text": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Amazon River empties into the Atlantic Ocean as the world's largest river by discharge",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9918,
+        "prob_neutral": 0.0082,
+        "is_contradiction": false
+      },
+      {
+        "start": 96,
+        "end": 151,
+        "text": "it freezes completely during the austral winter months.",
+        "segment_type": "clause",
+        "clean_hypothesis": "it freezes completely during the austral winter months.",
+        "label": "neutral",
+        "prob_contradiction": 0.0016,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9984,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 371.33,
+      "nli_ms": 376.9,
+      "total_ms": 748.23
+    }
+  },
+  {
+    "test_id": "GEO-MIX-007",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Where is the Grand Canyon and what is its approximate depth?",
+    "reference_context": "Located in northwestern Arizona, the Grand Canyon is a steep-sided gorge carved by the Colorado River, attaining depths of over 1,800 metres (6,000 feet).",
+    "generated_answer": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres, and was formed primarily by glacial erosion during the Pleistocene epoch.",
+    "expected_unsupported_spans": [
+      {
+        "start": 90,
+        "end": 162,
+        "text": "and was formed primarily by glacial erosion during the Pleistocene epoch"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 93,
+        "end": 163,
+        "text": " was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "confidence": 0.9960225820541382,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 94,
+        "end": 163,
+        "text": "was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "confidence": 0.9981,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 93,
+        "end": 163,
+        "text": " was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "confidence": 0.9960225820541382,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9981,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 163,
+        "text": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres, and was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres, and was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "label": "contradiction",
+        "prob_contradiction": 0.997,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.003,
+        "is_contradiction": true
+      },
+      {
+        "start": 0,
+        "end": 88,
+        "text": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Grand Canyon is located in northwestern Arizona reaching depths of over 1,800 metres",
+        "label": "entailment",
+        "prob_contradiction": 0.0001,
+        "prob_entailment": 0.9935,
+        "prob_neutral": 0.0064,
+        "is_contradiction": false
+      },
+      {
+        "start": 94,
+        "end": 163,
+        "text": "was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "segment_type": "clause",
+        "clean_hypothesis": "was formed primarily by glacial erosion during the Pleistocene epoch.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9981,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.0019,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 340.41,
+      "nli_ms": 431.48,
+      "total_ms": 771.89
+    }
+  },
+  {
+    "test_id": "GEO-MIX-008",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What bodies of water border the Arabian Peninsula?",
+    "reference_context": "The Arabian Peninsula is bounded by the Red Sea to the west, the Persian Gulf and Gulf of Oman to the northeast, and the Arabian Sea to the south.",
+    "generated_answer": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast, while sharing a direct land border with Greece.",
+    "expected_unsupported_spans": [
+      {
+        "start": 99,
+        "end": 145,
+        "text": "while sharing a direct land border with Greece"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 98,
+        "end": 146,
+        "text": " while sharing a direct land border with Greece.",
+        "confidence": 0.995489776134491,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 0,
+        "end": 97,
+        "text": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast",
+        "confidence": 0.6032,
+        "category": "contradiction",
+        "segment_type": "clause"
+      },
+      {
+        "start": 105,
+        "end": 146,
+        "text": "sharing a direct land border with Greece.",
+        "confidence": 0.9998,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 98,
+        "end": 146,
+        "text": " while sharing a direct land border with Greece.",
+        "confidence": 0.995489776134491,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9998,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 146,
+        "text": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast, while sharing a direct land border with Greece.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast, while sharing a direct land border with Greece.",
+        "label": "neutral",
+        "prob_contradiction": 0.0142,
+        "prob_entailment": 0.0002,
+        "prob_neutral": 0.9856,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 97,
+        "text": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Arabian Peninsula is bounded by the Red Sea to the west and the Persian Gulf to the northeast",
+        "label": "contradiction",
+        "prob_contradiction": 0.6032,
+        "prob_entailment": 0.2913,
+        "prob_neutral": 0.1056,
+        "is_contradiction": true
+      },
+      {
+        "start": 105,
+        "end": 146,
+        "text": "sharing a direct land border with Greece.",
+        "segment_type": "clause",
+        "clean_hypothesis": "sharing a direct land border with Greece.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9998,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.0002,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 357.09,
+      "nli_ms": 446.98,
+      "total_ms": 804.07
+    }
+  },
+  {
+    "test_id": "GEO-MIX-009",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What distinguishes the Antarctic continent?",
+    "reference_context": "Antarctica is Earth's southernmost continent, surrounded by the Southern Ocean. It holds roughly 90 percent of the world's ice and 70 percent of its freshwater.",
+    "generated_answer": "Antarctica is the southernmost continent holding 90 percent of the world's ice, and it maintains lush temperate pine forests along its coastal fringes.",
+    "expected_unsupported_spans": [
+      {
+        "start": 80,
+        "end": 150,
+        "text": "and it maintains lush temperate pine forests along its coastal fringes"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 79,
+        "end": 151,
+        "text": " and it maintains lush temperate pine forests along its coastal fringes.",
+        "confidence": 0.9956294298171997,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 79,
+        "end": 151,
+        "text": " and it maintains lush temperate pine forests along its coastal fringes.",
+        "confidence": 0.9956294298171997,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0084,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 151,
+        "text": "Antarctica is the southernmost continent holding 90 percent of the world's ice, and it maintains lush temperate pine forests along its coastal fringes.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Antarctica is the southernmost continent holding 90 percent of the world's ice, and it maintains lush temperate pine forests along its coastal fringes.",
+        "label": "neutral",
+        "prob_contradiction": 0.0013,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.9987,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 78,
+        "text": "Antarctica is the southernmost continent holding 90 percent of the world's ice",
+        "segment_type": "clause",
+        "clean_hypothesis": "Antarctica is the southernmost continent holding 90 percent of the world's ice",
+        "label": "entailment",
+        "prob_contradiction": 0.0007,
+        "prob_entailment": 0.9932,
+        "prob_neutral": 0.0061,
+        "is_contradiction": false
+      },
+      {
+        "start": 84,
+        "end": 151,
+        "text": "it maintains lush temperate pine forests along its coastal fringes.",
+        "segment_type": "clause",
+        "clean_hypothesis": "it maintains lush temperate pine forests along its coastal fringes.",
+        "label": "neutral",
+        "prob_contradiction": 0.0084,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9916,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 302.68,
+      "nli_ms": 455.45,
+      "total_ms": 758.13
+    }
+  },
+  {
+    "test_id": "GEO-MIX-010",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "Where is the Dead Sea located and what is its salinity?",
+    "reference_context": "The Dead Sea is a hypersaline terminal lake situated in the Jordan Rift Valley, with salinity nearly ten times higher than typical ocean water, making macroscopic aquatic life impossible.",
+    "generated_answer": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water, and serves as the primary freshwater drinking source for Jordan.",
+    "expected_unsupported_spans": [
+      {
+        "start": 106,
+        "end": 169,
+        "text": "and serves as the primary freshwater drinking source for Jordan"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 109,
+        "end": 170,
+        "text": " serves as the primary freshwater drinking source for Jordan.",
+        "confidence": 0.9990457892417908,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 110,
+        "end": 170,
+        "text": "serves as the primary freshwater drinking source for Jordan.",
+        "confidence": 0.8874,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 109,
+        "end": 170,
+        "text": " serves as the primary freshwater drinking source for Jordan.",
+        "confidence": 0.9990457892417908,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9926,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 170,
+        "text": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water, and serves as the primary freshwater drinking source for Jordan.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water, and serves as the primary freshwater drinking source for Jordan.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9926,
+        "prob_entailment": 0.0004,
+        "prob_neutral": 0.007,
+        "is_contradiction": true
+      },
+      {
+        "start": 0,
+        "end": 104,
+        "text": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Dead Sea is located in the Jordan Rift Valley with salinity nearly ten times higher than ocean water",
+        "label": "entailment",
+        "prob_contradiction": 0.0004,
+        "prob_entailment": 0.9886,
+        "prob_neutral": 0.011,
+        "is_contradiction": false
+      },
+      {
+        "start": 110,
+        "end": 170,
+        "text": "serves as the primary freshwater drinking source for Jordan.",
+        "segment_type": "clause",
+        "clean_hypothesis": "serves as the primary freshwater drinking source for Jordan.",
+        "label": "contradiction",
+        "prob_contradiction": 0.8874,
+        "prob_entailment": 0.0013,
+        "prob_neutral": 0.1113,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 354.22,
+      "nli_ms": 415.68,
+      "total_ms": 769.9
+    }
+  },
+  {
+    "test_id": "GEO-MIX-011",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What is Mount Fuji and where is it situated?",
+    "reference_context": "Mount Fuji is a stratovolcano located on Honshu Island in Japan, with an elevation of 3,776 metres. It is an active volcano with low eruption risk, having last erupted in 1707.",
+    "generated_answer": "Mount Fuji is a 3,776-metre stratovolcano located on Honshu Island in Japan, which is permanently covered in tropical mangrove swamps.",
+    "expected_unsupported_spans": [
+      {
+        "start": 77,
+        "end": 133,
+        "text": "which is permanently covered in tropical mangrove swamps"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 76,
+        "end": 134,
+        "text": " which is permanently covered in tropical mangrove swamps.",
+        "confidence": 0.9993693232536316,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 76,
+        "end": 134,
+        "text": " which is permanently covered in tropical mangrove swamps.",
+        "confidence": 0.9993693232536316,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.4749,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 134,
+        "text": "Mount Fuji is a 3,776-metre stratovolcano located on Honshu Island in Japan, which is permanently covered in tropical mangrove swamps.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Mount Fuji is a 3,776-metre stratovolcano located on Honshu Island in Japan, which is permanently covered in tropical mangrove swamps.",
+        "label": "neutral",
+        "prob_contradiction": 0.4749,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.5251,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 376.38,
+      "nli_ms": 145.42,
+      "total_ms": 521.8
+    }
+  },
+  {
+    "test_id": "GEO-MIX-012",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is the Mariana Trench and how deep is the Challenger Deep?",
+    "reference_context": "The Mariana Trench is located in the western North Pacific Ocean. Its deepest point, the Challenger Deep, drops nearly 11,000 metres below the sea surface.",
+    "generated_answer": "The Mariana Trench is in the western North Pacific Ocean with the Challenger Deep reaching nearly 11,000 metres, which was mapped from orbit using Apollo spacecraft radar.",
+    "expected_unsupported_spans": [
+      {
+        "start": 113,
+        "end": 170,
+        "text": "which was mapped from orbit using Apollo spacecraft radar"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 112,
+        "end": 171,
+        "text": " which was mapped from orbit using Apollo spacecraft radar.",
+        "confidence": 0.9953279495239258,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 112,
+        "end": 171,
+        "text": " which was mapped from orbit using Apollo spacecraft radar.",
+        "confidence": 0.9953279495239258,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0014,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 171,
+        "text": "The Mariana Trench is in the western North Pacific Ocean with the Challenger Deep reaching nearly 11,000 metres, which was mapped from orbit using Apollo spacecraft radar.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Mariana Trench is in the western North Pacific Ocean with the Challenger Deep reaching nearly 11,000 metres, which was mapped from orbit using Apollo spacecraft radar.",
+        "label": "neutral",
+        "prob_contradiction": 0.0014,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9983,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 343.95,
+      "nli_ms": 148.01,
+      "total_ms": 491.96
+    }
+  },
+  {
+    "test_id": "GEO-MIX-013",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "What covers Greenland's landmass and what is its political status?",
+    "reference_context": "Greenland is an autonomous territory within the Kingdom of Denmark. Approximately 80 percent of its land area is covered by the Greenland Ice Sheet.",
+    "generated_answer": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet, and its capital city is Copenhagen.",
+    "expected_unsupported_spans": [
+      {
+        "start": 120,
+        "end": 154,
+        "text": "and its capital city is Copenhagen"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 123,
+        "end": 155,
+        "text": " its capital city is Copenhagen.",
+        "confidence": 0.9967808723449707,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 123,
+        "end": 155,
+        "text": " its capital city is Copenhagen.",
+        "confidence": 0.9967808723449707,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0009,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 155,
+        "text": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet, and its capital city is Copenhagen.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet, and its capital city is Copenhagen.",
+        "label": "neutral",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.0003,
+        "prob_neutral": 0.9996,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 118,
+        "text": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet",
+        "segment_type": "clause",
+        "clean_hypothesis": "Greenland is an autonomous territory within the Kingdom of Denmark with 80 percent of its land covered by an ice sheet",
+        "label": "entailment",
+        "prob_contradiction": 0.0002,
+        "prob_entailment": 0.9961,
+        "prob_neutral": 0.0037,
+        "is_contradiction": false
+      },
+      {
+        "start": 124,
+        "end": 155,
+        "text": "its capital city is Copenhagen.",
+        "segment_type": "clause",
+        "clean_hypothesis": "its capital city is Copenhagen.",
+        "label": "neutral",
+        "prob_contradiction": 0.0009,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.999,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 365.56,
+      "nli_ms": 428.15,
+      "total_ms": 793.71
+    }
+  },
+  {
+    "test_id": "GEO-MIX-014",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "lettucedetect_primary",
+    "question": "Where is Madagascar and what separated it from Africa?",
+    "reference_context": "Madagascar split from the African continent around 160 million years ago, leading to long-term isolation in the Indian Ocean across the Mozambique Channel.",
+    "generated_answer": "Madagascar is an isolated island in the Indian Ocean separated from Africa across the Mozambique Channel, which is connected to mainland Europe via a 50-kilometre road bridge.",
+    "expected_unsupported_spans": [
+      {
+        "start": 106,
+        "end": 174,
+        "text": "which is connected to mainland Europe via a 50-kilometre road bridge"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 105,
+        "end": 175,
+        "text": " which is connected to mainland Europe via a 50-kilometre road bridge.",
+        "confidence": 0.9993435740470886,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [],
+    "hybrid_spans": [
+      {
+        "start": 105,
+        "end": 175,
+        "text": " which is connected to mainland Europe via a 50-kilometre road bridge.",
+        "confidence": 0.9993435740470886,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.0005,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 175,
+        "text": "Madagascar is an isolated island in the Indian Ocean separated from Africa across the Mozambique Channel, which is connected to mainland Europe via a 50-kilometre road bridge.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "Madagascar is an isolated island in the Indian Ocean separated from Africa across the Mozambique Channel, which is connected to mainland Europe via a 50-kilometre road bridge.",
+        "label": "neutral",
+        "prob_contradiction": 0.0005,
+        "prob_entailment": 0.0002,
+        "prob_neutral": 0.9993,
+        "is_contradiction": false
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 368.81,
+      "nli_ms": 147.07,
+      "total_ms": 515.88
+    }
+  },
+  {
+    "test_id": "GEO-MIX-015",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "baseline_verdict": "HALLUCINATED",
+    "hybrid_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "fusion_source": "both_agree",
+    "question": "What is the Strait of Gibraltar and what is its minimum width?",
+    "reference_context": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco, narrowing to a minimum width of approximately 13 kilometres (8 miles) at its narrowest point.",
+    "generated_answer": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres, and it operates under joint sovereignty administered by Switzerland.",
+    "expected_unsupported_spans": [
+      {
+        "start": 114,
+        "end": 181,
+        "text": "and it operates under joint sovereignty administered by Switzerland"
+      }
+    ],
+    "lettuce_spans": [
+      {
+        "start": 117,
+        "end": 182,
+        "text": " it operates under joint sovereignty administered by Switzerland.",
+        "confidence": 0.9967465400695801,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "nli_contradictory_spans": [
+      {
+        "start": 118,
+        "end": 182,
+        "text": "it operates under joint sovereignty administered by Switzerland.",
+        "confidence": 0.9998,
+        "category": "contradiction",
+        "segment_type": "clause"
+      }
+    ],
+    "hybrid_spans": [
+      {
+        "start": 117,
+        "end": 182,
+        "text": " it operates under joint sovereignty administered by Switzerland.",
+        "confidence": 0.9967465400695801,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "nli_max_contradiction": 0.9998,
+    "nli_segments": [
+      {
+        "start": 0,
+        "end": 182,
+        "text": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres, and it operates under joint sovereignty administered by Switzerland.",
+        "segment_type": "full_answer",
+        "clean_hypothesis": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres, and it operates under joint sovereignty administered by Switzerland.",
+        "label": "neutral",
+        "prob_contradiction": 0.0013,
+        "prob_entailment": 0.0001,
+        "prob_neutral": 0.9986,
+        "is_contradiction": false
+      },
+      {
+        "start": 0,
+        "end": 112,
+        "text": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres",
+        "segment_type": "clause",
+        "clean_hypothesis": "The Strait of Gibraltar is a maritime bottleneck between Spain and Morocco with a minimum width of 13 kilometres",
+        "label": "entailment",
+        "prob_contradiction": 0.0006,
+        "prob_entailment": 0.9926,
+        "prob_neutral": 0.0068,
+        "is_contradiction": false
+      },
+      {
+        "start": 118,
+        "end": 182,
+        "text": "it operates under joint sovereignty administered by Switzerland.",
+        "segment_type": "clause",
+        "clean_hypothesis": "it operates under joint sovereignty administered by Switzerland.",
+        "label": "contradiction",
+        "prob_contradiction": 0.9998,
+        "prob_entailment": 0.0,
+        "prob_neutral": 0.0002,
+        "is_contradiction": true
+      }
+    ],
+    "latency": {
+      "lettucedetect_ms": 346.04,
+      "nli_ms": 454.6,
+      "total_ms": 800.64
+    }
+  }
+]

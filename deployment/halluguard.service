@@ -1,0 +1,41 @@
+[Unit]
+Description=HalluGuard FastAPI Hallucination Detection Service
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=halluguard
+Group=halluguard
+WorkingDirectory=/opt/halluguard/HalluGuard/backend
+
+# Environment configuration
+EnvironmentFile=/opt/halluguard/HalluGuard/backend/.env
+Environment="PYTHONUNBUFFERED=1"
+Environment="HF_HOME=/opt/halluguard/cache/huggingface"
+Environment="PYTHONPATH=/opt/halluguard/HalluGuard/backend:/opt/halluguard/LettuceDetect"
+
+# Uvicorn execution command (bound strictly to local loopback 127.0.0.1:8000)
+# Single worker recommended to avoid duplicating 1.5 GB ModernBERT weights across RAM
+ExecStart=/opt/halluguard/venv/bin/uvicorn app.main:app \
+    --host 127.0.0.1 \
+    --port 8000 \
+    --workers 1 \
+    --log-level info \
+    --access-log
+
+# Reliability & Restart policy
+Restart=always
+RestartSec=5s
+KillMode=mixed
+TimeoutStopSec=30
+LimitNOFILE=65536
+
+# Security hardening
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,80 @@
+{
+  "model_path": "KRLabsOrg/lettucedect-base-modernbert-en-v1",
+  "device": "cpu",
+  "production_threshold": 0.0,
+  "total_attempted": 60,
+  "successful_predictions": 60,
+  "error_count": 0,
+  "answer_level_metrics": {
+    "accuracy": 0.9,
+    "precision": 1.0,
+    "recall": 0.8667,
+    "specificity": 1.0,
+    "f1_score": 0.9286
+  },
+  "confusion_matrix": {
+    "tp": 39,
+    "tn": 15,
+    "fp": 0,
+    "fn": 6
+  },
+  "category_metrics": {
+    "supported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "contradictory": {
+      "total": 15,
+      "correct": 11,
+      "accuracy_percent": 73.33
+    },
+    "unsupported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "mixed": {
+      "total": 15,
+      "correct": 13,
+      "accuracy_percent": 86.67
+    }
+  },
+  "span_level_metrics": {
+    "total_gold_spans": 45,
+    "total_predicted_spans": 40,
+    "exact_match": {
+      "matched_count": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "partial_overlap_iou_0_5": {
+      "matched_count": 31,
+      "precision": 0.775,
+      "recall": 0.6889,
+      "f1_score": 0.7294
+    },
+    "character_overlap": {
+      "precision": 0.9065,
+      "recall": 0.8167,
+      "f1_score": 0.8593
+    }
+  },
+  "latency_metrics_ms": {
+    "mean": 440.66,
+    "median": 420.14,
+    "min": 339.45,
+    "max": 772.61,
+    "p95": 630.33
+  },
+  "false_positive_cases": [],
+  "false_negative_cases": [
+    "GEO-CON-001",
+    "GEO-CON-002",
+    "GEO-CON-005",
+    "GEO-CON-011",
+    "GEO-MIX-001",
+    "GEO-MIX-005"
+  ]
+}

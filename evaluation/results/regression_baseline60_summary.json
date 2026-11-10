@@ -1,0 +1,95 @@
+{
+  "dataset_label": "Original 60 Benchmark",
+  "dataset_path": "F:\\final project\\HalluGuard\\evaluation\\dataset\\geography_evaluation_dataset.csv",
+  "total_samples": 60,
+  "answer_level_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "specificity": 1.0,
+    "f1_score": 1.0
+  },
+  "confusion_matrix": {
+    "tp": 45,
+    "tn": 15,
+    "fp": 0,
+    "fn": 0
+  },
+  "category_metrics": {
+    "supported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "contradictory": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "unsupported": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    },
+    "mixed": {
+      "total": 15,
+      "correct": 15,
+      "accuracy_percent": 100.0
+    }
+  },
+  "span_level_metrics": {
+    "total_gold_spans": 45,
+    "total_predicted_spans": 46,
+    "exact_match": {
+      "matched_count": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "partial_overlap_iou_0_5": {
+      "matched_count": 34,
+      "precision": 0.7391,
+      "recall": 0.7556,
+      "f1_score": 0.7473
+    },
+    "character_overlap": {
+      "precision": 0.838,
+      "recall": 0.907,
+      "f1_score": 0.8711
+    }
+  },
+  "latency_metrics_ms": {
+    "lettucedetect": {
+      "mean": 456.55,
+      "median": 412.66,
+      "min": 343.27,
+      "max": 1393.96,
+      "p95": 615.12
+    },
+    "nli_verifier": {
+      "mean": 251.45,
+      "median": 175.29,
+      "min": 146.92,
+      "max": 682.19,
+      "p95": 582.2
+    },
+    "hybrid_total": {
+      "mean": 708.0,
+      "median": 601.13,
+      "min": 490.19,
+      "max": 1986.06,
+      "p95": 1047.96
+    }
+  },
+  "memory_rss_mb": 718.41,
+  "salvaged_cases": [
+    "GEO-CON-001",
+    "GEO-CON-002",
+    "GEO-CON-005",
+    "GEO-CON-011",
+    "GEO-MIX-001",
+    "GEO-MIX-005"
+  ],
+  "false_positive_cases": [],
+  "false_negative_cases": []
+}

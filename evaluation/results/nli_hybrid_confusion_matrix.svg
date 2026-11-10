@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 380" width="540" height="380" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <style>
+    .title { font-size: 16px; font-weight: 700; fill: #1e293b; text-anchor: middle; }
+    .subtitle { font-size: 12px; fill: #64748b; text-anchor: middle; }
+    .axis-label { font-size: 13px; font-weight: 600; fill: #334155; text-anchor: middle; }
+    .cell-title { font-size: 12px; font-weight: 600; text-anchor: middle; }
+    .cell-val { font-size: 32px; font-weight: 800; text-anchor: middle; }
+    .cell-sub { font-size: 11px; text-anchor: middle; fill: #64748b; }
+  </style>
+
+  <text x="270" y="32" class="title">NLI Hybrid Confusion Matrix</text>
+  <text x="270" y="52" class="subtitle">LettuceDetect ModernBERT + DeBERTa-v3-small NLI (N = 60)</text>
+
+  <text x="270" y="90" class="axis-label">PREDICTED CLASS</text>
+  <text x="180" y="112" class="axis-label" style="fill:#dc2626;">HALLUCINATED</text>
+  <text x="360" y="112" class="axis-label" style="fill:#16a34a;">CLEAN</text>
+
+  <text x="45" y="180" class="axis-label" transform="rotate(-90 45,180)">ACTUAL CLASS</text>
+  <text x="80" y="180" class="axis-label" style="fill:#dc2626; text-anchor:end;">HALLUCINATED</text>
+  <text x="80" y="280" class="axis-label" style="fill:#16a34a; text-anchor:end;">CLEAN</text>
+
+  <!-- Cell 1: TP -->
+  <rect x="100" y="125" width="160" height="100" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="180" y="150" class="cell-title" fill="#991b1b">TRUE POSITIVE (TP)</text>
+  <text x="180" y="195" class="cell-val" fill="#b91c1c">45</text>
+  <text x="180" y="215" class="cell-sub">Hallucinated correctly flagged</text>
+
+  <!-- Cell 2: FN -->
+  <rect x="280" y="125" width="160" height="100" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="360" y="150" class="cell-title" fill="#c2410c">FALSE NEGATIVE (FN)</text>
+  <text x="360" y="195" class="cell-val" fill="#ea580c">0</text>
+  <text x="360" y="215" class="cell-sub">Hallucination missed (Type II)</text>
+
+  <!-- Cell 3: FP -->
+  <rect x="100" y="235" width="160" height="100" rx="8" fill="#fefce8" stroke="#fde047" stroke-width="2"/>
+  <text x="180" y="260" class="cell-title" fill="#a16207">FALSE POSITIVE (FP)</text>
+  <text x="180" y="305" class="cell-val" fill="#ca8a04">0</text>
+  <text x="180" y="325" class="cell-sub">Clean answer falsely flagged (Type I)</text>
+
+  <!-- Cell 4: TN -->
+  <rect x="280" y="235" width="160" height="100" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="360" y="260" class="cell-title" fill="#15803d">TRUE NEGATIVE (TN)</text>
+  <text x="360" y="305" class="cell-val" fill="#16a34a">15</text>
+  <text x="360" y="325" class="cell-sub">Clean answer verified</text>
+
+  <text x="270" y="360" class="subtitle">Total Actual Hallucinated: 45 | Total Actual Clean: 15</text>
+</svg>

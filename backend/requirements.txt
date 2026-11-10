@@ -1,0 +1,29 @@
+# HalluGuard Backend Requirements
+# Python >= 3.11
+
+# Core Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.18
+
+# Hallucination Detection Engine (LettuceDetect)
+# Note: lettucedetect is installed in editable mode from the local submodule:
+# pip install -e ../LettuceDetect
+torch>=2.4.0
+transformers>=4.48.0
+scikit-learn>=1.5.0
+numpy>=2.0.0
+
+# Document Processing
+pymupdf>=1.24.0
+
+# Database & Storage
+supabase>=2.8.0
+
+# Testing & Quality
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.27.0
+

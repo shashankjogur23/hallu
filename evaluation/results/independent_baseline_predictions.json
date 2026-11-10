@@ -1,0 +1,2226 @@
+[
+  {
+    "test_id": "IND-SUP-001",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 854.73
+  },
+  {
+    "test_id": "IND-SUP-002",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 416.53
+  },
+  {
+    "test_id": "IND-SUP-003",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 396.81
+  },
+  {
+    "test_id": "IND-SUP-004",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 568.71
+  },
+  {
+    "test_id": "IND-SUP-005",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 565.66
+  },
+  {
+    "test_id": "IND-SUP-006",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 443.7
+  },
+  {
+    "test_id": "IND-SUP-007",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 399.65
+  },
+  {
+    "test_id": "IND-SUP-008",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 477.78
+  },
+  {
+    "test_id": "IND-SUP-009",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 444.77
+  },
+  {
+    "test_id": "IND-SUP-010",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 416.93
+  },
+  {
+    "test_id": "IND-SUP-011",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 413.18
+  },
+  {
+    "test_id": "IND-SUP-012",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 329.07
+  },
+  {
+    "test_id": "IND-SUP-013",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 447.74
+  },
+  {
+    "test_id": "IND-SUP-014",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 374.51
+  },
+  {
+    "test_id": "IND-SUP-015",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 445.27
+  },
+  {
+    "test_id": "IND-SUP-016",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 420.0
+  },
+  {
+    "test_id": "IND-SUP-017",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 454.03
+  },
+  {
+    "test_id": "IND-SUP-018",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 427.71
+  },
+  {
+    "test_id": "IND-SUP-019",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 482.07
+  },
+  {
+    "test_id": "IND-SUP-020",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 364.14
+  },
+  {
+    "test_id": "IND-SUP-021",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 373.69
+  },
+  {
+    "test_id": "IND-SUP-022",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 350.09
+  },
+  {
+    "test_id": "IND-SUP-023",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 404.31
+  },
+  {
+    "test_id": "IND-SUP-024",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 417.3
+  },
+  {
+    "test_id": "IND-SUP-025",
+    "category": "supported",
+    "expected_verdict": "CLEAN",
+    "predicted_verdict": "CLEAN",
+    "is_correct": true,
+    "expected_spans": [],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 361.3
+  },
+  {
+    "test_id": "IND-CON-001",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 58,
+        "end": 63,
+        "text": "Chile"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 57,
+        "end": 63,
+        "text": " Chile",
+        "confidence": 0.711870014667511,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 339.4
+  },
+  {
+    "test_id": "IND-CON-002",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 72,
+        "end": 89,
+        "text": "roughly 85 metres"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 50,
+        "end": 90,
+        "text": " with depths reaching roughly 85 metres.",
+        "confidence": 0.9917437434196472,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 323.5
+  },
+  {
+    "test_id": "IND-CON-003",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 14,
+        "end": 91,
+        "text": "second-highest mountain peak in North America, ranking just below Mount Logan"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 309.38
+  },
+  {
+    "test_id": "IND-CON-004",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 19,
+        "end": 83,
+        "text": "the world's deepest lake at 1,470 metres, surpassing Lake Baikal"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 362.71
+  },
+  {
+    "test_id": "IND-CON-005",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 84,
+        "text": "The Cape of Good Hope is the geographic southernmost point of the African continent."
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 367.57
+  },
+  {
+    "test_id": "IND-CON-006",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 56,
+        "end": 74,
+        "text": "the Ural Mountains"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 43,
+        "end": 85,
+        "text": " situated in the Ural Mountains of Russia.",
+        "confidence": 0.9484866857528687,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 335.77
+  },
+  {
+    "test_id": "IND-CON-007",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 96,
+        "end": 111,
+        "text": "above sea level"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 85,
+        "end": 88,
+        "text": " 86",
+        "confidence": 0.5612058043479919,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "text": " sea",
+        "confidence": 0.5265218019485474,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 371.54
+  },
+  {
+    "test_id": "IND-CON-008",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 20,
+        "end": 88,
+        "text": "bounded by the coastlines of North America and the Caribbean Islands"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 89,
+        "text": "The Sargasso Sea is bounded by the coastlines of North America and the Caribbean Islands.",
+        "confidence": 0.9946404099464417,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 366.56
+  },
+  {
+    "test_id": "IND-CON-009",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 25,
+        "end": 86,
+        "text": "second-longest river in the world, surpassed only by the Nile"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 59,
+        "end": 87,
+        "text": " surpassed only by the Nile.",
+        "confidence": 0.9973689317703247,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 348.06
+  },
+  {
+    "test_id": "IND-CON-010",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 79,
+        "text": "Malaysia controls the vast majority of Borneo, holding approximately 73 percent"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 364.73
+  },
+  {
+    "test_id": "IND-CON-011",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 29,
+        "end": 43,
+        "text": "the Aegean Sea"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 306.04
+  },
+  {
+    "test_id": "IND-CON-012",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 78,
+        "end": 90,
+        "text": "5,892 metres"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 324.22
+  },
+  {
+    "test_id": "IND-CON-013",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 38,
+        "end": 100,
+        "text": "an elevated volcanic plateau rising 125 metres above sea level"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 9,
+        "end": 11,
+        "text": "il",
+        "confidence": 0.5515901446342468,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 22,
+        "end": 77,
+        "text": " in Ethiopia is an elevated volcanic plateau rising 125",
+        "confidence": 0.9561933875083923,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 322.9
+  },
+  {
+    "test_id": "IND-CON-014",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 25,
+        "end": 90,
+        "text": "a single massive uninterrupted cascade rather than multiple falls"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 33,
+        "end": 63,
+        "text": " massive uninterrupted cascade",
+        "confidence": 0.7716545462608337,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 532.25
+  },
+  {
+    "test_id": "IND-CON-015",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 65,
+        "end": 114,
+        "text": "because it has a higher elevation above sea level"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 81,
+        "end": 88,
+        "text": " higher",
+        "confidence": 0.5421623587608337,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 382.88
+  },
+  {
+    "test_id": "IND-CON-016",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 61,
+        "end": 74,
+        "text": "the Black Sea"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 75,
+        "text": "The Volga River flows southward and discharges directly into the Black Sea.",
+        "confidence": 0.9918421506881714,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 402.85
+  },
+  {
+    "test_id": "IND-CON-017",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 18,
+        "end": 88,
+        "text": "third-largest island in the world, ranking behind Greenland and Borneo"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 52,
+        "end": 89,
+        "text": " ranking behind Greenland and Borneo.",
+        "confidence": 0.9962441921234131,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 354.2
+  },
+  {
+    "test_id": "IND-CON-018",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 22,
+        "end": 63,
+        "text": "separates the islands of Java and Sumatra"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 6,
+        "end": 10,
+        "text": "rait",
+        "confidence": 0.5191471576690674,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 20,
+        "end": 64,
+        "text": "a separates the islands of Java and Sumatra.",
+        "confidence": 0.878504753112793,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 282.19
+  },
+  {
+    "test_id": "IND-CON-019",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 64,
+        "end": 84,
+        "text": "roughly 3,100 metres"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 321.87
+  },
+  {
+    "test_id": "IND-CON-020",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 47,
+        "text": "Istanbul is the official capital city of Turkey"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 15,
+        "end": 37,
+        "text": " official capital city",
+        "confidence": 0.7320083379745483,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "text": " Turkey",
+        "confidence": 0.6312738060951233,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 54,
+        "end": 105,
+        "text": " Ankara serves as its provincial commercial center.",
+        "confidence": 0.9929980039596558,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 3,
+    "inference_latency_ms": 352.15
+  },
+  {
+    "test_id": "IND-CON-021",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 52,
+        "end": 81,
+        "text": "located in northern Greenland"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 51,
+        "end": 82,
+        "text": " located in northern Greenland.",
+        "confidence": 0.990380048751831,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 313.34
+  },
+  {
+    "test_id": "IND-CON-022",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 35,
+        "end": 57,
+        "text": "the Strait of Magellan"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 19,
+        "end": 71,
+        "text": " directly along the Strait of Magellan in Argentina.",
+        "confidence": 0.9980443716049194,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 345.94
+  },
+  {
+    "test_id": "IND-CON-023",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 14,
+        "end": 98,
+        "text": "a completely extinct volcanic caldera that has not erupted in recorded human history"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 99,
+        "text": "Mount Etna is a completely extinct volcanic caldera that has not erupted in recorded human history.",
+        "confidence": 0.9648717045783997,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 388.44
+  },
+  {
+    "test_id": "IND-CON-024",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 60,
+        "end": 80,
+        "text": "roughly 1,240 metres"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 28,
+        "end": 31,
+        "text": " to",
+        "confidence": 0.5136898756027222,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 34,
+        "end": 81,
+        "text": " extreme abyssal depth of roughly 1,240 metres.",
+        "confidence": 0.9783291816711426,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 335.02
+  },
+  {
+    "test_id": "IND-CON-025",
+    "category": "contradictory",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 94,
+        "text": "Zurich serves as the official constitutional capital and seat of the Swiss federal government."
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 306.81
+  },
+  {
+    "test_id": "IND-UNS-001",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 16,
+        "end": 104,
+        "text": "was first successfully summited in 1897 by a British expedition led by Edward FitzGerald"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 105,
+        "text": "Mount Aconcagua was first successfully summited in 1897 by a British expedition led by Edward FitzGerald.",
+        "confidence": 0.9983189702033997,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 371.18
+  },
+  {
+    "test_id": "IND-UNS-002",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 16,
+        "end": 112,
+        "text": "discharges an average of roughly 41,000 cubic metres of water per second into the Atlantic Ocean"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 113,
+        "text": "The Congo River discharges an average of roughly 41,000 cubic metres of water per second into the Atlantic Ocean.",
+        "confidence": 0.9986670017242432,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 373.31
+  },
+  {
+    "test_id": "IND-UNS-003",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 28,
+        "end": 129,
+        "text": "restored to its indigenous name Denali by the federal government in 2015 under President Barack Obama"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 130,
+        "text": "The mountain was officially restored to its indigenous name Denali by the federal government in 2015 under President Barack Obama.",
+        "confidence": 0.9999252557754517,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 362.13
+  },
+  {
+    "test_id": "IND-UNS-004",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 16,
+        "end": 104,
+        "text": "harbors over 250 species of endemic cichlid fish that evolved through adaptive radiation"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 9,
+        "text": "Lake Tang",
+        "confidence": 0.7723516821861267,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 12,
+        "end": 105,
+        "text": "ika harbors over 250 species of endemic cichlid fish that evolved through adaptive radiation.",
+        "confidence": 0.9915383458137512,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 548.01
+  },
+  {
+    "test_id": "IND-UNS-005",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 83,
+        "text": "A historic red-and-white striped lighthouse was constructed at Cape Agulhas in 1848"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 126,
+        "text": "A historic red-and-white striped lighthouse was constructed at Cape Agulhas in 1848 to guide ships through treacherous waters.",
+        "confidence": 0.9979695677757263,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 438.85
+  },
+  {
+    "test_id": "IND-UNS-006",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 13,
+        "end": 95,
+        "text": "last produced a volcanic eruption around 50 CE during the early Roman Imperial era"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 96,
+        "text": "Mount Elbrus last produced a volcanic eruption around 50 CE during the early Roman Imperial era.",
+        "confidence": 0.999121367931366,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 392.45
+  },
+  {
+    "test_id": "IND-UNS-007",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 19,
+        "end": 115,
+        "text": "formed by the evaporation of ancient Lake Manly during the Holocene epoch thousands of years ago"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 116,
+        "text": "Badwater Basin was formed by the evaporation of ancient Lake Manly during the Holocene epoch thousands of years ago.",
+        "confidence": 0.9996979236602783,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 315.62
+  },
+  {
+    "test_id": "IND-UNS-008",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 39,
+        "end": 126,
+        "text": "mats of Sargassum seaweed that provide crucial nursery habitat for juvenile sea turtles"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 127,
+        "text": "The sea is defined by massive floating mats of Sargassum seaweed that provide crucial nursery habitat for juvenile sea turtles.",
+        "confidence": 0.9992942810058594,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 379.86
+  },
+  {
+    "test_id": "IND-UNS-009",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 21,
+        "end": 125,
+        "text": "impounded by the Three Gorges Dam, the world's largest hydroelectric power station by installed capacity"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 126,
+        "text": "The Yangtze River is impounded by the Three Gorges Dam, the world's largest hydroelectric power station by installed capacity.",
+        "confidence": 0.9980009198188782,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 417.07
+  },
+  {
+    "test_id": "IND-UNS-010",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 14,
+        "end": 114,
+        "text": "native habitat of the critically endangered Bornean orangutan, which nests high in the forest canopy"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 115,
+        "text": "Borneo is the native habitat of the critically endangered Bornean orangutan, which nests high in the forest canopy.",
+        "confidence": 0.9999213218688965,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 357.51
+  },
+  {
+    "test_id": "IND-UNS-011",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 4,
+        "end": 133,
+        "text": "first permanent suspension bridge spanning the Bosporus was completed in 1973 on the fiftieth anniversary of the Turkish Republic"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 134,
+        "text": "The first permanent suspension bridge spanning the Bosporus was completed in 1973 on the fiftieth anniversary of the Turkish Republic.",
+        "confidence": 0.999632716178894,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 357.63
+  },
+  {
+    "test_id": "IND-UNS-012",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 15,
+        "end": 130,
+        "text": "named in 1961 after Carl Vinson, a longtime U.S. Congressman from Georgia who championed Antarctic research funding"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 131,
+        "text": "The massif was named in 1961 after Carl Vinson, a longtime U.S. Congressman from Georgia who championed Antarctic research funding.",
+        "confidence": 0.9996078610420227,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 407.81
+  },
+  {
+    "test_id": "IND-UNS-013",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 15,
+        "end": 122,
+        "text": "contains the hydrothermal field of Dallol, famous for its neon green acidic brine pools and sulfur terraces"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 57,
+        "end": 123,
+        "text": " famous for its neon green acidic brine pools and sulfur terraces.",
+        "confidence": 0.9938178658485413,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 334.21
+  },
+  {
+    "test_id": "IND-UNS-014",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 124,
+        "text": "According to indigenous Guaraní mythology, the falls were created when an enraged serpent deity sliced the riverbed in fury."
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 124,
+        "text": "According to indigenous Guaraní mythology, the falls were created when an enraged serpent deity sliced the riverbed in fury.",
+        "confidence": 0.9996964931488037,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 324.3
+  },
+  {
+    "test_id": "IND-UNS-015",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 20,
+        "end": 141,
+        "text": "Alexander von Humboldt attempted to ascend Chimborazo in 1802, setting a world mountaineering altitude record at the time"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 42,
+        "text": "The German polymath Alexander von Humboldt",
+        "confidence": 0.9949436783790588,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 76,
+        "end": 81,
+        "text": " 1802",
+        "confidence": 0.5875625610351562,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 82,
+        "end": 142,
+        "text": " setting a world mountaineering altitude record at the time.",
+        "confidence": 0.9964129328727722,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 3,
+    "inference_latency_ms": 425.57
+  },
+  {
+    "test_id": "IND-UNS-016",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 13,
+        "end": 126,
+        "text": "linked to the Don River by the 101-kilometre Volga-Don Shipping Canal, completed in 1952 under Soviet engineering"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 127,
+        "text": "The Volga is linked to the Don River by the 101-kilometre Volga-Don Shipping Canal, completed in 1952 under Soviet engineering.",
+        "confidence": 0.9988738894462585,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 391.34
+  },
+  {
+    "test_id": "IND-UNS-017",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 4,
+        "end": 120,
+        "text": "highest peak on New Guinea is Puncak Jaya, also called Carstensz Pyramid, which reaches 4,884 metres above sea level"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 121,
+        "text": "The highest peak on New Guinea is Puncak Jaya, also called Carstensz Pyramid, which reaches 4,884 metres above sea level.",
+        "confidence": 0.9976726174354553,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 354.69
+  },
+  {
+    "test_id": "IND-UNS-018",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 154,
+        "text": "The island city-state of Singapore is situated at the southern terminus of the strait, operating one of the world's busiest container transshipment ports."
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 154,
+        "text": "The island city-state of Singapore is situated at the southern terminus of the strait, operating one of the world's busiest container transshipment ports.",
+        "confidence": 0.9966405630111694,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 391.75
+  },
+  {
+    "test_id": "IND-UNS-019",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 14,
+        "end": 143,
+        "text": "suffers from severe mercury contamination and lack of municipal waste infrastructure due to unregulated artisanal gold processing"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 144,
+        "text": "The community suffers from severe mercury contamination and lack of municipal waste infrastructure due to unregulated artisanal gold processing.",
+        "confidence": 0.9987466335296631,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 400.72
+  },
+  {
+    "test_id": "IND-UNS-020",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 13,
+        "end": 114,
+        "text": "ordered by Mustafa Kemal Atatürk, the founder and first president of the modern secular Turkish state"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 115,
+        "text": "The move was ordered by Mustafa Kemal Atatürk, the founder and first president of the modern secular Turkish state.",
+        "confidence": 0.9998760223388672,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 359.21
+  },
+  {
+    "test_id": "IND-UNS-021",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 57,
+        "end": 159,
+        "text": "mapped using airborne radio-echo sounding radar deployed during International Geophysical Year surveys"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 160,
+        "text": "The subterranean bedrock profile beneath the glacier was mapped using airborne radio-echo sounding radar deployed during International Geophysical Year surveys.",
+        "confidence": 0.9966915845870972,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 386.17
+  },
+  {
+    "test_id": "IND-UNS-022",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 23,
+        "end": 132,
+        "text": "developed as an Argentine penal colony housing dangerous felons and political prisoners between 1896 and 1947"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 133,
+        "text": "Ushuaia was originally developed as an Argentine penal colony housing dangerous felons and political prisoners between 1896 and 1947.",
+        "confidence": 0.999133288860321,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 396.71
+  },
+  {
+    "test_id": "IND-UNS-023",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 0,
+        "end": 123,
+        "text": "In classical Greek mythology, the monstrous serpentine giant Typhon was believed to be trapped beneath the volcano by Zeus."
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 123,
+        "text": "In classical Greek mythology, the monstrous serpentine giant Typhon was believed to be trapped beneath the volcano by Zeus.",
+        "confidence": 0.9994127750396729,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 362.76
+  },
+  {
+    "test_id": "IND-UNS-024",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 17,
+        "end": 148,
+        "text": "made world-famous in 1971 by French underwater explorer Jacques Cousteau, who declared it one of the world's top scuba diving sites"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 149,
+        "text": "The sinkhole was made world-famous in 1971 by French underwater explorer Jacques Cousteau, who declared it one of the world's top scuba diving sites.",
+        "confidence": 0.9992377758026123,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 356.28
+  },
+  {
+    "test_id": "IND-UNS-025",
+    "category": "unsupported",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 8,
+        "end": 120,
+        "text": "celebrated for the Zytglogge, a landmark medieval astronomical clock tower built in the early thirteenth century"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 0,
+        "end": 121,
+        "text": "Bern is celebrated for the Zytglogge, a landmark medieval astronomical clock tower built in the early thirteenth century.",
+        "confidence": 0.9969239830970764,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 402.94
+  },
+  {
+    "test_id": "IND-MIX-001",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 74,
+        "end": 108,
+        "text": "but it is located in central Chile"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 77,
+        "end": 109,
+        "text": " it is located in central Chile.",
+        "confidence": 0.9895749688148499,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 596.4
+  },
+  {
+    "test_id": "IND-MIX-002",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 51,
+        "end": 99,
+        "text": "while its maximum depth is limited to 110 metres"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 50,
+        "end": 100,
+        "text": " while its maximum depth is limited to 110 metres.",
+        "confidence": 0.9966099858283997,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 494.18
+  },
+  {
+    "test_id": "IND-MIX-003",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 54,
+        "end": 94,
+        "text": "but its summit elevation is 7,190 metres"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 57,
+        "end": 95,
+        "text": " its summit elevation is 7,190 metres.",
+        "confidence": 0.8312665820121765,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 376.74
+  },
+  {
+    "test_id": "IND-MIX-004",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 57,
+        "end": 128,
+        "text": "whereas it holds the record as the world's largest lake by surface area"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 56,
+        "end": 129,
+        "text": " whereas it holds the record as the world's largest lake by surface area.",
+        "confidence": 0.9942586421966553,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 446.07
+  },
+  {
+    "test_id": "IND-MIX-005",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 65,
+        "end": 130,
+        "text": "and it marks the boundary between the Pacific and Atlantic Oceans"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 102,
+        "end": 110,
+        "text": " Pacific",
+        "confidence": 0.5359088778495789,
+        "category": null,
+        "source": "lettucedetect"
+      },
+      {
+        "start": 123,
+        "end": 125,
+        "text": " O",
+        "confidence": 0.6822014451026917,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 2,
+    "inference_latency_ms": 392.12
+  },
+  {
+    "test_id": "IND-MIX-006",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 60,
+        "end": 113,
+        "text": "although it is situated in the Alps of northern Italy"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 59,
+        "end": 114,
+        "text": " although it is situated in the Alps of northern Italy.",
+        "confidence": 0.9983423948287964,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 402.19
+  },
+  {
+    "test_id": "IND-MIX-007",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 66,
+        "end": 106,
+        "text": "and it is located in the state of Nevada"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 69,
+        "end": 107,
+        "text": " it is located in the state of Nevada.",
+        "confidence": 0.9988538026809692,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 376.83
+  },
+  {
+    "test_id": "IND-MIX-008",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 51,
+        "end": 111,
+        "text": "while it is completely enclosed by the Scandinavian landmass"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 56,
+        "end": 112,
+        "text": " it is completely enclosed by the Scandinavian landmass.",
+        "confidence": 0.9928923845291138,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 325.63
+  },
+  {
+    "test_id": "IND-MIX-009",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 48,
+        "end": 96,
+        "text": "but its measured length is only 3,300 kilometres"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 82,
+        "end": 85,
+        "text": "300",
+        "confidence": 0.5905103087425232,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 358.27
+  },
+  {
+    "test_id": "IND-MIX-010",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 49,
+        "end": 123,
+        "text": "and its entire landmass is governed exclusively by the nation of Indonesia"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 52,
+        "end": 124,
+        "text": " its entire landmass is governed exclusively by the nation of Indonesia.",
+        "confidence": 0.9889947772026062,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 416.98
+  },
+  {
+    "test_id": "IND-MIX-011",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 66,
+        "end": 122,
+        "text": "and it divides the city of Athens between two continents"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 69,
+        "end": 123,
+        "text": " it divides the city of Athens between two continents.",
+        "confidence": 0.9935848116874695,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 400.06
+  },
+  {
+    "test_id": "IND-MIX-012",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 62,
+        "end": 107,
+        "text": "but it is surpassed in height by Mount Erebus"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 61,
+        "end": 108,
+        "text": " but it is surpassed in height by Mount Erebus.",
+        "confidence": 0.9964873790740967,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 354.27
+  },
+  {
+    "test_id": "IND-MIX-013",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 61,
+        "end": 110,
+        "text": "but it is situated in the high mountains of Kenya"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 60,
+        "end": 111,
+        "text": " but it is situated in the high mountains of Kenya.",
+        "confidence": 0.9993299245834351,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 334.97
+  },
+  {
+    "test_id": "IND-MIX-014",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 57,
+        "end": 111,
+        "text": "and it is located on the border between Chile and Peru"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 77,
+        "end": 112,
+        "text": " the border between Chile and Peru.",
+        "confidence": 0.8903753161430359,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 328.34
+  },
+  {
+    "test_id": "IND-MIX-015",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 81,
+        "end": 121,
+        "text": "although it is an active volcano in Peru"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 80,
+        "end": 122,
+        "text": " although it is an active volcano in Peru.",
+        "confidence": 0.988857626914978,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 333.77
+  },
+  {
+    "test_id": "IND-MIX-016",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "CLEAN",
+    "is_correct": false,
+    "expected_spans": [
+      {
+        "start": 48,
+        "end": 87,
+        "text": "and it flows into the Mediterranean Sea"
+      }
+    ],
+    "predicted_spans": [],
+    "span_count": 0,
+    "inference_latency_ms": 344.76
+  },
+  {
+    "test_id": "IND-MIX-017",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 54,
+        "end": 109,
+        "text": "but it is divided between Australia and the Philippines"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 53,
+        "end": 110,
+        "text": " but it is divided between Australia and the Philippines.",
+        "confidence": 0.9953820109367371,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 399.46
+  },
+  {
+    "test_id": "IND-MIX-018",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 68,
+        "end": 124,
+        "text": "while it connects the Atlantic Ocean to the Arctic Ocean"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 89,
+        "end": 125,
+        "text": " Atlantic Ocean to the Arctic Ocean.",
+        "confidence": 0.8291215300559998,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 334.96
+  },
+  {
+    "test_id": "IND-MIX-019",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 73,
+        "end": 124,
+        "text": "and it is located on the coastal plains of Colombia"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 76,
+        "end": 125,
+        "text": " it is located on the coastal plains of Colombia.",
+        "confidence": 0.9981371164321899,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 367.92
+  },
+  {
+    "test_id": "IND-MIX-020",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 33,
+        "end": 86,
+        "text": "but it was designated as the capital in the year 1823"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 32,
+        "end": 87,
+        "text": " but it was designated as the capital in the year 1823.",
+        "confidence": 0.9980877041816711,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 289.13
+  },
+  {
+    "test_id": "IND-MIX-021",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 57,
+        "end": 115,
+        "text": "although it is located in the Southern Alps of New Zealand"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 56,
+        "end": 116,
+        "text": " although it is located in the Southern Alps of New Zealand.",
+        "confidence": 0.9955281615257263,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 359.91
+  },
+  {
+    "test_id": "IND-MIX-022",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 47,
+        "end": 104,
+        "text": "while it is situated in the interior highlands of Bolivia"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 46,
+        "end": 105,
+        "text": " while it is situated in the interior highlands of Bolivia.",
+        "confidence": 0.9985519051551819,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 347.23
+  },
+  {
+    "test_id": "IND-MIX-023",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 49,
+        "end": 106,
+        "text": "but its elevation is less than 500 metres above sea level"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 48,
+        "end": 107,
+        "text": " but its elevation is less than 500 metres above sea level.",
+        "confidence": 0.9978748559951782,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 305.58
+  },
+  {
+    "test_id": "IND-MIX-024",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 66,
+        "end": 102,
+        "text": "but it is less than 20 metres across"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 65,
+        "end": 103,
+        "text": " but it is less than 20 metres across.",
+        "confidence": 0.9954068660736084,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 345.42
+  },
+  {
+    "test_id": "IND-MIX-025",
+    "category": "mixed",
+    "expected_verdict": "HALLUCINATED",
+    "predicted_verdict": "HALLUCINATED",
+    "is_correct": true,
+    "expected_spans": [
+      {
+        "start": 54,
+        "end": 104,
+        "text": "whereas it was officially founded in the year 2010"
+      }
+    ],
+    "predicted_spans": [
+      {
+        "start": 53,
+        "end": 105,
+        "text": " whereas it was officially founded in the year 2010.",
+        "confidence": 0.9994545578956604,
+        "category": null,
+        "source": "lettucedetect"
+      }
+    ],
+    "span_count": 1,
+    "inference_latency_ms": 360.51
+  }
+]
