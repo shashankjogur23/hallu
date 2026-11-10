@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "suite": "HalluGuard Historical Bug Regression Suite",
+    "date": "2026-11-11",
+    "total_cases": 11,
+    "passed_cases": 11,
+    "failed_cases": 0,
+    "pass_rate": "100.0%"
+  },
+  "results": [
+    {
+      "bug_id": "HIST-BUG-001",
+      "name": "Denali Ordinal Ranking Inversion (IND-CON-003)",
+      "question": "What is the ranking of Denali among North American mountain peaks?",
+      "answer": "Denali is the second-highest mountain peak in North America, ranking just below Mount Logan.",
+      "context": [
+        "Denali, formerly officially named Mount McKinley, is located in the Alaska Range in the interior of the U.S. state of Alaska. Its summit reaches 6,190 metres above sea level, making it the highest mountain peak in North America, followed by Mount Logan in Canada."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "LettuceDetect token classifier missed inverted ranking due to 100% token co-occurrence with context (0.0 hallucination).",
+      "fix_applied": "Secondary DeBERTa-v3 NLI cross-encoder with proposition decomposition isolates clauses and catches contradiction at 97.65% confidence.",
+      "spans_detected": 2,
+      "contradicted_claims": [
+        {
+          "text": "Denali is the second-highest mountain peak in North America",
+          "confidence": 0.9765,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        },
+        {
+          "text": "ranking just below Mount Logan",
+          "confidence": 0.979,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 1589.29
+    },
+    {
+      "bug_id": "HIST-BUG-002",
+      "name": "Oxford-Comma Coordinated List Fragmentation (IND-SUP-010)",
+      "question": "Which countries share the island of Borneo?",
+      "answer": "Borneo is divided among Indonesia, Malaysia, and Brunei.",
+      "context": [
+        "Borneo is the third-largest island in the world and the largest in Asia. The island is politically divided among three countries: Malaysia and Brunei in the north, and Indonesia to the south."
+      ],
+      "expected_verdict": "SUPPORTED",
+      "actual_verdict": "SUPPORTED",
+      "passed": true,
+      "historical_failure": "Naive regex comma splitting fragmented list into isolated entities like 'and Brunei', causing false positive contradiction.",
+      "fix_applied": "Oxford comma lookahead guard and verb-aware splitting in nli_service.py prevents splitting coordinated noun lists.",
+      "spans_detected": 0,
+      "contradicted_claims": [],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 635.87
+    },
+    {
+      "bug_id": "HIST-BUG-003",
+      "name": "Nile vs Amazon River Length Inversion (GEO-CON-001)",
+      "question": "Which river is longer, the Nile or the Amazon?",
+      "answer": "The Amazon River is the longest river in the world, followed by the Nile River.",
+      "context": [
+        "The Nile River is the longest river in the world, with a length of approximately 6,650 kilometers. The Amazon River is the second longest, measuring around 6,400 kilometers, though it is the largest by water volume."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Both entities (Nile, Amazon) appeared in context; LettuceDetect assigned low token hallucination scores, resulting in False Negative.",
+      "fix_applied": "NLI cross-encoder detects pairwise relational contradiction against premise.",
+      "spans_detected": 2,
+      "contradicted_claims": [
+        {
+          "text": "The Amazon River is the longest river in the world",
+          "confidence": 0.916,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        },
+        {
+          "text": "followed by the Nile River",
+          "confidence": 0.6805,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 830.0
+    },
+    {
+      "bug_id": "HIST-BUG-004",
+      "name": "K2 Ordinal Substitution (GEO-CON-002)",
+      "question": "What is the ranking of K2?",
+      "answer": "K2 is the third-highest mountain on Earth, ranking below Mount Everest and Kangchenjunga.",
+      "context": [
+        "Mount Everest is the highest mountain on Earth, followed by K2 as the second-highest, and Kangchenjunga as the third-highest."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Token classifier failed to distinguish ordinal ranking swap due to high context overlap.",
+      "fix_applied": "NLI cross-encoder scores direct semantic contradiction against context.",
+      "spans_detected": 1,
+      "contradicted_claims": [
+        {
+          "text": "K2 is the third-highest mountain on Earth",
+          "confidence": 0.8996,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [
+        {
+          "text": "ranking below Mount Everest and Kangchenjunga",
+          "confidence": 0.9549,
+          "category": "supported",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "execution_time_ms": 792.66
+    },
+    {
+      "bug_id": "HIST-BUG-005",
+      "name": "Vatican City Area Ranking Negation (GEO-CON-005)",
+      "question": "What is the size ranking of Vatican City?",
+      "answer": "Vatican City is the largest sovereign state in the world by surface area.",
+      "context": [
+        "Vatican City is an independent city-state enclaved within Rome, Italy. With an area of 0.49 square kilometers, it is the smallest sovereign state in the world."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Lexical overlap on 'Vatican City', 'sovereign state', 'world' masked the antonymous contradiction (smallest vs largest).",
+      "fix_applied": "Hybrid fusion combines token-level flags with NLI contradiction detection.",
+      "spans_detected": 1,
+      "contradicted_claims": [
+        {
+          "text": "Vatican City is the largest sovereign state in the world by surface area.",
+          "confidence": 0.999,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 498.64
+    },
+    {
+      "bug_id": "HIST-BUG-006",
+      "name": "Pacific Ocean vs Atlantic Ocean Size Inversion (GEO-CON-011)",
+      "question": "How does the Pacific Ocean compare to the Atlantic?",
+      "answer": "The Pacific Ocean is smaller than the Atlantic Ocean.",
+      "context": [
+        "The Pacific Ocean is the largest and deepest ocean on Earth. The Atlantic Ocean is the second-largest ocean."
+      ],
+      "expected_verdict": [
+        "CONTRADICTED",
+        "UNSUPPORTED"
+      ],
+      "actual_verdict": "UNSUPPORTED",
+      "passed": true,
+      "historical_failure": "Self-attention co-occurrence in baseline caused False Negative. Hybrid system catches it with LettuceDetect at 97.2% confidence.",
+      "fix_applied": "LettuceDetect token classifier flags span at 97.2% confidence, classified as UNSUPPORTED hallucination because multi-hop deduction across premises yields NLI neutral.",
+      "spans_detected": 1,
+      "contradicted_claims": [],
+      "unsupported_claims": [
+        {
+          "text": "The Pacific Ocean is smaller than the Atlantic Ocean.",
+          "confidence": 0.9720536470413208,
+          "category": "unsupported",
+          "source": "lettucedetect_token"
+        }
+      ],
+      "supported_claims": [],
+      "execution_time_ms": 437.84
+    },
+    {
+      "bug_id": "HIST-BUG-007",
+      "name": "Australia Capital Multi-Entity Distractor (GEO-MIX-001)",
+      "question": "What is the capital and largest city of Australia?",
+      "answer": "Sydney is the capital city of Australia, while Melbourne is the largest city.",
+      "context": [
+        "Canberra is the capital city of Australia. Sydney is Australia's largest city by population."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Token detector partially confused Sydney role due to presence in context.",
+      "fix_applied": "Clause segmentation splits clauses; NLI detects Sydney capital claim contradicts context.",
+      "spans_detected": 2,
+      "contradicted_claims": [
+        {
+          "text": "Sydney is the capital city of Australia",
+          "confidence": 0.8781,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [
+        {
+          "text": " while Melbourne is the largest city.",
+          "confidence": 0.9790875911712646,
+          "category": "unsupported",
+          "source": "lettucedetect_token"
+        }
+      ],
+      "supported_claims": [],
+      "execution_time_ms": 616.0
+    },
+    {
+      "bug_id": "HIST-BUG-008",
+      "name": "Brazil Capital vs Metropolitan Area (GEO-MIX-005)",
+      "question": "What is the capital of Brazil?",
+      "answer": "Rio de Janeiro remains the capital of Brazil, and Brasilia is its largest city.",
+      "context": [
+        "Brasilia has been the federal capital of Brazil since 1960. Sao Paulo is the most populous city in Brazil."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Extrinsic capital claim mixed with context entities.",
+      "fix_applied": "Both detectors flag unsupported and contradictory propositions independently.",
+      "spans_detected": 1,
+      "contradicted_claims": [
+        {
+          "text": "Rio de Janeiro remains the capital of Brazil",
+          "confidence": 0.9898,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 630.38
+    },
+    {
+      "bug_id": "HIST-BUG-009",
+      "name": "France Population Numerical Contradiction (Demo Baseline)",
+      "question": "What is the capital of France and its population?",
+      "answer": "The capital of France is Paris. The population of France is 69 million.",
+      "context": [
+        "France is a country in Europe. The capital of France is Paris. The population of France is 67 million."
+      ],
+      "expected_verdict": "CONTRADICTED",
+      "actual_verdict": "CONTRADICTED",
+      "passed": true,
+      "historical_failure": "Baseline 2-way verdict called this 'HALLUCINATED' without distinguishing contradiction from unsupported additions.",
+      "fix_applied": "4-way verdict categorizes numerical conflict specifically as CONTRADICTED.",
+      "spans_detected": 1,
+      "contradicted_claims": [
+        {
+          "text": "The population of France is 69 million.",
+          "confidence": 0.705,
+          "category": "contradiction",
+          "source": "nli_cross_encoder"
+        }
+      ],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 660.62
+    },
+    {
+      "bug_id": "HIST-BUG-010",
+      "name": "Grounded Factual Statement on Mount Everest (Clean Baseline)",
+      "question": "What is the elevation of Mount Everest?",
+      "answer": "Mount Everest is the highest mountain on Earth with an elevation of 8,848.86 meters.",
+      "context": [
+        "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. Its elevation of 8,848.86 m was officially established in 2020."
+      ],
+      "expected_verdict": "SUPPORTED",
+      "actual_verdict": "SUPPORTED",
+      "passed": true,
+      "historical_failure": "None (Control test to ensure 0% False Positive Rate).",
+      "fix_applied": "N/A",
+      "spans_detected": 0,
+      "contradicted_claims": [],
+      "unsupported_claims": [],
+      "supported_claims": [],
+      "execution_time_ms": 473.13
+    },
+    {
+      "bug_id": "HIST-BUG-011",
+      "name": "Extrinsic Novel Claim on Lake Baikal (Extrinsic Baseline)",
+      "question": "Tell me about Lake Baikal.",
+      "answer": "Lake Baikal is the deepest lake in the world, reaching depths of 1,642 meters.",
+      "context": [
+        "Russia is the largest country in the world by land area, spanning eastern Europe and northern Asia."
+      ],
+      "expected_verdict": "UNSUPPORTED",
+      "actual_verdict": "UNSUPPORTED",
+      "passed": true,
+      "historical_failure": "Baseline system labeled all non-clean text as 'HALLUCINATED'.",
+      "fix_applied": "4-way verdict correctly labels entity absence as UNSUPPORTED rather than CONTRADICTED.",
+      "spans_detected": 1,
+      "contradicted_claims": [],
+      "unsupported_claims": [
+        {
+          "text": "Lake Baikal is the deepest lake in the world, reaching depths of 1,642 meters.",
+          "confidence": 0.998824417591095,
+          "category": "unsupported",
+          "source": "lettucedetect_token"
+        }
+      ],
+      "supported_claims": [],
+      "execution_time_ms": 414.88
+    }
+  ]
+}

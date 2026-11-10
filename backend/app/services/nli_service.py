@@ -278,15 +278,29 @@ class NLIService:
         # 1. Full answer level
         segments.append((0, len(answer_text), clean_ans, "full_answer", clean_ans))
 
-        # 2. Sentence boundary splitting
-        sentence_pattern = re.compile(r"([^.!?]+[.!?]?)")
-        for m in sentence_pattern.finditer(answer_text):
-            s_raw = m.group()
-            s_text = s_raw.strip()
+        # 2. Robust sentence boundary splitting (protects decimal numbers like 8,848.86 and abbreviations)
+        delims = [m.end() for m in re.finditer(r"(?<!\d)[.!?](?!\d)(?=\s+[A-Z]|$)", answer_text)]
+        prev = 0
+        raw_sentence_spans = []
+        for d in delims:
+            sub = answer_text[prev:d]
+            sub_strip = sub.strip()
+            if sub_strip:
+                start = prev + sub.find(sub_strip)
+                end = start + len(sub_strip)
+                raw_sentence_spans.append((start, end, sub_strip))
+            prev = d
+        if prev < len(answer_text):
+            sub = answer_text[prev:]
+            sub_strip = sub.strip()
+            if sub_strip:
+                start = prev + sub.find(sub_strip)
+                end = start + len(sub_strip)
+                raw_sentence_spans.append((start, end, sub_strip))
+
+        for s_start, s_end, s_text in raw_sentence_spans:
             if not s_text or len(s_text) < 4:
                 continue
-            s_start = m.start() + s_raw.find(s_text)
-            s_end = s_start + len(s_text)
 
             if s_text != clean_ans:
                 segments.append((s_start, s_end, s_text, "sentence", s_text))

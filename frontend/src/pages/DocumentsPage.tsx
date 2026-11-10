@@ -30,6 +30,7 @@ export const DocumentsPage: React.FC<DocumentsPageProps> = ({ onUseDocumentInVer
 
   // Detail Modal
   const [inspectDoc, setInspectDoc] = useState<DocumentDetail | null>(null);
+  const [deleteDocConfirm, setDeleteDocConfirm] = useState<{ id: string; filename: string } | null>(null);
 
   const fetchDocuments = async () => {
     try {
@@ -76,8 +77,13 @@ export const DocumentsPage: React.FC<DocumentsPageProps> = ({ onUseDocumentInVer
     }
   };
 
-  const handleDelete = async (id: string, filename: string) => {
-    if (!confirm(`Are you sure you want to remove '${filename}'?`)) return;
+  const handleDelete = (id: string, filename: string) => {
+    setDeleteDocConfirm({ id, filename });
+  };
+
+  const executeDelete = async () => {
+    if (!deleteDocConfirm) return;
+    const { id, filename } = deleteDocConfirm;
 
     try {
       await api.deleteDocument(id);
@@ -86,6 +92,8 @@ export const DocumentsPage: React.FC<DocumentsPageProps> = ({ onUseDocumentInVer
       if (inspectDoc?.id === id) setInspectDoc(null);
     } catch (err: any) {
       setError(`Failed to delete document: ${err.message}`);
+    } finally {
+      setDeleteDocConfirm(null);
     }
   };
 
@@ -336,6 +344,38 @@ export const DocumentsPage: React.FC<DocumentsPageProps> = ({ onUseDocumentInVer
                 className="px-4 py-2 bg-blue-600 text-white rounded-lg text-xs font-semibold hover:bg-blue-500"
               >
                 Insert into Verify Page
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Delete Confirmation Modal (In-DOM replacement for window.confirm) */}
+      {deleteDocConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/40 backdrop-blur-xs p-4">
+          <div className="bg-white rounded-2xl shadow-xl border border-slate-200 max-w-sm w-full p-6 space-y-4">
+            <div className="flex items-center gap-3 text-red-600">
+              <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
+                <Trash2 className="w-5 h-5" />
+              </div>
+              <h3 className="text-base font-bold text-slate-900">Remove Document?</h3>
+            </div>
+            <p className="text-xs text-slate-600 leading-relaxed">
+              Are you sure you want to remove{' '}
+              <span className="font-semibold text-slate-900">'{deleteDocConfirm.filename}'</span>? This action cannot be undone.
+            </p>
+            <div className="flex justify-end gap-2 pt-2">
+              <button
+                onClick={() => setDeleteDocConfirm(null)}
+                className="px-3.5 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-lg transition-colors cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={executeDelete}
+                className="px-4 py-2 bg-red-600 hover:bg-red-500 text-white rounded-lg text-xs font-semibold transition-colors cursor-pointer"
+              >
+                Confirm Delete
               </button>
             </div>
           </div>
