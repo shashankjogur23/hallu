@@ -123,8 +123,4 @@ pytest tests/ -v
 python run_tests.py
 ```
 
----
 
-## 📄 License
-
-MIT License. See individual model licenses on HuggingFace for pretrained weights.
