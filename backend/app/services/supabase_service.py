@@ -138,6 +138,145 @@ class SupabaseService:
             logger.error("Failed to query verification history: %s", e)
             return []
 
+    def save_document(
+        self,
+        document_id: str,
+        filename: str,
+        file_type: str,
+        file_size_bytes: int,
+        chunk_count: int,
+        extracted_text: str,
+        chunks: list[Any],
+        file_bytes: bytes | None = None,
+    ) -> bool:
+        """Persist full document text, chunks, and metadata into Supabase PostgreSQL.
+
+        Returns True only if successfully stored.
+        """
+        if not self._is_configured or self._client is None:
+            return False
+
+        try:
+            # Serialize chunks
+            serialized_chunks = []
+            for c in chunks:
+                if hasattr(c, "model_dump"):
+                    serialized_chunks.append(c.model_dump())
+                elif hasattr(c, "dict"):
+                    serialized_chunks.append(c.dict())
+                elif isinstance(c, dict):
+                    serialized_chunks.append(c)
+                else:
+                    serialized_chunks.append({
+                        "chunk_index": getattr(c, "chunk_index", 0),
+                        "text": getattr(c, "text", ""),
+                        "char_start": getattr(c, "char_start", 0),
+                        "char_end": getattr(c, "char_end", 0),
+                    })
+
+            record = {
+                "id": document_id,
+                "filename": filename,
+                "file_type": file_type,
+                "file_size": file_size_bytes,
+                "chunk_count": chunk_count,
+                "metadata": {
+                    "extracted_text": extracted_text,
+                    "chunks": serialized_chunks,
+                    "source": "api_upload",
+                },
+            }
+            res = self._client.table("documents").insert(record).execute()
+            if res.data:
+                logger.info("Successfully persisted document %s to Supabase.", document_id)
+                return True
+            return False
+        except Exception as e:
+            logger.error("Failed to persist document %s to Supabase: %s", document_id, e, exc_info=True)
+            return False
+
+    def list_documents(self) -> list[dict[str, Any]]:
+        """Fetch all documents from Supabase."""
+        if not self._is_configured or self._client is None:
+            return []
+
+        try:
+            res = (
+                self._client.table("documents")
+                .select("*")
+                .order("created_at", desc=True)
+                .execute()
+            )
+            raw_docs = res.data or []
+            documents = []
+            for d in raw_docs:
+                meta = d.get("metadata") or {}
+                extracted_text = meta.get("extracted_text", "")
+                chunks = meta.get("chunks", [])
+                documents.append({
+                    "id": d["id"],
+                    "filename": d["filename"],
+                    "file_type": d["file_type"],
+                    "file_size": d["file_size"],
+                    "chunk_count": d["chunk_count"],
+                    "extracted_text": extracted_text,
+                    "chunks": chunks,
+                    "created_at": d.get("created_at", ""),
+                    "is_persistent": True,
+                })
+            return documents
+        except Exception as e:
+            logger.error("Failed to list documents from Supabase: %s", e)
+            return []
+
+    def get_document(self, document_id: str) -> dict[str, Any] | None:
+        """Fetch single document by ID from Supabase."""
+        if not self._is_configured or self._client is None:
+            return None
+
+        try:
+            res = (
+                self._client.table("documents")
+                .select("*")
+                .eq("id", document_id)
+                .execute()
+            )
+            if not res.data:
+                return None
+            d = res.data[0]
+            meta = d.get("metadata") or {}
+            return {
+                "id": d["id"],
+                "filename": d["filename"],
+                "file_type": d["file_type"],
+                "file_size": d["file_size"],
+                "chunk_count": d["chunk_count"],
+                "extracted_text": meta.get("extracted_text", ""),
+                "chunks": meta.get("chunks", []),
+                "created_at": d.get("created_at", ""),
+                "is_persistent": True,
+            }
+        except Exception as e:
+            logger.error("Failed to get document %s from Supabase: %s", document_id, e)
+            return None
+
+    def delete_document(self, document_id: str) -> bool:
+        """Delete document from Supabase."""
+        if not self._is_configured or self._client is None:
+            return False
+
+        try:
+            res = (
+                self._client.table("documents")
+                .delete()
+                .eq("id", document_id)
+                .execute()
+            )
+            return bool(res.data)
+        except Exception as e:
+            logger.error("Failed to delete document %s from Supabase: %s", document_id, e)
+            return False
+
     def save_document_metadata(
         self,
         document_id: str,

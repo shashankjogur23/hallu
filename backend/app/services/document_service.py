@@ -234,7 +234,28 @@ class DocumentService:
         chunks = self.chunk_text(extracted_text, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
         doc_id = str(uuid.uuid4())
         created_at = datetime.now(timezone.utc).isoformat()
-        is_persistent = settings.is_supabase_configured
+        is_persistent = False
+
+        # Attempt durable Supabase persistence
+        try:
+            from app.services.supabase_service import supabase_service
+            if supabase_service.is_configured:
+                save_ok = supabase_service.save_document(
+                    document_id=doc_id,
+                    filename=filename,
+                    file_type=file_type,
+                    file_size_bytes=len(file_bytes),
+                    chunk_count=len(chunks),
+                    extracted_text=extracted_text,
+                    chunks=chunks,
+                    file_bytes=file_bytes,
+                )
+                if save_ok:
+                    is_persistent = True
+                else:
+                    logger.warning("Supabase document persistence returned False. Operating in local fallback mode for %s.", doc_id)
+        except Exception as e:
+            logger.warning("Could not persist document to Supabase: %s. Operating in local mode.", e)
 
         doc_record = {
             "id": doc_id,
@@ -249,38 +270,58 @@ class DocumentService:
         }
 
         self._documents[doc_id] = doc_record
-
-        # Optional Supabase metadata save
-        try:
-            from app.services.supabase_service import supabase_service
-            if supabase_service.is_configured:
-                supabase_service.save_document_metadata(
-                    document_id=doc_id,
-                    filename=filename,
-                    file_type=file_type,
-                    file_size_bytes=len(file_bytes),
-                    chunk_count=len(chunks),
-                    metadata={"source": "api_upload"},
-                )
-        except Exception as e:
-            logger.warning("Could not persist document metadata to Supabase: %s", e)
-
         return doc_record
 
     def list_documents(self) -> list[dict]:
-        """Return all registered documents."""
+        """Return all registered documents, syncing from Supabase if configured."""
+        try:
+            from app.services.supabase_service import supabase_service
+            if supabase_service.is_configured:
+                remote_docs = supabase_service.list_documents()
+                for rd in remote_docs:
+                    rd_id = rd["id"]
+                    if rd_id not in self._documents:
+                        self._documents[rd_id] = rd
+                    else:
+                        self._documents[rd_id]["is_persistent"] = True
+        except Exception as e:
+            logger.warning("Failed to sync documents from Supabase: %s", e)
+
         return list(self._documents.values())
 
     def get_document(self, doc_id: str) -> dict | None:
-        """Retrieve a registered document by ID."""
-        return self._documents.get(doc_id)
+        """Retrieve a registered document by ID, checking Supabase if not in memory."""
+        if doc_id in self._documents:
+            return self._documents[doc_id]
+
+        try:
+            from app.services.supabase_service import supabase_service
+            if supabase_service.is_configured:
+                remote_doc = supabase_service.get_document(doc_id)
+                if remote_doc:
+                    self._documents[doc_id] = remote_doc
+                    return remote_doc
+        except Exception as e:
+            logger.warning("Failed to fetch document %s from Supabase: %s", doc_id, e)
+
+        return None
 
     def delete_document(self, doc_id: str) -> bool:
-        """Remove a registered document."""
+        """Remove a registered document from both local memory and Supabase."""
+        deleted_local = False
         if doc_id in self._documents:
             del self._documents[doc_id]
-            return True
-        return False
+            deleted_local = True
+
+        deleted_remote = False
+        try:
+            from app.services.supabase_service import supabase_service
+            if supabase_service.is_configured:
+                deleted_remote = supabase_service.delete_document(doc_id)
+        except Exception as e:
+            logger.warning("Failed to delete document %s from Supabase: %s", doc_id, e)
+
+        return deleted_local or deleted_remote
 
 
 document_service = DocumentService()

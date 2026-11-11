@@ -98,7 +98,12 @@ async def list_documents() -> DocumentListResponse:
         for d in docs
     ]
 
-    is_persistent = settings.is_supabase_configured
+    try:
+        from app.services.supabase_service import supabase_service
+        is_persistent = settings.is_supabase_configured and supabase_service.is_configured
+    except Exception:
+        is_persistent = False
+
     notice = (
         "Documents are securely stored in Supabase PostgreSQL."
         if is_persistent

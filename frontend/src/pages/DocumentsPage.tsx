@@ -217,6 +217,8 @@ export const DocumentsPage: React.FC<DocumentsPageProps> = ({ onUseDocumentInVer
             {documents.map((doc) => (
               <div
                 key={doc.id}
+                data-testid="doc-row"
+                data-filename={doc.filename}
                 className="px-6 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 hover:bg-slate-50/60 transition-colors"
               >
                 <div className="flex items-start gap-3 min-w-0">

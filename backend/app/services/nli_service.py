@@ -84,6 +84,12 @@ class NLIService:
         r"^the provided text mentions that\s*",
     ]
 
+    # Common abbreviations to prevent false sentence boundary splitting
+    COMMON_ABBREVIATIONS = {
+        "dr", "mr", "mrs", "ms", "prof", "sr", "jr", "rev", "gen", "col", "capt", "lt", "st",
+        "e.g", "i.e", "etc", "vs", "cf", "al", "u.s", "u.k", "e.u", "approx", "est", "dept", "univ",
+    }
+
     # Common finite verbs for grammatical clause boundary verification
     COMMON_FINITE_VERBS = {
         "is", "are", "was", "were", "be", "been", "being",
@@ -278,8 +284,19 @@ class NLIService:
         # 1. Full answer level
         segments.append((0, len(answer_text), clean_ans, "full_answer", clean_ans))
 
-        # 2. Robust sentence boundary splitting (protects decimal numbers like 8,848.86 and abbreviations)
-        delims = [m.end() for m in re.finditer(r"(?<!\d)[.!?](?!\d)(?=\s+[A-Z]|$)", answer_text)]
+        # 2. Robust sentence boundary splitting (protects decimal numbers, abbreviations like Dr./U.S./e.g., and quotes)
+        delims = []
+        for m in re.finditer(r"(?<!\d)[.!?](?!\d)(?=\s+[A-Z0-9(\[\"']|$)", answer_text):
+            punct_idx = m.start()
+            punct = answer_text[punct_idx]
+            if punct == ".":
+                pre_text = answer_text[:punct_idx].rstrip()
+                w_match = re.search(r"([A-Za-z.]+)\Z", pre_text)
+                if w_match:
+                    w = w_match.group(1).lower().rstrip(".")
+                    if len(w) == 1 or w in self.COMMON_ABBREVIATIONS or re.fullmatch(r"(?:[a-z]\.)+[a-z]?", w):
+                        continue
+            delims.append(m.end())
         prev = 0
         raw_sentence_spans = []
         for d in delims:

@@ -2,10 +2,20 @@
   "metadata": {
     "suite": "HalluGuard Historical Bug Regression Suite",
     "date": "2026-11-11",
-    "total_cases": 11,
-    "passed_cases": 11,
-    "failed_cases": 0,
-    "pass_rate": "100.0%"
+    "total_historical_issues_inspected": 13,
+    "automated_model_runner_cases": 11,
+    "passed_model_cases": 11,
+    "failed_model_cases": 0,
+    "model_pass_rate": "100.0%",
+    "browser_interaction_cases": 1,
+    "browser_test_suite": "evaluation/scripts/test_browser_modal.py",
+    "browser_case_status": "PASSED (HIST-BUG-012)",
+    "persistence_restart_cases": 1,
+    "persistence_test_suite": "backend/tests/test_persistence_regression.py",
+    "persistence_case_status": "PASSED (HIST-BUG-013)",
+    "total_verified_fixed_issues": 13,
+    "total_pass_rate": "100.0%",
+    "hist_bug_006_classification_policy": "Under the 4-way classification hierarchy, multi-hop deductive inference across separate premises yields neutral in pairwise cross-encoders; LettuceDetect detects hallucination at 97.2% confidence. The span is rigorously categorized as UNSUPPORTED hallucination with is_hallucinated=True. The expected verdict is explicitly established as UNSUPPORTED."
   },
   "results": [
     {
@@ -38,7 +48,7 @@
       ],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 1589.29
+      "execution_time_ms": 1470.67
     },
     {
       "bug_id": "HIST-BUG-002",
@@ -57,7 +67,7 @@
       "contradicted_claims": [],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 635.87
+      "execution_time_ms": 520.97
     },
     {
       "bug_id": "HIST-BUG-003",
@@ -89,7 +99,7 @@
       ],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 830.0
+      "execution_time_ms": 1459.1
     },
     {
       "bug_id": "HIST-BUG-004",
@@ -122,7 +132,7 @@
           "source": "nli_cross_encoder"
         }
       ],
-      "execution_time_ms": 792.66
+      "execution_time_ms": 851.45
     },
     {
       "bug_id": "HIST-BUG-005",
@@ -148,7 +158,7 @@
       ],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 498.64
+      "execution_time_ms": 542.93
     },
     {
       "bug_id": "HIST-BUG-006",
@@ -158,14 +168,11 @@
       "context": [
         "The Pacific Ocean is the largest and deepest ocean on Earth. The Atlantic Ocean is the second-largest ocean."
       ],
-      "expected_verdict": [
-        "CONTRADICTED",
-        "UNSUPPORTED"
-      ],
+      "expected_verdict": "UNSUPPORTED",
       "actual_verdict": "UNSUPPORTED",
       "passed": true,
       "historical_failure": "Self-attention co-occurrence in baseline caused False Negative. Hybrid system catches it with LettuceDetect at 97.2% confidence.",
-      "fix_applied": "LettuceDetect token classifier flags span at 97.2% confidence, classified as UNSUPPORTED hallucination because multi-hop deduction across premises yields NLI neutral.",
+      "fix_applied": "Classification Policy: Multi-hop deductive inference across separate premises yields neutral in pairwise cross-encoders; LettuceDetect flags the span as hallucinated (97.2% confidence). Pipeline classifies as UNSUPPORTED hallucination (is_hallucinated=True).",
       "spans_detected": 1,
       "contradicted_claims": [],
       "unsupported_claims": [
@@ -177,7 +184,7 @@
         }
       ],
       "supported_claims": [],
-      "execution_time_ms": 437.84
+      "execution_time_ms": 567.92
     },
     {
       "bug_id": "HIST-BUG-007",
@@ -210,7 +217,7 @@
         }
       ],
       "supported_claims": [],
-      "execution_time_ms": 616.0
+      "execution_time_ms": 843.96
     },
     {
       "bug_id": "HIST-BUG-008",
@@ -236,7 +243,7 @@
       ],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 630.38
+      "execution_time_ms": 690.9
     },
     {
       "bug_id": "HIST-BUG-009",
@@ -262,7 +269,7 @@
       ],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 660.62
+      "execution_time_ms": 761.47
     },
     {
       "bug_id": "HIST-BUG-010",
@@ -281,7 +288,7 @@
       "contradicted_claims": [],
       "unsupported_claims": [],
       "supported_claims": [],
-      "execution_time_ms": 473.13
+      "execution_time_ms": 553.64
     },
     {
       "bug_id": "HIST-BUG-011",
@@ -307,7 +314,38 @@
         }
       ],
       "supported_claims": [],
-      "execution_time_ms": 414.88
+      "execution_time_ms": 476.23
+    }
+  ],
+  "system_regression_cases": [
+    {
+      "bug_id": "HIST-BUG-012",
+      "name": "Document Deletion Confirmation Modal In-DOM Display",
+      "category": "frontend_browser_interaction",
+      "test_runner": "evaluation/scripts/test_browser_modal.py",
+      "mechanism": "Chrome DevTools Protocol (CDP) WebSocket headless execution",
+      "status": "PASSED",
+      "verified_properties": [
+        "In-DOM modal appears without browser alert blocking",
+        "Modal displays filename, warning text, and action buttons",
+        "Cancel button dismisses modal and preserves document",
+        "Confirm Delete triggers backend removal and updates table DOM"
+      ]
+    },
+    {
+      "bug_id": "HIST-BUG-013",
+      "name": "Uploaded Document Cross-Process Durability Across Restart",
+      "category": "backend_durable_persistence",
+      "test_runner": "backend/tests/test_persistence_regression.py",
+      "mechanism": "Pytest simulation with fresh DocumentService instance querying Supabase",
+      "status": "PASSED",
+      "verified_properties": [
+        "Uploaded document persisted to Supabase PostgreSQL metadata",
+        "Fresh DocumentService process starts with empty memory and restores documents from Supabase",
+        "Full text and extracted chunks retrieved intact on cache miss",
+        "Failed Supabase writes report is_persistent=False without false claims",
+        "Deletion cleans up both local memory and Supabase records"
+      ]
     }
   ]
 }
